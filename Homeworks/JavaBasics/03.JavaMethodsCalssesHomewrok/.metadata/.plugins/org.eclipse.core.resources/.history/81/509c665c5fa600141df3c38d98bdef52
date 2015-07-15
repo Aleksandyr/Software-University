@@ -1,0 +1,21 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+
+public class P09_ListOfProducts {
+
+	public static void main(String[] args) {
+		ArrayList<Product> products = new ArrayList<Product>();
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader("P09_InputProducts"));
+			BufferedWriter writer = new BufferedWriter(new FileWriter("P09_OutputProducts"));
+			
+		} catch (FileNotFoundException e) {
+			System.err.println("Error");
+		}
+	}
+
+}

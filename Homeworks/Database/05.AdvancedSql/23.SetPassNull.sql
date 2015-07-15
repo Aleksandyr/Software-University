@@ -1,0 +1,3 @@
+UPDATE Users
+SET PasswordUser = NULL
+WHERE LastTimeLog < CONVERT(DATE, '10-03-2010')

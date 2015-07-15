@@ -1,0 +1,121 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 650px;
+    height: 435px;
+    background-color: #eeeeee;
+    margin: 10px auto;
+}
+
+#register{
+    float: left;
+    width: 305px;
+    height: 350px;
+    padding-left: 10px;
+}
+
+#login{
+    float: left;
+    width: 315px;
+    height: 305px;
+    margin-top: 30px;
+    background-color: #234465;
+}
+
+
+header h1{
+    color: #191963;
+    padding: 10px;
+}
+
+header p{
+    padding-left: 10px;
+    font-size: 0.8em;
+    color: gray;
+}
+
+#new{
+    text-transform: uppercase;
+    color: #6d6d6d;
+}
+
+#reg{
+    text-transform: uppercase;
+    color: #191963;
+}
+
+#register input[type="submit"], #login input[type="submit"]{
+    width: 140px;
+    height: 40px;
+    float: right;
+    margin-right: 21px;
+    margin-top: 10px;
+    color: gray;
+    background-color: #eeeeee;
+    border: 2px solid #191963;
+    font-size: 15px;
+}
+
+#first-paragraph{
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+section form input{
+    width: 266px;
+    height: 36px;
+    margin: 8px;
+    padding-left: 7px;
+    border: 2px solid #d9d9d9;
+}
+
+#second-paragraph{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#second-form input{
+    margin-left: 15px;
+}
+
+#login input[type="checkbox"]{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+#login label{
+   vertical-align: top;
+    font-size: 0.8em;
+    color: white;
+}
+
+#login input[type="submit"]{
+    border-color: orange;
+    background-color: #234465;
+    color: white;
+    margin: 2px;
+    margin-right: 24px;
+    margin-bottom: 17px;
+}
+
+a{
+    color: white;
+    font-size: 0.8em;
+    margin-left: 195px;
+}
+

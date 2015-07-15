@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\10.EmployeeData\bin\Debug\10.EmployeeData.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\10.EmployeeData\bin\Debug\10.EmployeeData.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\10.EmployeeData\bin\Debug\10.EmployeeData.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\10.EmployeeData\obj\Debug\10.EmployeeData.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\10.EmployeeData\obj\Debug\10.EmployeeData.pdb

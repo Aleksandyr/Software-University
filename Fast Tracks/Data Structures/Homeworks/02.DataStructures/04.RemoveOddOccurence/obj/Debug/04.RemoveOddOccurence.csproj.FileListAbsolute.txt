@@ -1,0 +1,6 @@
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\04.RemoveOddOccurence\bin\Debug\04.RemoveOddOccurence.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\04.RemoveOddOccurence\bin\Debug\04.RemoveOddOccurence.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\04.RemoveOddOccurence\bin\Debug\04.RemoveOddOccurence.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\04.RemoveOddOccurence\obj\Debug\04.RemoveOddOccurence.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\04.RemoveOddOccurence\obj\Debug\04.RemoveOddOccurence.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\04.RemoveOddOccurence\obj\Debug\04.RemoveOddOccurence.pdb

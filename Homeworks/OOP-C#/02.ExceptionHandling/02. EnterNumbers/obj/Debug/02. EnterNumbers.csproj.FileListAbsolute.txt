@@ -1,0 +1,5 @@
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\02.ExceptionHandling\02. EnterNumbers\bin\Debug\_02.EnterNumbers.exe.config
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\02.ExceptionHandling\02. EnterNumbers\bin\Debug\_02.EnterNumbers.exe
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\02.ExceptionHandling\02. EnterNumbers\bin\Debug\_02.EnterNumbers.pdb
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\02.ExceptionHandling\02. EnterNumbers\obj\Debug\_02.EnterNumbers.exe
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\02.ExceptionHandling\02. EnterNumbers\obj\Debug\_02.EnterNumbers.pdb

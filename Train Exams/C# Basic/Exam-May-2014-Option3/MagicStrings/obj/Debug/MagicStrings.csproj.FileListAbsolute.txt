@@ -1,0 +1,12 @@
+E:\SoftUni\Exam-May-2014-Option3\MagicStrings\bin\Debug\MagicStrings.exe.config
+E:\SoftUni\Exam-May-2014-Option3\MagicStrings\obj\Debug\MagicStrings.csprojResolveAssemblyReference.cache
+E:\SoftUni\Exam-May-2014-Option3\MagicStrings\bin\Debug\MagicStrings.exe
+E:\SoftUni\Exam-May-2014-Option3\MagicStrings\bin\Debug\MagicStrings.pdb
+E:\SoftUni\Exam-May-2014-Option3\MagicStrings\obj\Debug\MagicStrings.exe
+E:\SoftUni\Exam-May-2014-Option3\MagicStrings\obj\Debug\MagicStrings.pdb
+E:\SoftUni\Train Exams\Exam-May-2014-Option3\MagicStrings\bin\Debug\MagicStrings.exe.config
+E:\SoftUni\Train Exams\Exam-May-2014-Option3\MagicStrings\obj\Debug\MagicStrings.exe
+E:\SoftUni\Train Exams\Exam-May-2014-Option3\MagicStrings\obj\Debug\MagicStrings.pdb
+E:\SoftUni\Train Exams\Exam-May-2014-Option3\MagicStrings\obj\Debug\MagicStrings.csprojResolveAssemblyReference.cache
+E:\SoftUni\Train Exams\Exam-May-2014-Option3\MagicStrings\bin\Debug\MagicStrings.exe
+E:\SoftUni\Train Exams\Exam-May-2014-Option3\MagicStrings\bin\Debug\MagicStrings.pdb

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class P03_LongestOddEvenSequence {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		in.nextLine();
+		String[] input = in .nextLine().replace(" ", "").split("[^0-9]+");
+		for (int i = 0; i < input.length; i++) {
+			System.out.println(input[i]);
+		}
+	}
+
+}

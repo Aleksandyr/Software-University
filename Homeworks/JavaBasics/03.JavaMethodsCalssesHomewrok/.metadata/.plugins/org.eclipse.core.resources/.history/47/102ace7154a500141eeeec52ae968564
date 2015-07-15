@@ -1,0 +1,12 @@
+
+public class P05_AngleUnitConverter {
+
+	public static void main(String[] args) {
+		System.out.println(ConvertDegreesToRadians(180));
+	}
+	
+	public static double ConvertDegreesToRadians(double radians){
+		return radians * (180 / Math.PI);
+	}
+
+}

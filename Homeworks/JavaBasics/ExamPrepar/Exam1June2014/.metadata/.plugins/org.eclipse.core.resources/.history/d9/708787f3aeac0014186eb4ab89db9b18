@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class P02_SumCards {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String input = scanner.nextLine().trim();
+		String[] facesFrom1to10 = input.split("[^0-9]+");
+		String[] facesFromJtoA = input.split("[^JQKA]+");
+		
+		int[] numbers = new int[facesFrom1to10.length];
+		for (int i = 0; i < numbers.length; i++) {
+			numbers[i] = Integer.parseInt(facesFrom1to10[i]);
+		}
+		
+		int digitSum = numbers[0];
+		for (int i = 1; i < numbers.length; i++) {
+			if (numbers[i] == numbers[i - 1]) {
+				digitSum += numbers[i];
+			} else{
+				digitSum *= 2;
+			}
+			if (numbers[i] != numbers[i - 1]) {
+				digitSum += numbers[i];
+			}
+		}
+		
+		System.out.println(digitSum);
+	}
+
+}

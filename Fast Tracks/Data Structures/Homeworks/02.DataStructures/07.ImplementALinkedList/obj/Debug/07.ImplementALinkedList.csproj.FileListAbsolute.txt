@@ -1,0 +1,12 @@
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\07.ImplementALinkedList\bin\Debug\07.ImplementALinkedList.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\07.ImplementALinkedList\bin\Debug\07.ImplementALinkedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\07.ImplementALinkedList\bin\Debug\07.ImplementALinkedList.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\07.ImplementALinkedList\obj\Debug\07.ImplementALinkedList.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\07.ImplementALinkedList\obj\Debug\07.ImplementALinkedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\07.ImplementALinkedList\obj\Debug\07.ImplementALinkedList.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.DataStructures\DataStructures\07.ImplementALinkedList\bin\Debug\07.ImplementALinkedList.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.DataStructures\DataStructures\07.ImplementALinkedList\obj\Debug\07.ImplementALinkedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.DataStructures\DataStructures\07.ImplementALinkedList\obj\Debug\07.ImplementALinkedList.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.DataStructures\DataStructures\07.ImplementALinkedList\obj\Debug\07.ImplementALinkedList.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.DataStructures\DataStructures\07.ImplementALinkedList\bin\Debug\07.ImplementALinkedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.DataStructures\DataStructures\07.ImplementALinkedList\bin\Debug\07.ImplementALinkedList.pdb

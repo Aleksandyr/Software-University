@@ -1,0 +1,12 @@
+E:\InfoStart\Homeworks\JS\Loops-Homework\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe.config
+E:\InfoStart\Homeworks\JS\Loops-Homework\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Loops-Homework\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe.config
+E:\SoftUni\Homework\C# Basic\Loops-Homework\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.exe
+E:\SoftUni\Homework\C# Basic\Loops-Homework\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.pdb
+E:\SoftUni\Homework\C# Basic\Loops-Homework\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe
+E:\SoftUni\Homework\C# Basic\Loops-Homework\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.pdb
+E:\SoftUni\Homework\C# Basic\Loops-Homework\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.csprojResolveAssemblyReference.cache

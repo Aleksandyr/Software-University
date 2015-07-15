@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+
+public class P02_ThreeLargestNumbers {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int n = in.nextInt();
+		int[] nums = new int[n];
+		for (int i = 0; i < nums.length; i++) {
+			nums[i] = in.nextInt();
+		}
+		
+		int max = Integer.MIN_VALUE;
+		Integer firstNum = nums[2];
+		Integer secondNum = nums[1];
+		Integer thirdNum = nums[0];
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] > max) {
+				max = nums[i];
+			}
+			if (thirdNum < max && thirdNum < secondNum) {
+				thirdNum = max;
+			}
+			if (secondNum < max || secondNum > thirdNum) {
+				secondNum = max;
+			}
+		}
+		System.out.println(max + " " + secondNum + " " + thirdNum);
+	}
+}

@@ -1,0 +1,6 @@
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\02.SortWords\bin\Debug\02.SortWords.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\02.SortWords\bin\Debug\02.SortWords.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\02.SortWords\bin\Debug\02.SortWords.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\02.SortWords\obj\Debug\02.SortWords.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\02.SortWords\obj\Debug\02.SortWords.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\02.SortWords\obj\Debug\02.SortWords.csprojResolveAssemblyReference.cache

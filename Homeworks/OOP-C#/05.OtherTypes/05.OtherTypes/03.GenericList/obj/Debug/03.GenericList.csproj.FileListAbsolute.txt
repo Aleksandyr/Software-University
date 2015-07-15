@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\Leve 2\OOP\05.OtherTypes\05.OtherTypes\03.GenericList\bin\Debug\03.GenericList.exe.config
+E:\SoftUni\Homework\Leve 2\OOP\05.OtherTypes\05.OtherTypes\03.GenericList\bin\Debug\03.GenericList.exe
+E:\SoftUni\Homework\Leve 2\OOP\05.OtherTypes\05.OtherTypes\03.GenericList\bin\Debug\03.GenericList.pdb
+E:\SoftUni\Homework\Leve 2\OOP\05.OtherTypes\05.OtherTypes\03.GenericList\obj\Debug\03.GenericList.exe
+E:\SoftUni\Homework\Leve 2\OOP\05.OtherTypes\05.OtherTypes\03.GenericList\obj\Debug\03.GenericList.pdb
+E:\SoftUni\Homework\Leve 2\OOP\05.OtherTypes\05.OtherTypes\03.GenericList\obj\Debug\03.GenericList.csprojResolveAssemblyReference.cache

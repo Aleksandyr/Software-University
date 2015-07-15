@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\04.EncapsulationAndPolymorphism\bin\Debug\04.EncapsulationAndPolymorphism.exe.config
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\04.EncapsulationAndPolymorphism\obj\Debug\04.EncapsulationAndPolymorphism.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\04.EncapsulationAndPolymorphism\bin\Debug\04.EncapsulationAndPolymorphism.exe
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\04.EncapsulationAndPolymorphism\bin\Debug\04.EncapsulationAndPolymorphism.pdb
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\04.EncapsulationAndPolymorphism\obj\Debug\04.EncapsulationAndPolymorphism.exe
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\04.EncapsulationAndPolymorphism\obj\Debug\04.EncapsulationAndPolymorphism.pdb

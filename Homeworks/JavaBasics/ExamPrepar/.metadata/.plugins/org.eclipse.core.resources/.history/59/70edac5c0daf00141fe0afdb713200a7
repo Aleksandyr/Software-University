@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class P03_LongestOddEvenSequence {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int evenStartCount = 0;
+		int oddStartCount = 0;
+		String[] nums = in .nextLine().replace(" ", "").split("[^0-9]+");
+		for (int i = 1; i < nums.length - 1; i++) {
+			int firstNum = Integer.parseInt(nums[i]);
+			int secondNum = Integer.parseInt(nums[i + 1]);
+			if ((firstNum % 2) == 0 && (secondNum % 2) != 0) {
+				evenStartCount++;
+			}
+		}
+		for (int i = 1; i < nums.length - 1; i++) {
+			int firstNum = Integer.parseInt(nums[i]);
+			int secondNum = Integer.parseInt(nums[i + 1]);
+			if ((firstNum % 2) != 0 && (secondNum % 2) == 0) {
+				evenStartCount++;
+		}
+		System.out.println(evenStartCount);
+		System.out.println(oddStartCount);
+	}
+}

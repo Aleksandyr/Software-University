@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.swing.text.Segment;
+
+
+public class P02_SequencesOfEqualStrings {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		String[] seqOfStr = input.split("\\s+");
+		ArrayList<String> equalStrings = new ArrayList<String>();
+		
+		for (int i = 0; i < seqOfStr.length; i++) {
+			for (int j = 0; j < seqOfStr.length; j++) {
+				if (seqOfStr[i].equals(seqOfStr[j])) {
+					System.out.print(seqOfStr[i]);
+				} 
+			}
+		}
+	}
+
+}

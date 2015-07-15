@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\13.Triangle\bin\Debug\13.Triangle.exe.config
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\13.Triangle\obj\Debug\13.Triangle.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\13.Triangle\bin\Debug\13.Triangle.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\13.Triangle\bin\Debug\13.Triangle.pdb
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\13.Triangle\obj\Debug\13.Triangle.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\13.Triangle\obj\Debug\13.Triangle.pdb

@@ -1,0 +1,10 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\16.CountingAWordInAText\bin\Debug\16.CountingAWordInAText.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\16.CountingAWordInAText\bin\Debug\16.CountingAWordInAText.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\16.CountingAWordInAText\bin\Debug\16.CountingAWordInAText.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\16.CountingAWordInAText\obj\Debug\16.CountingAWordInAText.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\16.CountingAWordInAText\obj\Debug\16.CountingAWordInAText.pdb
+E:\SoftUni\Homework\C# Basic\CSharpAdvancedTopics\16.CountingAWordInAText\bin\Debug\16.CountingAWordInAText.exe.config
+E:\SoftUni\Homework\C# Basic\CSharpAdvancedTopics\16.CountingAWordInAText\obj\Debug\16.CountingAWordInAText.exe
+E:\SoftUni\Homework\C# Basic\CSharpAdvancedTopics\16.CountingAWordInAText\obj\Debug\16.CountingAWordInAText.pdb
+E:\SoftUni\Homework\C# Basic\CSharpAdvancedTopics\16.CountingAWordInAText\bin\Debug\16.CountingAWordInAText.exe
+E:\SoftUni\Homework\C# Basic\CSharpAdvancedTopics\16.CountingAWordInAText\bin\Debug\16.CountingAWordInAText.pdb

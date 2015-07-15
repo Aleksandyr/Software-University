@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+
+public class P02_LettersChangeNumbers {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		String[] arrOfLettersAndNums = input.split("\\s+");
+		for (int i = 0; i < arrOfLettersAndNums.length; i++) {
+			System.out.println(arrOfLettersAndNums[i]);
+		}
+		
+		String symbol = "";
+		for (int i = 0; i < arrOfLettersAndNums.length; i++) {
+			String[] currLetters = arrOfLettersAndNums[i].split("[^a-zA-z]+");
+			String[] currNum = arrOfLettersAndNums[i].split("[^0-9]+");
+			String fLetter = currLetters[0];
+			String sLetter = currLetters[1];
+			int num = Integer.parseInt(currNum[1]);
+			
+			if (i % 2 != 0) {
+				System.out.println(firstLetterSymbol(fLetter) + " " + firstLetterSymbol(sLetter));
+			} else{
+				System.out.println(secondLetterSymbol(fLetter) + " " + secondLetterSymbol(sLetter));
+			}
+			
+			
+		}
+	}
+	private static String firstLetterSymbol(String letter){
+		if (letter.equals(letter.toUpperCase())) {
+			return "/";
+		} else {
+			return  "+";
+		}
+	}
+	private static String secondLetterSymbol(String letter){
+		if (letter.equals(letter.toUpperCase())) {
+			return "-";
+		} else{
+			return "*";
+		}
+	}
+}

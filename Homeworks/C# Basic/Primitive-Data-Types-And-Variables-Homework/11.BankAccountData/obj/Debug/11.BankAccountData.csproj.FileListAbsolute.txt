@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\11.BankAccountData\bin\Debug\11.BankAccountData.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\11.BankAccountData\bin\Debug\11.BankAccountData.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\11.BankAccountData\bin\Debug\11.BankAccountData.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\11.BankAccountData\obj\Debug\11.BankAccountData.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\11.BankAccountData\obj\Debug\11.BankAccountData.pdb

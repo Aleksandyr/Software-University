@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+    /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;*/
+}
+
+body{
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    background-color: #50247d;
+}
+
+header h1{
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: 'Oleo Script';
+}
+
+nav{
+    font-size: 18px;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#wrapper>header{
+    background-image: url("../Images/orion-gas-and-star-bgr.jpg");
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    margin-right: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #50247d;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+nav ul li:hover{
+    background-color: #39a3d3;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+#header-hr, #section-hr-down{
+    padding: 5px;
+    background-color: #39a3d3;
+    border: none;
+}
+
+#section-hr-up{
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #865ab3;
+    border: none;
+}
+
+section{
+    background-color: #eae7ee;
+    padding: 30px;
+    height: 520px;
+}
+
+section article , section #right-article{
+    background-color: white;
+    width: 48%;
+    height: 516px;
+    float: left;
+}
+
+section article .read-more p, section article .orion-wallpaper a, article .main-div .read-more{
+    background-color: #39a3d3;
+    vertical-align: top;
+    /*float: right;*/
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+section article .orion-content p{
+    padding-bottom: 15px;
+}
+
+section article div:nth-child(2){
+    padding: 40px 30px 30px 30px;
+}
+
+section article div:nth-child(3) a{
+    background-color: #835ab6;
+    text-decoration: none;
+}
+
+section article div:nth-child(3) a:hover{
+    background-color: #50247d;
+}
+
+section article h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oleo Script';
+}
+
+section article .inform-paragraph{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+section article .first-paragraph, section article .second-paragraph{
+    color: dimgray;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+section article .second-paragraph span{
+    color: black;
+    font-style: italic;
+}
+
+
+section #right-article{
+    float: right;
+    background-color: #eae7ee;
+}
+
+section #right-article .main-div{
+    display: inline-block;
+    width: 44.5%;
+    background-color: white;
+    margin: 0 11px 25px 11px;
+}
+
+section #right-article .main-div>p{
+    position: absolute;
+    float: right;
+    margin-left: 107px;
+}
+
+section #right-article .right-article-info-div{
+    padding: 20px 25px;
+}
+
+section #right-article .right-article-info-div header{
+    color: #39a3d3;
+    padding-bottom: 5px;
+}
+
+section #right-article .second-main-div{
+   padding: 0;
+}
+
+footer{
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+

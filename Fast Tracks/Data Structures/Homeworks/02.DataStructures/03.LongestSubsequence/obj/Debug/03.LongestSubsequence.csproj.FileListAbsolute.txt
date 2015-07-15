@@ -1,0 +1,6 @@
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\03.LongestSubsequence\bin\Debug\03.LongestSubsequence.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\03.LongestSubsequence\bin\Debug\03.LongestSubsequence.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\03.LongestSubsequence\bin\Debug\03.LongestSubsequence.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\03.LongestSubsequence\obj\Debug\03.LongestSubsequence.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\03.LongestSubsequence\obj\Debug\03.LongestSubsequence.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\03.LongestSubsequence\obj\Debug\03.LongestSubsequence.pdb

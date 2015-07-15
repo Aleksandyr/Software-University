@@ -1,0 +1,1 @@
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\10.PointInsideCircleAndOutsideOfRectangle\bin\Debug\10.PointInsideCircleAndOutsideOfRectangle.exe.config

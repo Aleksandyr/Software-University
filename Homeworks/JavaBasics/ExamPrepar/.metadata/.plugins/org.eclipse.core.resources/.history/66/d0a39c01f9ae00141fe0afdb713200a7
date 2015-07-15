@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class P01_CountBeers {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		ArrayList<String> beers = new ArrayList<String>();
+		while (true) {
+			String input = in.nextLine();
+			if (input.equals("End")) {
+				break;
+			} else{
+				beers.add(input);
+			}
+		}
+		
+		for (String beer : beers) {
+			String value = beer.substring(0, beer.length() - 6).replace(" ", "");
+			String beersOrStacks = beer.substring(2).replace(" ", "");
+			System.out.println(value + " " + beersOrStacks);
+		}
+	}
+
+}

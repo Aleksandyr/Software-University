@@ -1,0 +1,5 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\04.DifferenceBetweenDates\bin\Debug\04.DifferenceBetweenDates.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\04.DifferenceBetweenDates\bin\Debug\04.DifferenceBetweenDates.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\04.DifferenceBetweenDates\bin\Debug\04.DifferenceBetweenDates.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\04.DifferenceBetweenDates\obj\Debug\04.DifferenceBetweenDates.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\04.DifferenceBetweenDates\obj\Debug\04.DifferenceBetweenDates.pdb

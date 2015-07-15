@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+
+public class P03_LegoBlocks {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		TreeMap<String, TreeMap<String, Integer>> usrLogs = new TreeMap<>();
+		ArrayList<String> allIps = new ArrayList<String>();
+		int loopSize = 0;
+		while (true) {
+			String input = in.nextLine();
+			if (input.equals("end")) {
+				break;
+			}
+			String[] ips = input.split("\\W+");
+			String[] users = input.split("[^a-zA-z0-9]+");
+			String ip = ips[1] + "." + ips[2] + "." + ips[3] + "." + ips[4];
+			String user = users[users.length - 1];
+			allIps.add(ip);
+			
+			if (!usrLogs.containsKey(user)) {
+				usrLogs.put(user, new TreeMap<>());
+			}
+			usrLogs.get(user).put(ip, 0);	
+			loopSize = usrLogs.get(user).values().size();
+		}
+		System.out.println(loopSize);
+		for (String user: usrLogs.keySet()) {
+			int counter = 0;
+			System.out.println(user + ":");
+			for (String ip : usrLogs.get(user).keySet()) {
+				for (String string : allIps) {
+					if (ip.equals(string)) {
+						counter++;
+					}
+				}
+				System.out.print(ip + " => " + counter + ", ");
+				counter = 0;
+			}
+			System.out.println();
+			//			
+//			for (Integer counter : usrLogs.get(user).values()) {
+//				System.out.println(counter);
+//			}
+		}
+	}
+
+}

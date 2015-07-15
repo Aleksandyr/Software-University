@@ -1,0 +1,5 @@
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.JumpingSums\bin\Debug\05.JumpingSums.exe.config
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.JumpingSums\bin\Debug\05.JumpingSums.exe
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.JumpingSums\bin\Debug\05.JumpingSums.pdb
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.JumpingSums\obj\Debug\05.JumpingSums.exe
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.JumpingSums\obj\Debug\05.JumpingSums.pdb

@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\07.QuotesInStrings\bin\Debug\07.QuotesInStrings.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\07.QuotesInStrings\bin\Debug\07.QuotesInStrings.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\07.QuotesInStrings\bin\Debug\07.QuotesInStrings.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\07.QuotesInStrings\obj\Debug\07.QuotesInStrings.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\07.QuotesInStrings\obj\Debug\07.QuotesInStrings.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\07.QuotesInStrings\obj\Debug\07.QuotesInStrings.pdb

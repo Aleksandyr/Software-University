@@ -1,0 +1,1 @@
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\02.EmployeesWithProjectAfter2002.exe.config

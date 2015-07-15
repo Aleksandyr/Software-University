@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfElements", "SumOfElements\SumOfElements.csproj", "{A0CF4F88-B34F-4F38-BF3F-3B7B5E0925CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicStrings", "MagicStrings\MagicStrings.csproj", "{45027D37-59AE-47C1-A1C3-A3904664D980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BitSifting", "05.BitSifting\05.BitSifting.csproj", "{A26B9339-6C5E-4F6F-82D3-7D11EE2F1040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0CF4F88-B34F-4F38-BF3F-3B7B5E0925CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CF4F88-B34F-4F38-BF3F-3B7B5E0925CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CF4F88-B34F-4F38-BF3F-3B7B5E0925CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CF4F88-B34F-4F38-BF3F-3B7B5E0925CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45027D37-59AE-47C1-A1C3-A3904664D980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45027D37-59AE-47C1-A1C3-A3904664D980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45027D37-59AE-47C1-A1C3-A3904664D980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45027D37-59AE-47C1-A1C3-A3904664D980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26B9339-6C5E-4F6F-82D3-7D11EE2F1040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26B9339-6C5E-4F6F-82D3-7D11EE2F1040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26B9339-6C5E-4F6F-82D3-7D11EE2F1040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26B9339-6C5E-4F6F-82D3-7D11EE2F1040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

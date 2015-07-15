@@ -1,0 +1,6 @@
+E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\01.InsideInBuilding\bin\Debug\01.InsideInBuilding.exe.config
+E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\01.InsideInBuilding\bin\Debug\01.InsideInBuilding.exe
+E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\01.InsideInBuilding\bin\Debug\01.InsideInBuilding.pdb
+E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\01.InsideInBuilding\obj\Debug\01.InsideInBuilding.csprojResolveAssemblyReference.cache
+E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\01.InsideInBuilding\obj\Debug\01.InsideInBuilding.exe
+E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\01.InsideInBuilding\obj\Debug\01.InsideInBuilding.pdb

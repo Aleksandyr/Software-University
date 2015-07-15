@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\01.DeclareVariables\bin\Debug\01.DeclareVariables.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\01.DeclareVariables\bin\Debug\01.DeclareVariables.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\01.DeclareVariables\bin\Debug\01.DeclareVariables.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\01.DeclareVariables\obj\Debug\01.DeclareVariables.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\01.DeclareVariables\obj\Debug\01.DeclareVariables.pdb

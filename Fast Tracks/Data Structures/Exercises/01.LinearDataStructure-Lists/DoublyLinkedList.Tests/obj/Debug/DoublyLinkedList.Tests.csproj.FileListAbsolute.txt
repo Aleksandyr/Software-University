@@ -1,0 +1,7 @@
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.Tests.dll
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.Tests.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\obj\Debug\DoublyLinkedList.Tests.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\obj\Debug\DoublyLinkedList.Tests.dll
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList.Tests\obj\Debug\DoublyLinkedList.Tests.pdb

@@ -1,0 +1,6 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\14.LongestWordInAText\bin\Debug\14.LongestWordInAText.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\14.LongestWordInAText\obj\Debug\14.LongestWordInAText.csprojResolveAssemblyReference.cache
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\14.LongestWordInAText\bin\Debug\14.LongestWordInAText.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\14.LongestWordInAText\bin\Debug\14.LongestWordInAText.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\14.LongestWordInAText\obj\Debug\14.LongestWordInAText.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\14.LongestWordInAText\obj\Debug\14.LongestWordInAText.pdb

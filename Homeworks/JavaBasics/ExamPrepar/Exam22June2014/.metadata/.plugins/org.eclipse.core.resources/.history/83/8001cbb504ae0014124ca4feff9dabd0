@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.TreeMap;
+
+
+public class P03_ExamScore {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		in.nextLine();
+		in.nextLine();
+		in.nextLine();
+		
+		TreeMap<Integer, TreeMap<String, Double>> points = new TreeMap<>();
+		while (true) {
+			String[] input = in.nextLine().split("\\s*\\|\\s*");
+			if (input.length < 4) {
+				break;
+			}
+		}
+		
+		
+	}
+
+}

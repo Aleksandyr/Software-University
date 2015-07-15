@@ -1,0 +1,15 @@
+#inner-fieldset1-width{
+    width: 135px;
+}
+
+#inner-fieldset2-width{
+    width: 290px;
+}
+
+#inner-fieldset3-width{
+    width: 290px;
+}
+
+body>table{
+    margin-bottom: 20px;
+}

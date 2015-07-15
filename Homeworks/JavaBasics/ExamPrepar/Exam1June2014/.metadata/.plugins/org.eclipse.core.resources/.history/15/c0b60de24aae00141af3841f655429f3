@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+
+public class P04_LogsAggregator {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int n = in.nextInt();
+		String[] logs = new String[n];
+		for (int i = 0; i < n; i++) {
+			logs[i] = in.nextLine();
+		}
+		String[] ips = new String[n];
+		for (int i = 0; i < logs.length; i++) {
+			
+		}
+	}
+
+}

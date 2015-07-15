@@ -1,0 +1,1 @@
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\01.OddOrEvenIntegers\bin\Debug\01.OddOrEvenIntegers.exe.config

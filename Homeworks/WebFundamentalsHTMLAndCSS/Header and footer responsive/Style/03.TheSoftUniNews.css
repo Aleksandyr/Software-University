@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Tahoma", "San-serif";
+	background-color: #EEEEEE;
+}
+
+section{
+	display: block;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+section header p{
+	padding-top: 45px;
+	padding-left: 25px;
+	font-size: 1.7em;
+	color: #234465;
+}
+
+#first-article{
+	margin-left: 26px;
+	vertical-align: top;
+}
+
+section article{
+	display: inline-block;
+	width: 290px;
+	height: 370px;
+	background-color: white;
+	margin-top:20px;
+	margin-left: 26px;
+	padding: 37px;
+	box-shadow: 0px 2px 5px #234465;
+	vertical-align: top;
+}
+
+section article h5{
+	padding-top: 10px;
+}
+
+section article h5 a{
+	text-decoration: none;
+	color: #2A6496;
+	font-size: 1.2em;
+}
+
+section article hr{
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: 1px solid #EEE;
+}
+
+section article .align-right{
+	float: right;
+	padding-top: 20px;
+}
+
+section article .align-left{
+	float: left;
+	padding-bottom: 20px;
+	color: #5A5A5A;
+	font-size: 0.9em;
+	width: 300px;
+}
+
+section article section{
+	padding-bottom: 20px;
+	padding-left: 0;
+	padding-top: 0;
+}
+
+section article section a p{
+	width: 300px;
+}
+
+section article section img{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+section article section a{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #5A5A5A;
+}
+
+section a:hover{
+	text-decoration: underline;
+}
+
+section article footer{
+	color: #5A5A5A;
+}
+
+section article footer a{
+	color: #5A5A5A;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+section #second-article{
+	margin-top: 20px;
+}
+
+section ul li:first-child{
+	background-color: orange;
+	margin-left: 25px;
+}
+
+section ul li{
+	display: inline-block;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	background-color: #4CA0DB;
+	margin-top: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section ul li a{
+	text-decoration: none;
+	vertical-align: middle;
+}

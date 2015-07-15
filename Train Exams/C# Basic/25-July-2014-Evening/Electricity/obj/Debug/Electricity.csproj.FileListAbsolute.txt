@@ -1,0 +1,9 @@
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Evening\Electricity\bin\Debug\Electricity.exe.config
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Evening\Electricity\bin\Debug\Electricity.exe
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Evening\Electricity\bin\Debug\Electricity.pdb
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Evening\Electricity\obj\Debug\Electricity.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Evening\Electricity\obj\Debug\Electricity.exe
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Evening\Electricity\obj\Debug\Electricity.pdb
+E:\SoftUni\Train Exams\25-July-2014-Evening\Electricity\bin\Debug\Electricity.exe.config
+E:\SoftUni\Train Exams\25-July-2014-Evening\Electricity\obj\Debug\Electricity.exe
+E:\SoftUni\Train Exams\25-July-2014-Evening\Electricity\obj\Debug\Electricity.pdb

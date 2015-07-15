@@ -1,0 +1,6 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\02.PrimeChecker\bin\Debug\02.PrimeChecker.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\02.PrimeChecker\bin\Debug\02.PrimeChecker.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\02.PrimeChecker\bin\Debug\02.PrimeChecker.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\02.PrimeChecker\obj\Debug\02.PrimeChecker.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\02.PrimeChecker\obj\Debug\02.PrimeChecker.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\02.PrimeChecker\obj\Debug\02.PrimeChecker.csprojResolveAssemblyReference.cache

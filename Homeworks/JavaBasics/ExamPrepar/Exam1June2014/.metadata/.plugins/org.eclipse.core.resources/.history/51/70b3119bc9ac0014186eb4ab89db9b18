@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class P03_SimpleExpression {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		String[] symbols = input.split("[^+-]+");
+		String[] numbers = input.split("[^0-90.-9.]+");
+		
+		int[] numbersAsInt = new int[numbers.length];
+		for (int i = 0; i < numbers.length; i++) {
+			if (numbers[i].equals("")) {
+				continue;
+			}
+			numbersAsInt[i] = Integer.parseInt(numbers[i]);
+		}
+		
+		int sum = 0;
+		for (int i = 0; i < symbols.length; i++) {
+			if (symbols[i].equals("+") || symbols[i].equals("")) {
+				sum += (numbersAsInt[i] + numbersAsInt[i + 1]);
+			} 
+			if (symbols[i].equals("-")){
+				sum -= (numbersAsInt[i] + numbersAsInt[i + 1]);
+			}
+		}
+		System.out.println(sum);
+	}
+
+}

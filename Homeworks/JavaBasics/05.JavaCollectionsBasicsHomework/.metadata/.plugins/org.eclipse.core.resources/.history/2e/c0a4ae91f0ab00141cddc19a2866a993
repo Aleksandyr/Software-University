@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class P06_CountSpecifiedWord {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		String word = in.nextLine();
+		
+		//String[] allWords = input.split("\\W+");
+		
+		int counter = 0;
+		for (int i = 0; i < input.length(); i++) {
+			if (input.toLowerCase().equals(word)) {
+				counter++;
+			}
+		}
+		System.out.println(counter);
+	}
+
+}

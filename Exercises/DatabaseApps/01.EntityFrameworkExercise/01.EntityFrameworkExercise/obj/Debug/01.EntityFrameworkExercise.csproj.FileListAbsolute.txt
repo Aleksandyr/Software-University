@@ -1,0 +1,13 @@
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\01.EntityFrameworkExercise.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\01.EntityFrameworkExercise.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\01.EntityFrameworkExercise.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\EntityFramework.dll
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\EntityFramework.xml
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\obj\Debug\01.EntityFrameworkExercise.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\obj\Debug\01.EntityFrameworkExercise.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\01.EntityFrameworkExercise\01.EntityFrameworkExercise\obj\Debug\01.EntityFrameworkExercise.pdb
+E:\SoftUni\Exercises\DatabaseApps\01.EntityFrameworkExercise\01.EntityFrameworkExercise\bin\Debug\01.EntityFrameworkExercise.exe.config
+E:\SoftUni\Exercises\DatabaseApps\01.EntityFrameworkExercise\01.EntityFrameworkExercise\obj\Debug\01.EntityFrameworkExercise.exe
+E:\SoftUni\Exercises\DatabaseApps\01.EntityFrameworkExercise\01.EntityFrameworkExercise\obj\Debug\01.EntityFrameworkExercise.pdb

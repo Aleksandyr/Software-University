@@ -1,0 +1,5 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\12.CountOfNames\bin\Debug\12.CountOfNames.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\12.CountOfNames\bin\Debug\12.CountOfNames.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\12.CountOfNames\bin\Debug\12.CountOfNames.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\12.CountOfNames\obj\Debug\12.CountOfNames.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\12.CountOfNames\obj\Debug\12.CountOfNames.pdb

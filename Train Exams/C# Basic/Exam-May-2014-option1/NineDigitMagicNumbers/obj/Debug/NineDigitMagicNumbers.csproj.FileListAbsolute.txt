@@ -1,0 +1,5 @@
+E:\SoftUni\Train Exams\Exam-May-2014-option1\NineDigitMagicNumbers\bin\Debug\NineDigitMagicNumbers.exe.config
+E:\SoftUni\Train Exams\Exam-May-2014-option1\NineDigitMagicNumbers\bin\Debug\NineDigitMagicNumbers.exe
+E:\SoftUni\Train Exams\Exam-May-2014-option1\NineDigitMagicNumbers\bin\Debug\NineDigitMagicNumbers.pdb
+E:\SoftUni\Train Exams\Exam-May-2014-option1\NineDigitMagicNumbers\obj\Debug\NineDigitMagicNumbers.exe
+E:\SoftUni\Train Exams\Exam-May-2014-option1\NineDigitMagicNumbers\obj\Debug\NineDigitMagicNumbers.pdb

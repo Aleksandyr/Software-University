@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\17.Sunglasses\bin\Debug\17.Sunglasses.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\17.Sunglasses\bin\Debug\17.Sunglasses.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\17.Sunglasses\bin\Debug\17.Sunglasses.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\17.Sunglasses\obj\Debug\17.Sunglasses.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\17.Sunglasses\obj\Debug\17.Sunglasses.pdb

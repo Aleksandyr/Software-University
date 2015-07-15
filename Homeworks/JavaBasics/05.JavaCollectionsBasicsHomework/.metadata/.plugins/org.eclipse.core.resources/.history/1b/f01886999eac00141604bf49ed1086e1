@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class P14_StuckNumbers {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		scanner.nextLine();
+		String[] numbers = scanner.nextLine().split("\\s+");
+		
+		
+	}
+
+}

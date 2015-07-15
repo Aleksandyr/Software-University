@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.InsideInBuilding", "01.InsideInBuilding\01.InsideInBuilding.csproj", "{B3BB88CE-6271-4EEE-815E-482D4DD45D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.StudentCables", "02.StudentCables\02.StudentCables.csproj", "{35D8EE17-8430-4EE3-A7E1-A38BB51B209E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ProgrammerDNA", "03.ProgrammerDNA\03.ProgrammerDNA.csproj", "{FC25E06B-04C2-423C-B5B8-7C2BBF2BE27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BB88CE-6271-4EEE-815E-482D4DD45D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BB88CE-6271-4EEE-815E-482D4DD45D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BB88CE-6271-4EEE-815E-482D4DD45D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BB88CE-6271-4EEE-815E-482D4DD45D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D8EE17-8430-4EE3-A7E1-A38BB51B209E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D8EE17-8430-4EE3-A7E1-A38BB51B209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D8EE17-8430-4EE3-A7E1-A38BB51B209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D8EE17-8430-4EE3-A7E1-A38BB51B209E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC25E06B-04C2-423C-B5B8-7C2BBF2BE27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC25E06B-04C2-423C-B5B8-7C2BBF2BE27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC25E06B-04C2-423C-B5B8-7C2BBF2BE27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC25E06B-04C2-423C-B5B8-7C2BBF2BE27A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

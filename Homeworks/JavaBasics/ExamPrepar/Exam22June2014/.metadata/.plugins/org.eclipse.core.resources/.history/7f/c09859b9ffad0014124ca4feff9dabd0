@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+
+public class P02_Durts {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int centerX = in.nextInt();
+		int centerY = in.nextInt();
+		int r = in.nextInt();
+		int n = in.nextInt();
+		
+		double verticalRectMinX = centerX - (0.5 * r);
+		double verticalRectMaxX = centerX + (0.5 * r);
+		double verticalRectMinY = centerY - r;
+		double verticalRectMaxY = centerY + r;
+		
+		double horizontalRectMinX = centerX - r;
+		double horizontalRectMaxX = centerX + r;
+		double horizontalRectMinY = centerY - (0.5 * r);
+		double horizontalRectMaxY = centerY + (0.5 * r);
+		
+		for (int i = 0; i < n; i++) {
+			int x = in.nextInt();
+			int y = in.nextInt();
+			
+			boolean inside = isPointInRectangle(x, y, 
+												verticalRectMinX, verticalRectMaxX, 
+												verticalRectMinY, verticalRectMaxY) ||
+							 isPointInRectangle(x, y, 
+												horizontalRectMinX, horizontalRectMaxX, 
+												horizontalRectMinY, horizontalRectMaxY);
+			if (inside) {
+				System.out.println("Yes");
+			} else{
+				System.out.println("No");
+			}
+		}
+	}
+	private static boolean isPointInRectangle(int x, int y,
+			double minX, double maxX, double minY, double maxY){
+		boolean inside = (x >= minX) && (x <= maxX) && 
+				(y >= minY) && (y <= maxY);
+		return inside;
+	}
+}

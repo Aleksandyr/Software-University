@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+}
+
+header h1{
+    background-color: tomato;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+header h1:hover{
+    color: black;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 13px;
+}
+
+nav ul #with-background{
+    background-color: tomato;
+    color: white;
+}
+
+nav ul #with-background a{
+    color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+section{
+    width: 50%;
+    margin: 25px auto;
+}
+
+section header h2{
+    padding-bottom: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table tr td{
+    width: 200px;
+    padding-bottom: 15px;
+}
+
+table tr td a{
+    color: darkred;
+    text-decoration: none;
+    border-bottom: 1px dotted tomato;
+}
+
+table tr td a:hover{
+    color: black;
+}
+
+article footer{
+    font-weight: bold;
+}
+
+body>footer{
+    background-color: dimgray;
+}
+
+body>footer nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body footer nav ul li{
+    padding: 7px;
+    color: white;
+}
+
+body footer nav ul li a{
+    color: white;
+}
+
+footer nav ul li:hover{
+    background-color: white;
+}
+
+footer nav ul li a:hover{
+    color: darkred;
+}
+
+
+
+footer hr{
+    width: 95%;
+    margin: 0 auto;
+}
+
+footer #location{
+    width: 15%;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.7em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer #location a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+footer #location a:hover{
+    color: white;
+}
+
+footer #location div{
+    padding-top: 20px;
+}
+

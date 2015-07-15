@@ -1,0 +1,2 @@
+DELETE Users
+WHERE PasswordUser IS NULL

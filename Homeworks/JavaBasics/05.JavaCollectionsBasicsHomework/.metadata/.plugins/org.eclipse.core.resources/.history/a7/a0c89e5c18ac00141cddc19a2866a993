@@ -1,0 +1,29 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+
+public class P12_CardsFrequencies {
+
+	public static void main(String[] args) {	
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		String[] cards = input.split("\\W+");
+		
+		HashMap<String, Integer> cardCount = new HashMap<String, Integer>();
+		for (String card : cards) {
+			Integer counter = cardCount.get(card);
+			if (counter == null) {
+				counter = 0;
+			}
+			cardCount.put(card, counter + 1);
+		}
+		
+		
+		for (String key : cardCount.keySet()) {
+			System.out.printf("%s -> %.2f", key, (float)cards.length * (float)cardCount.get(key));
+			System.out.println();
+		}
+	}
+
+}

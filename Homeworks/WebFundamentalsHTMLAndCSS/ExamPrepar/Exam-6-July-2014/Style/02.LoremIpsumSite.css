@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+#wrapper > header {
+    width: 100%;
+    background-color: lightgray;
+    padding: 1.2%;
+}
+
+nav{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 1%;
+    width: 90%;
+}
+
+header nav ul li:first-child a{
+    color: orange;
+}
+
+header nav ul li a{
+    width: 80px;
+    height: 27px;
+    text-align: center;
+    padding-top:  15%;
+}
+
+header nav ul li a:hover{
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+section{
+    width: 90%;
+    margin: 3% auto;
+}
+
+section header h1{
+    color: dimgray;
+}
+
+section article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    /*font-size: 1.1em;*/
+    color: gray;
+
+}
+
+section article p{
+    padding: 6% 24% 3% 0%;
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    background-color: lightgray;
+    padding: 4% 0 4% 5%;
+    color: dimgray;
+}
+
+
+footer p{
+    display: inline-block;
+}
+
+footer ul{
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    float: right;
+}
+
+footer ul li{
+    padding-left: 2%;
+}
+
+footer ul li a:hover{
+    content: url("../Images/facebook-hover.png");
+}

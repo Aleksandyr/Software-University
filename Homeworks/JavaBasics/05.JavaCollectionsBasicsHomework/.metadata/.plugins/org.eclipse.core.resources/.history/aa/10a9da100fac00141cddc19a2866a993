@@ -1,0 +1,28 @@
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+
+
+public class P10_ExtractAllUniqueWords {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine().toLowerCase();
+		String[] text = input.split("[^a-zA-Z]+");
+		for (int i = 0; i < text.length; i++) {
+			System.out.println(text[i]);
+		}
+		Arrays.sort(text);
+		
+		HashSet<String> result = new HashSet<String>();
+		for (String string : text) {
+			result.add(string);
+		}
+		
+		for (String string : result) {
+			System.out.print(string + " ");
+		}
+	}
+
+}

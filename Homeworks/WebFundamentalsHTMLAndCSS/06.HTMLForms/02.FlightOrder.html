@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Style/02.FlightOrder.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Flight order</h1>
+        </header>
+        <section>
+            <div id="left">
+                <label for="enter-city-form">From</label>
+                <select id="enter-city-form">
+                    <option>enter a city</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="plovdiv">Plovdiv</option>
+                    <option value="burgas">Burgas</option>
+                    <option></option>
+                </select>
+                <label for="departure-date">Departure Date</label>
+                <input type="date" name="departure-date" id="departure-date" value="2014-06-09">
+                <label for="return-date">Return Date</label>
+                <input type="date" name="date" id="return-date" value="2014-06-13">
+                <div id="age">
+                    <label for="over-twelve">12+</label>
+                    <label for="two-twelve">2-12</label>
+                    <label for="under-two">0-2</label>
+                    <input id="over-twelve" min="0" value="0" type="number" />
+                    <input id="two-twelve" min="0" value="0" type="number" />
+                    <input id="under-two" min="0" value="0" type="number" />
+                </div>
+            </div>
+            <div id="right">
+                <label for="to-city-form">To</label>
+                <select id="to-city-form">
+                    <option>enter a city</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="plovdiv">Plovdiv</option>
+                    <option value="burgas">Burgas</option>
+                    <option></option>
+                </select>
+                <input type="checkbox" name="directs" id="directs" />
+                <label for="directs">Prefer directs</label>
+                <br />
+                <label for="time-interval-start">Time interval</label>
+                <br />
+                <input type="time" name="time-interval-start" id="time-interval-start" value="00:20" />
+                <input type="time" name="time-interval-end" id="time-interval-end" value="00:20" />
+                <label for="time-interval-start">Time interval</label>
+                <br />
+                <input type="time" name="time-interval-start" id="return-time-interval-start" value="00:20" />
+                <input type="time" name="time-interval-end" id="return-time-interval-end" value="00:20" />
+                <label for="first-class">Choose class</label>
+                <select id="first-class">
+                    <option value="economy">Economy</option>
+                    <option value="first-class">first class</option>
+                    <option value="business-class">Business class</option>
+                </select>
+                <br />
+                <input type="submit" id="search" value="Search" />
+            </div>
+        </section>
+    </div>
+</body>
+</html>

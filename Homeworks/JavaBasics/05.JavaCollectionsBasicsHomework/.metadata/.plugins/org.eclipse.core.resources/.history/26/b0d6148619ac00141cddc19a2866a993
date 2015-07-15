@@ -1,0 +1,35 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.*;
+
+public class P12_CardsFrequencies {
+
+	public static void main(String[] args) {	
+		 Map<String,Integer> map=  new HashMap<String,Integer>();
+
+		   // put some values into map
+
+		   map.put("first",1);
+		   map.put("second",2);
+		   map.put("third",3);
+		   map.put("fourth",4);
+		   map.put("fifth",5);
+		   map.put("sixth",6);
+		   map.put("seventh",7);
+		   map.put("eighth",8);
+		   map.put("ninth",9);
+
+
+
+		    Iterator iterator= map.entrySet().iterator();
+		       while(iterator.hasNext())
+		       {
+		           Entry entry =(Entry)iterator.next();   
+		           System.out.println(" entries= "+entry.getKey().toString());
+		       }
+
+	}
+
+}

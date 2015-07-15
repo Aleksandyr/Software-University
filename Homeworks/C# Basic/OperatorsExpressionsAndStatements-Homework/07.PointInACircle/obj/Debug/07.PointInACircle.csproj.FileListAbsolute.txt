@@ -1,0 +1,1 @@
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\07.PointInACircle\bin\Debug\07.PointInACircle.exe.config

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    border: 1px solid pink;
+    width: 980px;
+    height: 350px;
+    background-color: pink;
+    margin: 5px auto;
+    border-radius: 25px;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#left header p{
+    font-size: 1.3em;
+    margin: -25px 860px 0 0;
+}
+
+figcaption{
+    font-size: 1.3em;
+    margin-left: 18px;
+}
+
+img{
+    width: 220px;
+    height: 175px;
+    padding: 5px;
+    margin-left: 14px;
+}
+
+meter{
+    margin: 3px 0 0 19px;
+    height: 20px;
+    width: 190px;
+}
+
+#middle header p{
+    font-size: 1.3em;
+    margin: -280px 350px 0 47px;
+}
+
+#first-control-audio{
+    margin-top: 5px;
+}
+
+#first-control-audio, #second-control-audio, #third-control-audio{
+    margin-left: 247px;
+}
+
+audio{
+    width: 274px;
+}
+
+#middle-audio audio{
+    width: 267px;
+    margin-top: 35px;
+    margin-left: 2px;
+}
+
+#middle-audio{
+    margin-top: 5px;
+    margin-left: 247px;
+    border: 1px solid black;
+    width: 270px;
+    height: 126px;
+    background-color: black;
+}
+
+#right header p{
+    margin: -283px 0 0 254px;
+    font-size: 1.3em;
+}
+
+video{
+    margin: 4px 0 0 530px;
+    width: 26.4em;
+}
+
+main{
+    margin-top: 30px;
+}

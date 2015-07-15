@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class P07_CountSubstringOccurrences {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String text = in.nextLine().toLowerCase();
+		String findWord = in.nextLine().toLowerCase();
+		
+		int lastIndex = 0;
+		int counter = 0;
+		
+		while (lastIndex != -1) {
+			System.out.println(lastIndex = text.indexOf(findWord, lastIndex));
+			System.out.println(lastIndex);
+		}
+	}
+
+}

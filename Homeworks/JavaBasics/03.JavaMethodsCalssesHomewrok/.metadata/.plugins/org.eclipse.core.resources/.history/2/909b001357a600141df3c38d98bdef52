@@ -1,0 +1,26 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class P08_SumNumbersFromATextFile {
+
+	public static void main(String[] args) throws IOException {
+		Scanner textFIle = new Scanner(new File("Input.txt"));
+		String filePath = textFIle.next();
+		if (filePath.equals("")) {
+			System.out.println("No");
+		} else {
+			int sum = 0;
+			while (textFIle.hasNextInt()) {
+				sum += textFIle.nextInt();
+			}
+			
+			System.out.println(sum);
+		}
+	}
+
+}

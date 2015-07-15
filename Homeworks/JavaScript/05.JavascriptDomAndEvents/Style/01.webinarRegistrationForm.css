@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 300px;
+    height: 610px;
+    margin: 10px auto;
+    background-color: lightyellow;
+}
+
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form{
+    width: 175px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+form input{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.required-field{
+    color: red;
+}
+
+form input[type="checkbox"]{
+    margin: 3px;
+}
+
+
+#form-invoice{
+    visibility: hidden;
+}
+
+

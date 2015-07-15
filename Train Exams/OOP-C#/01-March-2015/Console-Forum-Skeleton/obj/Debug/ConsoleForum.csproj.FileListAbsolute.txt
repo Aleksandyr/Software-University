@@ -1,0 +1,6 @@
+E:\SoftUni\Train Exams\Level2\OOP\01-March-2015\Console-Forum-Skeleton\bin\Debug\ConsoleForum.exe.config
+E:\SoftUni\Train Exams\Level2\OOP\01-March-2015\Console-Forum-Skeleton\bin\Debug\ConsoleForum.exe
+E:\SoftUni\Train Exams\Level2\OOP\01-March-2015\Console-Forum-Skeleton\bin\Debug\ConsoleForum.pdb
+E:\SoftUni\Train Exams\Level2\OOP\01-March-2015\Console-Forum-Skeleton\obj\Debug\ConsoleForum.csprojResolveAssemblyReference.cache
+E:\SoftUni\Train Exams\Level2\OOP\01-March-2015\Console-Forum-Skeleton\obj\Debug\ConsoleForum.exe
+E:\SoftUni\Train Exams\Level2\OOP\01-March-2015\Console-Forum-Skeleton\obj\Debug\ConsoleForum.pdb

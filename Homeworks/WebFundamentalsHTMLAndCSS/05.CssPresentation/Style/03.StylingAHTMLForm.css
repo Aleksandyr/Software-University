@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    background-image: url("../Images/formBackground.jpg");
+    width: 34em;
+    height: 47em;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    margin: 5px auto;
+    border-radius: 5px
+}
+
+fieldset{
+    border: none;
+    padding-left: 2em;
+}
+
+fieldset legend{
+    color: #ffffff;
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+
+fieldset div{
+    width: 29.8em;
+    height: 2.05em;
+    background-color: rgba(128,162,195, 0.7);
+    margin-top: 0.2em;
+    border: 1px solid #C4D6E7;
+    border-radius: 5px;
+    padding-top: 0.3em;
+}
+
+form div label{
+    display: inline-block;
+    width: 150px;
+    padding-left: 0.3em;
+}
+
+form div input{
+    width: 15em;
+    height: 2.1em;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255,255,255, 0.8);
+    padding-left: 0.3em;
+}
+
+#address-field{
+    width: 29.8em;
+    height: 7.9em;
+}
+
+#address-textarea{
+    width: 15em;
+    height: 9em;
+    border-radius: 5px;
+    background-color: rgba(255,255,255, 0.8);
+}
+
+form div textarea{
+    vertical-align: top;
+}
+
+fieldset fieldset legend{
+    padding-top: 0.1em;
+    margin-left: -10px;
+    color: black;
+}
+
+#card-type-field{
+    width: 29.8em;
+    height: 4.4em;
+}
+
+#first-input-card, #second-input-card, #third-input-card{
+    width: 1em;
+    border: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.radio-label{
+    display: inline;
+    padding: 15px 50px 0 0px;
+}
+
+img{
+    width: 25px;
+    margin-right: 2px;
+}
+
+input[type=submit]{
+    background: #04152F;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+.button{
+    display: block;
+    text-align: center;
+}
+

@@ -1,0 +1,12 @@
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Morning\01.Melons-And-Watermelons\bin\Debug\01.Melons-And-Watermelons.exe.config
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Morning\01.Melons-And-Watermelons\bin\Debug\01.Melons-And-Watermelons.exe
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Morning\01.Melons-And-Watermelons\bin\Debug\01.Melons-And-Watermelons.pdb
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.exe
+E:\SoftUni\C# Exam 25 july 2014 Morning\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.pdb
+E:\SoftUni\Train Exams\25-July-2014-Morning\01.Melons-And-Watermelons\bin\Debug\01.Melons-And-Watermelons.exe.config
+E:\SoftUni\Train Exams\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.exe
+E:\SoftUni\Train Exams\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.pdb
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\01.Melons-And-Watermelons\bin\Debug\01.Melons-And-Watermelons.exe.config
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.exe
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\01.Melons-And-Watermelons\obj\Debug\01.Melons-And-Watermelons.pdb

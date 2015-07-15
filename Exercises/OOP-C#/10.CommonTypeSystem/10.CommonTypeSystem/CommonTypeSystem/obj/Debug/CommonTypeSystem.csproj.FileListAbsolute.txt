@@ -1,0 +1,6 @@
+E:\SoftUni\Exercises\Level2\OOP\10.CommonTypeSystem\10.CommonTypeSystem\CommonTypeSystem\bin\Debug\CommonTypeSystem.exe.config
+E:\SoftUni\Exercises\Level2\OOP\10.CommonTypeSystem\10.CommonTypeSystem\CommonTypeSystem\obj\Debug\CommonTypeSystem.csprojResolveAssemblyReference.cache
+E:\SoftUni\Exercises\Level2\OOP\10.CommonTypeSystem\10.CommonTypeSystem\CommonTypeSystem\bin\Debug\CommonTypeSystem.exe
+E:\SoftUni\Exercises\Level2\OOP\10.CommonTypeSystem\10.CommonTypeSystem\CommonTypeSystem\bin\Debug\CommonTypeSystem.pdb
+E:\SoftUni\Exercises\Level2\OOP\10.CommonTypeSystem\10.CommonTypeSystem\CommonTypeSystem\obj\Debug\CommonTypeSystem.exe
+E:\SoftUni\Exercises\Level2\OOP\10.CommonTypeSystem\10.CommonTypeSystem\CommonTypeSystem\obj\Debug\CommonTypeSystem.pdb

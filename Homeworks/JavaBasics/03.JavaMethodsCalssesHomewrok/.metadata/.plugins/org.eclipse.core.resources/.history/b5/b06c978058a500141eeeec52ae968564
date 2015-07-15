@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class P05_AngleUnitConverter {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println(ConvertRadiansToDegrees(180));
+	}
+	
+	public static double ConvertDegreeToRadians(double degrees){
+		return degrees / (180 / Math.PI);
+	}
+	
+	public static double ConvertRadiansToDegrees(double radians){
+		return radians * (180 / Math.PI);
+	}
+}

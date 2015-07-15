@@ -1,0 +1,8 @@
+E:\SoftUni\Exam-May-2014-option1\DrawSungalsses\bin\Debug\DrawSungalsses.exe.config
+E:\SoftUni\Exam-May-2014-option1\DrawSungalsses\bin\Debug\DrawSungalsses.exe
+E:\SoftUni\Exam-May-2014-option1\DrawSungalsses\bin\Debug\DrawSungalsses.pdb
+E:\SoftUni\Exam-May-2014-option1\DrawSungalsses\obj\Debug\DrawSungalsses.exe
+E:\SoftUni\Exam-May-2014-option1\DrawSungalsses\obj\Debug\DrawSungalsses.pdb
+E:\SoftUni\Train Exams\Exam-May-2014-option1\DrawSungalsses\bin\Debug\DrawSungalsses.exe.config
+E:\SoftUni\Train Exams\Exam-May-2014-option1\DrawSungalsses\obj\Debug\DrawSungalsses.exe
+E:\SoftUni\Train Exams\Exam-May-2014-option1\DrawSungalsses\obj\Debug\DrawSungalsses.pdb

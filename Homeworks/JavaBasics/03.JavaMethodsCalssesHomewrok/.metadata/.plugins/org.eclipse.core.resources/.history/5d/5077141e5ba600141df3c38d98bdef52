@@ -1,0 +1,6 @@
+public class P09_Product {
+	private String name;
+	private float price;
+	
+	
+}

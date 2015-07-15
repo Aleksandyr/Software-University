@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Verdana;
+	background-color: #6698FF;
+	color: white
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#wrapper{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 1%;
+}
+
+#wrapper header{
+	padding-bottom: 2%;
+}
+
+#wrapper header a h1 span{
+	font-size: 0.7em;
+	color: white;
+}
+
+#wrapper nav{
+	width: 100%;
+	float: right;
+	text-align: right;
+	margin-right: 1.5%;
+}
+
+#wrapper nav ul{
+	list-style-type: none;
+	padding-right: 2.6%;
+}
+
+	#wrapper nav ul li{
+		display: inline-block;
+		background-color: white;
+		border: 1px solid black;
+        padding: 0.5%;
+	}
+
+		#wrapper nav ul li a{
+			color: black;
+			font-size: 1em;
+		}
+
+#wrapper nav:before {
+    height: 2px;
+    background-color: black;
+    content: "";
+    display: block;
+    position: relative;
+    top: 17px;
+    z-index: -1;
+}
+
+#wrapper section{
+    width: 69%;
+    float: left;
+    color: black;
+}
+
+#wrapper article{
+    background-color: #E7F1FF;
+    border: 1px solid black;
+    margin-top: 1.5%;
+
+}
+#wrapper article h1{
+    font-size: 1em;
+    padding: 4% 1%;
+
+}
+
+#wrapper article p{
+    padding: 1%;
+    text-indent: 20px;
+    font-size: 10px;
+    padding-bottom: 3%;
+}
+
+#wrapper aside{
+    background-color: #E7F1FF;
+    border: 1px solid black;
+    width: 26%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 4%;
+    font-size: 0.6em;
+}
+
+#wrapper aside ul{
+    list-style-type: none;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#wrapper aside ul li{
+    margin-top: 1.5%;
+    padding: 1.5%;
+}
+
+#wrapper aside ul li a{
+    /*font-size: 2em;*/
+    color: black;
+    padding: 5%;
+}
+
+#wrapper footer{
+    width: 100%;
+    background-color:  #E7F1FF;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 1.5%;
+}
+
+#wrapper footer h2{
+    text-align: center;
+    vertical-align: bottom;
+    color: black;
+    font-size: 1em;
+    padding: 2%;
+}
+
+#wrapper footer h2 a{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 960px){
+    #wrapper{
+        clear: both;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 780px){
+    #wrapper{
+        clear: both;
+        width: 100%;
+    }
+
+    #wrapper section{
+        width: 100%;
+    }
+
+    #wrapper aside{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+
+    #wrapper aside ul li{
+        float: left;
+        width: 20%;
+        margin-right: 2%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    #wrapper{
+        clear: both;
+        width: 100%;
+    }
+
+    #wrapper header h1{
+        text-align: center;
+    }
+
+    #wrapper nav ul li{
+        display: block;
+        text-align: center;
+        margin-left: 7%;
+        padding: 1.5%;
+    }
+
+    #wrapper section{
+        width: 100%;
+    }
+
+    #wrapper section article div p{
+        font-size: 80%;
+    }
+
+    #wrapper section article header h1{
+        font-size: 1.3em;
+    }
+
+    #wrapper aside{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+}

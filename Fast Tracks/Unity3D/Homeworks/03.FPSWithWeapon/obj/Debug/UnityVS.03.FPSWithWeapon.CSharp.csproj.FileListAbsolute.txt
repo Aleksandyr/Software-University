@@ -1,0 +1,11 @@
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\UnityEditor.dll
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\UnityEngine.dll
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\UnityEngine.xml
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\UnityEditor.xml
+E:\Unity3D\Homeworks\03.FPSWithWeapon\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+E:\Unity3D\Homeworks\03.FPSWithWeapon\obj\Debug\UnityVS.03.FPSWithWeapon.CSharp.csprojResolveAssemblyReference.cache
+E:\Unity3D\Homeworks\03.FPSWithWeapon\obj\Debug\Assembly-CSharp.dll
+E:\Unity3D\Homeworks\03.FPSWithWeapon\obj\Debug\Assembly-CSharp.pdb

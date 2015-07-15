@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class P01_VideoDurations {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println(3);
+		while (true) {
+			String input = in.nextLine();
+			if (input.equals("End")) {
+				break;
+			}
+			String[] videoDur = input.split("[^0-9]+");
+			System.out.println(videoDur[0] + " " + videoDur[1]);
+		}
+	}
+
+}

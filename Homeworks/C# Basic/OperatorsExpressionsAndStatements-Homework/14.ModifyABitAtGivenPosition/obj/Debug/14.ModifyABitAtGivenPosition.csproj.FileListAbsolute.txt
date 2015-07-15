@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.exe.config
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.exe
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.pdb
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.exe
+E:\SoftUni\Homework\C# Basic\OperatorsExpressionsAndStatements-Homework\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.pdb

@@ -1,0 +1,6 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\11.CountOfLetters\bin\Debug\11.CountOfLetters.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\11.CountOfLetters\bin\Debug\11.CountOfLetters.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\11.CountOfLetters\bin\Debug\11.CountOfLetters.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\11.CountOfLetters\obj\Debug\11.CountOfLetters.csprojResolveAssemblyReference.cache
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\11.CountOfLetters\obj\Debug\11.CountOfLetters.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\11.CountOfLetters\obj\Debug\11.CountOfLetters.pdb

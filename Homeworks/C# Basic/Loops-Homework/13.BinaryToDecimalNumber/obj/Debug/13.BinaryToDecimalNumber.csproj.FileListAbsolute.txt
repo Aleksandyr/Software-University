@@ -1,0 +1,6 @@
+E:\InfoStart\Homeworks\JS\Loops-Homework\13.BinaryToDecimalNumber\bin\Debug\13.BinaryToDecimalNumber.exe.config
+E:\InfoStart\Homeworks\JS\Loops-Homework\13.BinaryToDecimalNumber\bin\Debug\13.BinaryToDecimalNumber.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\13.BinaryToDecimalNumber\bin\Debug\13.BinaryToDecimalNumber.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\13.BinaryToDecimalNumber\obj\Debug\13.BinaryToDecimalNumber.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\13.BinaryToDecimalNumber\obj\Debug\13.BinaryToDecimalNumber.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\13.BinaryToDecimalNumber\obj\Debug\13.BinaryToDecimalNumber.csprojResolveAssemblyReference.cache

@@ -1,0 +1,21 @@
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+
+
+public class P04_StraightFlush {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String[] inputCards = in.nextLine().split("\\W+");
+		
+		HashSet<String> cards = new HashSet<String>();
+		cards.addAll(Arrays.asList(inputCards));
+		
+		for (String string : cards) {
+			System.out.println(string);
+		}
+	}
+
+}

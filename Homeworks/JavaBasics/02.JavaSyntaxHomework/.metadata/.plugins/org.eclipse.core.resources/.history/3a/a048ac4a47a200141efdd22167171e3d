@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class P06_FormattinNumbers {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int a = in.nextInt();
+		//float b = in.nextFloat();
+		//float c = in.nextFloat();
+		
+		String aInHexadecimal = Integer.toHexString(a).toUpperCase();
+		
+		//System.out.printf("|%010d|", aInHexadecimal);
+	}
+}

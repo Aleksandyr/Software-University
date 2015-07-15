@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\02.Animals\bin\Debug\02.Animals.exe.config
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\02.Animals\bin\Debug\02.Animals.exe
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\02.Animals\bin\Debug\02.Animals.pdb
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\02.Animals\obj\Debug\02.Animals.exe
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\02.Animals\obj\Debug\02.Animals.pdb

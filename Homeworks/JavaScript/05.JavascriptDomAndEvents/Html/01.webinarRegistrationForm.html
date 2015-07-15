@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../Style/01.webinarRegistrationForm.css" />
+</head>
+<body>
+    <div id = "wrapper">
+        <header>
+            <h3>
+                Регистрация за уебинар
+            </h3>
+        </header>
+        <form>
+            <label>Име и фамилия:<span class="required-field">*</span></label>
+            <input type="text" required="required"/>
+            <label>Адрес:</label>
+            <input type="text" />
+            <label>Населено място:</label>
+            <input type="text" />
+            <label>Пощенски код:</label>
+            <input type="number" />
+            <label>Email:<span class="required-field">*</span></label>
+            <input type="email" required="required" />
+            <label>Телефон:<span class="required-field">*</span></label>
+            <input type="number" required="required" />
+            <label>Дата на семинара:<span class="required-field">*</span></label>
+            <input type="date" required="required" />
+            </br>
+            <input id="checkbox" type="checkbox" name="checkbox" onclick="showInvoiceForm()" />Желая фактура
+            <span id="form-invoice">
+                <label>Фирма/Организация:<span class="required-field">*</span></label>
+                <input type="text" required="required"/>
+                <label>МОЛ:<span class="required-field">*</span></label>
+                <input type="text" required="required"/>
+                <label>ЕИК:<span class="required-field">*</span></label>
+                <input type="text" required="required"/>
+                <label>ИН по ДДС:<span class="required-field">*</span></label>
+                <input type="number" required="required"/>
+                <label>Адрес:<span class="required-field">*</span></label>
+                <input type="text" required="required"/>
+            </span>
+            <input type="submit" value="Регистрирай се" />
+            <input type="reset" value="Изчисти" />
+        </form>
+    </div>
+    <script src="../javaScript/01.webinarRegistrationForm.js"></script>
+</body>
+</html>

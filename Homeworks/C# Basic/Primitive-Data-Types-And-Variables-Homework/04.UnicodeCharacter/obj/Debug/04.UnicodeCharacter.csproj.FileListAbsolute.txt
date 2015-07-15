@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\04.UnicodeCharacter\bin\Debug\04.UnicodeCharacter.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\04.UnicodeCharacter\bin\Debug\04.UnicodeCharacter.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\04.UnicodeCharacter\bin\Debug\04.UnicodeCharacter.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\04.UnicodeCharacter\obj\Debug\04.UnicodeCharacter.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\04.UnicodeCharacter\obj\Debug\04.UnicodeCharacter.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\04.UnicodeCharacter\obj\Debug\04.UnicodeCharacter.pdb

@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
+
+
+public class P04_LongestIncreasingSequence {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		
+		String[] currSeqOfNums = (input.split("\\s+"));
+		int[] seqOfNums = new int[currSeqOfNums.length];
+		
+		for (int i = 0; i < seqOfNums.length; i++) {
+			seqOfNums[i] = Integer.parseInt(currSeqOfNums[i]);
+		}
+		
+		int counter = 0;
+		int max = 0;
+		String theLongestSeq = "";
+		String seq = "";
+		for (int i = 1; i < seqOfNums.length; i++) {
+			if (seqOfNums[i] > seqOfNums[i - 1]) {
+				seq += seqOfNums[i - 1] + " ";
+				counter++;
+			}
+			seq += seqOfNums[i];
+			System.out.print(seq);
+			seq = "";
+			counter = 0;
+		}
+		System.out.println(theLongestSeq);
+	}
+
+}

@@ -1,0 +1,5 @@
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.XBits\bin\Debug\05.XBits.exe.config
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.XBits\bin\Debug\05.XBits.exe
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.XBits\bin\Debug\05.XBits.pdb
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.XBits\obj\Debug\05.XBits.exe
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\05.XBits\obj\Debug\05.XBits.pdb

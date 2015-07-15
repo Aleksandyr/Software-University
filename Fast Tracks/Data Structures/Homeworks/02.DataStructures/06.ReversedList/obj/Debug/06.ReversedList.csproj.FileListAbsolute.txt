@@ -1,0 +1,6 @@
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\06.ReversedList\bin\Debug\06.ReversedList.exe.config
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\06.ReversedList\bin\Debug\06.ReversedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\06.ReversedList\bin\Debug\06.ReversedList.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\06.ReversedList\obj\Debug\06.ReversedList.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\06.ReversedList\obj\Debug\06.ReversedList.exe
+E:\SoftUni\Fast Tracks\Data Structures\Homeworks\02.Lists\Solution1\06.ReversedList\obj\Debug\06.ReversedList.pdb

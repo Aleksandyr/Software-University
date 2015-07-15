@@ -1,0 +1,6 @@
+C:\Users\Alexander\Desktop\CSharpExam\02.OddOrEvenCounter\bin\Debug\02.OddOrEvenCounter.exe.config
+C:\Users\Alexander\Desktop\CSharpExam\02.OddOrEvenCounter\bin\Debug\02.OddOrEvenCounter.exe
+C:\Users\Alexander\Desktop\CSharpExam\02.OddOrEvenCounter\bin\Debug\02.OddOrEvenCounter.pdb
+C:\Users\Alexander\Desktop\CSharpExam\02.OddOrEvenCounter\obj\Debug\02.OddOrEvenCounter.exe
+C:\Users\Alexander\Desktop\CSharpExam\02.OddOrEvenCounter\obj\Debug\02.OddOrEvenCounter.pdb
+C:\Users\Alexander\Desktop\CSharpExam\02.OddOrEvenCounter\obj\Debug\02.OddOrEvenCounter.csprojResolveAssemblyReference.cache

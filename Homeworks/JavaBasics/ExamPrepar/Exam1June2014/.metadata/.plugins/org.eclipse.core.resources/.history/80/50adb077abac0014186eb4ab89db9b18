@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class P02_SumCards {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String input = scanner.nextLine();
+		String[] facesFrom1to10 = input.split("[^0-9]+");
+		String[] facesFromJtoA = input.split("[JQKA]");
+		
+		for (int i = 0; i < facesFromJtoA.length; i++) {
+			System.out.println(facesFromJtoA[i]);
+		}
+	}
+
+}

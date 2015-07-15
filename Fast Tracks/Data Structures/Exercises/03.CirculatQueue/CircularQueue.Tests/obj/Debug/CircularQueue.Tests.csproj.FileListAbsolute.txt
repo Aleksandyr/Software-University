@@ -1,0 +1,7 @@
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\bin\Debug\CircularQueue.Tests.dll
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\bin\Debug\CircularQueue.Tests.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\bin\Debug\CircularQueue.exe
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\bin\Debug\CircularQueue.pdb
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\obj\Debug\CircularQueue.Tests.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\obj\Debug\CircularQueue.Tests.dll
+E:\SoftUni\Fast Tracks\Data Structures\Exercises\03.CirculatQueue\CircularQueue.Tests\obj\Debug\CircularQueue.Tests.pdb

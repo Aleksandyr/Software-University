@@ -1,0 +1,5 @@
+E:\InfoStart\Homeworks\JS\Loops-Homework\14.DecimalToBinaryNumber\bin\Debug\14.DecimalToBinaryNumber.exe.config
+E:\InfoStart\Homeworks\JS\Loops-Homework\14.DecimalToBinaryNumber\bin\Debug\14.DecimalToBinaryNumber.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\14.DecimalToBinaryNumber\bin\Debug\14.DecimalToBinaryNumber.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\14.DecimalToBinaryNumber\obj\Debug\14.DecimalToBinaryNumber.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\14.DecimalToBinaryNumber\obj\Debug\14.DecimalToBinaryNumber.pdb

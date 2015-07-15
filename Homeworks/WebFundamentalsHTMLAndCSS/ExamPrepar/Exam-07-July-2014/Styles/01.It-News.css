@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 13px;
+}
+
+section{
+    margin: 10px auto;
+    width: 700px;
+}
+
+section article{
+    padding: 10px;
+    width: 280px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    height: 226px;
+    vertical-align: top;
+}
+
+section article div img{
+    float: left;
+}
+
+section article div p{
+    line-height: 1.35em;
+}
+
+section article h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+section article h1 a:hover{
+    text-decoration: underline;
+}
+
+section article h1 p{
+    color: gray;
+}
+
+section article{
+    box-shadow: 3px 3px 3px lightgray;
+}

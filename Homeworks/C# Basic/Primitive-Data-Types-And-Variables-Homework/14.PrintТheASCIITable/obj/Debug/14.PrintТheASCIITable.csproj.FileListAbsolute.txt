@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\14.PrintТheASCIITable\bin\Debug\14.PrintТheASCIITable.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\14.PrintТheASCIITable\bin\Debug\14.PrintТheASCIITable.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\14.PrintТheASCIITable\bin\Debug\14.PrintТheASCIITable.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\14.PrintТheASCIITable\obj\Debug\14.PrintТheASCIITable.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\14.PrintТheASCIITable\obj\Debug\14.PrintТheASCIITable.pdb

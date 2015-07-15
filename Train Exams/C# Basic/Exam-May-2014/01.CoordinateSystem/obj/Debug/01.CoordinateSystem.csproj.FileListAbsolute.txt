@@ -1,0 +1,9 @@
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\01.CoordinateSystem\bin\Debug\01.CoordinateSystem.exe.config
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\01.CoordinateSystem\bin\Debug\01.CoordinateSystem.exe
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\01.CoordinateSystem\bin\Debug\01.CoordinateSystem.pdb
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\01.CoordinateSystem\obj\Debug\01.CoordinateSystem.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\01.CoordinateSystem\obj\Debug\01.CoordinateSystem.exe
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\01.CoordinateSystem\obj\Debug\01.CoordinateSystem.pdb
+E:\SoftUni\Train Exams\Exam-May-2014\01.CoordinateSystem\bin\Debug\01.CoordinateSystem.exe.config
+E:\SoftUni\Train Exams\Exam-May-2014\01.CoordinateSystem\obj\Debug\01.CoordinateSystem.exe
+E:\SoftUni\Train Exams\Exam-May-2014\01.CoordinateSystem\obj\Debug\01.CoordinateSystem.pdb

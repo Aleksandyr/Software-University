@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    border-left: 5px dashed red;
+    border-right: 10px solid green;
+    border-bottom: 7px double blue;
+    border-top: 4px dotted yellow;
+    margin: 10px auto;
+    width: 35em;
+    height: 12em;
+    box-shadow: 15px 15px 5px gray;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 0.4em;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-shadow: 11px 11px 15px #404040;
+}
+
+#blue-border{
+    vertical-align: middle;
+    border: 3px solid blue;
+    border-radius: 70px;
+    width: 32em;
+    height: 5.7em;
+    margin: 1.6em auto;
+
+}
+
+#green-border{
+    border: 3px solid green;
+    border-radius: 65px;
+    width: 31.65em;
+    height: 5.33em;
+}
+
+#yellow-border{
+    border: 3px solid yellow;
+    border-radius: 60px;
+    width: 31.2em;
+    height: 4.9em;
+}
+
+#red-border{
+    border: 3px solid red;
+    border-radius: 55px;
+    width: 30.7em;
+    height: 4.55em;
+}
+
+#red-border div h4{
+    text-align: center;
+    padding: 0.5em;
+    font-weight: normal;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-shadow: 7px 7px 12px #404040;
+}
+
+#red-border form{
+    text-align: center;
+    margin: 3px auto;
+}
+
+#red-border form input{
+    width: 12em;
+    height: 1.3em;
+    text-align: center;
+    background-color: #D8921A;
+    border-top: 3px solid #EC9C0D;
+    border-left: 3px solid #EC9C0D;
+    border-bottom: 3px solid #AD7206;
+    border-right: 3px solid #AD7206;
+}
+
+.balloon, .balloon div{
+    box-sizing: border-box;
+    border-radius: 15rem;
+}
+
+.balloon{
+    display: inline-block;
+    background-color: #A9A9A9;
+    opacity: 0.8;
+    color: #ffffff;
+    padding: 0.3rem;
+    position: absolute;
+}
+
+.first{
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.move-1{
+    right: 30em;
+    top: 7.3em;
+}
+
+.second{
+    width: 2em;
+    height: 2em;
+}
+
+.move-2{
+    right: 26em;
+    top: 5em;
+}
+
+.third{
+    width: 7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.move-3{
+    right: 18em;
+    top: 1em;
+}
+
+.balloon  div{
+    display: inline-block;
+    border: dashed 3px #ffffff;
+}

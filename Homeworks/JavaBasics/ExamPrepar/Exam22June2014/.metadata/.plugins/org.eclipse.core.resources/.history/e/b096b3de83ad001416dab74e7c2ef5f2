@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+import org.omg.PortableServer.POAPackage.WrongAdapter;
+
+
+public class P01_CognateWords {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		String input = in.nextLine();
+		String[] words = input.split("[^a-zA-Z]+");
+		
+		boolean haveEqualWords = false;
+		for (int i = 0; i < words.length; i++) {
+			for (int j = 0; j < words.length - 1; j++) {
+				for (int j2 = 0; j2 < words.length; j2++) {
+					if (words[i].equals(words[j] + words[j2])) {
+						String a = words[j];
+						String b = words[j2];
+						String word = words[i];
+						
+						System.out.println(a + "|" + b + "=" + word);
+						haveEqualWords = true;
+						words[i] = "";
+					}
+					if (words[i].equals(words[j2] + words[j])) {
+						String a = words[j2];
+						String b = words[j];
+						String word = words[i];
+						
+						System.out.println(a + "|" + b + "=" + word);
+						haveEqualWords = true;
+					}
+				}
+			}
+		}
+		if (!haveEqualWords) {
+			System.out.println("No");
+		}
+	}
+
+}

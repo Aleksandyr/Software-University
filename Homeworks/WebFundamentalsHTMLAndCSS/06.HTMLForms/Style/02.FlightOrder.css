@@ -1,0 +1,70 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 490px;
+    height: 400px;
+    background-color: #ffc0cb;
+    margin: 10px auto;
+}
+
+#left, #right{
+    width: 230px;
+    height: 240px;float: left;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+label{
+    font-size: 0.9em;
+}
+
+#enter-city-form, #to-city-form, #first-class,
+#search{
+    width: 215px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 215px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#age label{
+    padding-right: 46px;
+}
+
+#age input{
+    width: 65px;
+    height: 23px;
+}
+
+#directs{
+    width: 15px;
+    height: 15px;
+}
+
+#time-interval-end, #time-interval-start,
+#return-time-interval-end, #return-time-interval-start{
+    width: 100px;
+    height: 20px;
+}

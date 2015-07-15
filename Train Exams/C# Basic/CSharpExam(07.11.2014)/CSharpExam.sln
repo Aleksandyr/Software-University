@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Plane", "03.Plane\03.Plane.csproj", "{126863BB-9A82-4164-AECB-F73ED696C446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Budge", "01.Budge\01.Budge.csproj", "{88406BB1-5063-4831-AA7F-83629D8A969C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.OddOrEvenCounter", "02.OddOrEvenCounter\02.OddOrEvenCounter.csproj", "{1A497F52-D831-4087-8B24-9E67AECA7552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FEC9BAA-FA03-442A-8366-2AA0FC25CAC0}"
+	ProjectSection(SolutionItems) = preProject
+		WE-Markdown.css = WE-Markdown.css
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.WeirdCombinations", "04.WeirdCombinations\04.WeirdCombinations.csproj", "{9B32F885-4110-4E90-A634-22E643DE8D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.HalfByteSwapper", "05.HalfByteSwapper\05.HalfByteSwapper.csproj", "{ADC645FE-4656-44F0-828C-0138F2427774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{126863BB-9A82-4164-AECB-F73ED696C446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126863BB-9A82-4164-AECB-F73ED696C446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126863BB-9A82-4164-AECB-F73ED696C446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126863BB-9A82-4164-AECB-F73ED696C446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88406BB1-5063-4831-AA7F-83629D8A969C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88406BB1-5063-4831-AA7F-83629D8A969C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88406BB1-5063-4831-AA7F-83629D8A969C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88406BB1-5063-4831-AA7F-83629D8A969C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A497F52-D831-4087-8B24-9E67AECA7552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A497F52-D831-4087-8B24-9E67AECA7552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A497F52-D831-4087-8B24-9E67AECA7552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A497F52-D831-4087-8B24-9E67AECA7552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B32F885-4110-4E90-A634-22E643DE8D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B32F885-4110-4E90-A634-22E643DE8D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B32F885-4110-4E90-A634-22E643DE8D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B32F885-4110-4E90-A634-22E643DE8D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC645FE-4656-44F0-828C-0138F2427774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC645FE-4656-44F0-828C-0138F2427774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC645FE-4656-44F0-828C-0138F2427774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC645FE-4656-44F0-828C-0138F2427774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

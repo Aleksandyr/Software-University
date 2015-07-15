@@ -1,0 +1,10 @@
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\02.EmployeesWithProjectAfter2002.exe.config
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\02.EmployeesWithProjectAfter2002.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\02.EmployeesWithProjectAfter2002.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\EntityFramework.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\EntityFramework.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\obj\Debug\03.EmployeesWithProjectAfter2002.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\obj\Debug\02.EmployeesWithProjectAfter2002.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\02.EmployeesWithProjectAfter2002\obj\Debug\02.EmployeesWithProjectAfter2002.pdb

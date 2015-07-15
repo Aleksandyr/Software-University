@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #container{
+            width: 500px;
+            margin: 0 auto;
+        }
+        table{
+            width: 450px;
+            height: 500px;
+        }
+        #second-table{
+            width: 115px;
+            height: 75px;
+            margin: 5px;
+        }
+        table, th, td{
+            border: 1px solid black;
+        }
+        th, td{
+            font-size: 1.5em;
+            height: 80px;
+            width: 125px;
+        }
+        .second-td{
+            font-size: 0.9em;
+            height: 50px;
+            width: 50px;
+        }
+        table tbody tr:first-child td:first-child{
+            vertical-align: top;
+            text-align: left;
+        }
+        table tbody tr:first-child td:last-child{
+            vertical-align: top;
+            text-align: right;
+        }
+        table tbody tr:nth-child(2) td:first-child{
+            vertical-align: top;
+            text-align: center;
+        }
+        table tbody tr:nth-child(2) td:nth-child(3){
+            vertical-align: bottom;
+            text-align: center;
+        }
+        table tbody tr:nth-child(3) td:first-child{
+            vertical-align: bottom;
+            text-align: right;
+        }
+        table tbody tr:nth-child(3) td:nth-child(2){
+            vertical-align: bottom;
+            text-align: left;
+        }
+        #second-table td{
+            font-size: 0.7em;
+            vertical-align: middle;
+            text-align: center;
+        }
+        table tfoot tr:first-child td:first-child{
+            font-size: 2em;
+            font-weight: bold;
+            vertical-align: middle;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+            <tr>
+                <th colspan="4">
+                    <h1>
+                        SoftUni LIFE
+                    </h1>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td colspan="2">
+                    Google
+                </td>
+                <td colspan="2">
+                    GitHub
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    FB
+                </td>
+                <td>
+                    GMail
+                </td>
+                <td>
+                    YouTube
+                </td>
+                <td>
+                    2048
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    Food
+                </td>
+                <td colspan="2"; rowspan="2">
+                    Game
+                </td>
+                <td>
+                    <table id="second-table">
+                        <tr>
+                            <td class="second-td">
+                                Social Life
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="second-td">
+                                Sleep
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    Beer >
+                </td>
+                <td>
+                    WC
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

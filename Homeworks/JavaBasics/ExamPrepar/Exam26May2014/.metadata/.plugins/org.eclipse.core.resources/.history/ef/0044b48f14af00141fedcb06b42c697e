@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class P01_VideoDurations {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int sumHours = 0;
+		int sumMin = 0;
+		while (true) {
+			String input = in.nextLine();
+			if (input.equals("End")) {
+				break;
+			}
+			String[] videoDur = input.split("[^0-9]+");
+			int hour = Integer.parseInt(videoDur[0]);
+			int minutes = Integer.parseInt(videoDur[1]);
+			
+			sumHours += hour;
+			sumMin += minutes;
+			if (sumMin >= 60) {
+				sumHours++;
+				sumMin -= 60;
+			}
+		}
+		System.out.println(sumHours + ":" + sumMin);
+	}
+
+}

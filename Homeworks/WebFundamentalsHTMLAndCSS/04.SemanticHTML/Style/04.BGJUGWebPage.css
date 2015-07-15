@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1;
+}
+
+#wrapper{
+    width: 85%;
+    margin: 0.5em auto;
+    padding: 1em;
+}
+
+#wrapper a:hover{
+    text-decoration: underline;
+}
+
+header h1{
+    vertical-align: top;
+    padding-left: 0.5em;
+}
+
+header nav ul{
+    padding-top: 5em;
+}
+
+header nav ul li{
+    display: inline;
+    float: left;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: gray;
+    padding-right: 4em;
+}
+
+header form input{
+    width: 14em;
+    height: 1.7em;
+    vertical-align: middle;
+    margin-left: 36em;
+    background-color: #F2FBEF;
+    border: 1px solid lightgray;
+    padding-left: 0.7em;
+}
+
+header form button{
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: middle;
+    border: 0.1px solid lightgray;
+    background-color: #F2FBEF;
+    margin-left:  -2.1em;
+    background-image: url("../Images/10997262_1599126230318218_156848044_n.jpg");
+}
+
+hr{
+    margin-top: 0.5em;
+    width: 66.8em;
+}
+
+#left-aside{
+    width: 15%;
+    float: left;
+    padding-right: 1em;
+}
+
+#left-aside hr{
+    width: 12em;
+    margin-top: 4.5em;
+}
+
+#left-aside ul{
+    list-style-type: none;
+}
+
+#left-aside ul li{
+    padding-top: 0.5em;
+}
+
+#left-aside ul li a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section{
+    width: 55%;
+    float: left;
+    padding-right: 1em;
+}
+
+article{
+    margin-top: 2em;
+    margin-left: 4em;
+    padding: 0 1em;
+}
+
+section article header{
+    margin-bottom: 1.3em;
+}
+
+section article header h2{
+    font-size: 2em;
+}
+
+section article header span{
+    color: darkgray;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+
+}
+
+section article span a{
+    text-transform: uppercase;
+    color: #857B85;
+}
+
+section span time{
+    text-transform: uppercase;
+    color: #857B85;
+}
+
+section div p{
+    color: #151515;
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+section article p{
+    margin: 1em auto;
+}
+
+section article a{
+    color:blue;
+}
+
+#right-side{
+    margin-top: 2.5em;
+}
+
+#right-side label{
+    color: #B8B8B8;
+    text-transform: uppercase;
+}
+
+#right-side select{
+    margin: 0.5em 0 2em 0.3em;
+    width: 7em;
+    height: 1.7em;
+    background-color: white;
+}
+
+#right-side p{
+    color: #B8B8B8;
+    text-transform: uppercase;
+}
+
+#right-side hr{
+    width: 11.5em;
+}
+
+#twitter {
+    width: 100%;
+    float: left;
+    margin: 0.5em auto;
+    padding: 1.0em;
+    line-height: 2.8em;
+}
+
+#twitter p {
+    margin-left: 15.0em;
+}
+
+#twitter p a {
+    color: blue;
+    font-size: 1.1em;
+}
+
+#twitter dfn {
+    color: #B8B8B8;
+    font-size: 1.1em;
+    font-style: italic;
+    padding-left: 1.0em;
+}
+
+#twitter dfn:before {
+    /*content: url();*/
+}
+
+footer {
+    width: 100%;
+    float: left;
+    background: black;
+    padding: 1.5em;
+}
+
+footer div {
+    display: inline;
+    width: 17%;
+    float: left;
+    color: #857B85;
+    margin: 0 0.9em;
+    line-height: 1.2em;
+}
+
+footer div h3 {
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: 0.06em;
+}
+
+footer div h4, footer nav ul li:nth-child(1){
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+}
+
+footer div nav ul li {
+    margin: 0.5em;
+}
+
+footer div nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+
+footer div span {
+    color: white;
+}

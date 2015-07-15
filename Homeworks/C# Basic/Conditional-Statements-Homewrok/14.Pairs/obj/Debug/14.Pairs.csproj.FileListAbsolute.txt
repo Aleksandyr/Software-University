@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\14.Pairs\bin\Debug\14.Pairs.exe.config
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\14.Pairs\bin\Debug\14.Pairs.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\14.Pairs\bin\Debug\14.Pairs.pdb
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\14.Pairs\obj\Debug\14.Pairs.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\14.Pairs\obj\Debug\14.Pairs.pdb

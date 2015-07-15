@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\09.ChoiceOfStringDoubleOrInt\bin\Debug\09.ChoiceOfStringDoubleOrInt.exe.config
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\09.ChoiceOfStringDoubleOrInt\bin\Debug\09.ChoiceOfStringDoubleOrInt.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\09.ChoiceOfStringDoubleOrInt\bin\Debug\09.ChoiceOfStringDoubleOrInt.pdb
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\09.ChoiceOfStringDoubleOrInt\obj\Debug\09.ChoiceOfStringDoubleOrInt.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\09.ChoiceOfStringDoubleOrInt\obj\Debug\09.ChoiceOfStringDoubleOrInt.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\09.ChoiceOfStringDoubleOrInt\obj\Debug\09.ChoiceOfStringDoubleOrInt.pdb

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class P08_CountOfEqualBitPairs {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int number = in.nextInt();
+		
+		int counter = 0;
+		while(number > 0){
+			int bit = number & 11;
+			System.out.println("Bit: " + bit);
+			if (bit == 11) {
+				counter++;
+			}
+			number >>= 1;
+		}
+		
+		System.out.println(counter);
+	}
+}

@@ -1,0 +1,9 @@
+E:\SoftUni\26-August-2014\StarDraw\bin\Debug\StarDraw.exe.config
+E:\SoftUni\26-August-2014\StarDraw\bin\Debug\StarDraw.exe
+E:\SoftUni\26-August-2014\StarDraw\bin\Debug\StarDraw.pdb
+E:\SoftUni\26-August-2014\StarDraw\obj\Debug\StarDraw.csprojResolveAssemblyReference.cache
+E:\SoftUni\26-August-2014\StarDraw\obj\Debug\StarDraw.exe
+E:\SoftUni\26-August-2014\StarDraw\obj\Debug\StarDraw.pdb
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\StarDraw\bin\Debug\StarDraw.exe.config
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\StarDraw\obj\Debug\StarDraw.exe
+E:\SoftUni\Train Exams\C# Basic\26-August-2014\StarDraw\obj\Debug\StarDraw.pdb

@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\03.VariableInHexadecimalFormat\bin\Debug\03.VariableInHexadecimalFormat.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\03.VariableInHexadecimalFormat\bin\Debug\03.VariableInHexadecimalFormat.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\03.VariableInHexadecimalFormat\bin\Debug\03.VariableInHexadecimalFormat.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\03.VariableInHexadecimalFormat\obj\Debug\03.VariableInHexadecimalFormat.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\03.VariableInHexadecimalFormat\obj\Debug\03.VariableInHexadecimalFormat.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\03.VariableInHexadecimalFormat\obj\Debug\03.VariableInHexadecimalFormat.pdb

@@ -1,0 +1,5 @@
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\05.BitPtahs\bin\Debug\05.BitPtahs.exe.config
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\05.BitPtahs\bin\Debug\05.BitPtahs.exe
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\05.BitPtahs\bin\Debug\05.BitPtahs.pdb
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\05.BitPtahs\obj\Debug\05.BitPtahs.exe
+E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\05.BitPtahs\obj\Debug\05.BitPtahs.pdb

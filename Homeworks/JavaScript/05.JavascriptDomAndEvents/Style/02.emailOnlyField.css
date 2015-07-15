@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+}
+
+#is-email-correct{
+    width: 173px;
+    height: 20px;
+}
+
+form input[type="button"]{
+    margin-top: 4px;
+}

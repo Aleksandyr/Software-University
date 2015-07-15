@@ -1,0 +1,12 @@
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\bin\Debug\01.HumanStudentAndWorker.exe.config
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\bin\Debug\01.HumanStudentAndWorker.exe
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\bin\Debug\01.HumanStudentAndWorker.pdb
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\obj\Debug\01.HumanStudentAndWorker.csprojResolveAssemblyReference.cache
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\obj\Debug\01.HumanStudentAndWorker.exe
+E:\SoftUni\Exercises\Level2\OOP\04.Inheritance-2\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\obj\Debug\01.HumanStudentAndWorker.pdb
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\bin\Debug\01.HumanStudentAndWorker.exe.config
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\obj\Debug\01.HumanStudentAndWorker.exe
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\obj\Debug\01.HumanStudentAndWorker.pdb
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\bin\Debug\01.HumanStudentAndWorker.exe
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\bin\Debug\01.HumanStudentAndWorker.pdb
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\01.HumanStudentAndWorker\obj\Debug\01.HumanStudentAndWorker.csprojResolveAssemblyReference.cache

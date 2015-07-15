@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.exe.config
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\03.CompanyHierarchy\obj\Debug\03.CompanyHierarchy.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.exe
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.pdb
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\03.CompanyHierarchy\obj\Debug\03.CompanyHierarchy.exe
+E:\SoftUni\Homework\Leve 2\OOP\03.InheritanceAndAbstraction\03.CompanyHierarchy\obj\Debug\03.CompanyHierarchy.pdb

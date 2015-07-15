@@ -1,0 +1,31 @@
+Relations In RDBMS
+In a relational database, relationships enable you to prevent redundant data. A relationship works by matching data in key columns — usually columns with the same name in both tables.
+
+There are three types of relationships between tables. The type of relationship that is created depends on how the related columns are defined.
+
+One to Many Relationships
+Many to Many Relationships
+One to One Relationships
+
+1.One-to-Many Relationships
+
+A one-to-many relationship is the most common type of relationship. In this type of relationship, a row in table A can have many matching rows in table B, but a row in table B can have only one matching row in table A. For example, the publishers and titles tables have a one-to-many relationship: each publisher produces many titles, but each title comes from only one publisher.
+
+A one-to-many relationship is created if only one of the related columns is a primary key or has a unique constraint.
+
+The primary key side of a one-to-many relationship is denoted by a key  symbol. The foreign key side of a relationship is denoted by an infinity  symbol.
+
+2. Many-to-Many Relationships
+
+In a many-to-many relationship, a row in table A can have many matching rows in table B, and vice versa. You create such a relationship by defining a third table, called a junction table, whose primary key consists of the foreign keys from both table A and table B. For example, the authors table and the titles table have a many-to-many relationship that is defined by a one-to-many relationship from each of these tables to the title authors table. The primary key of the title authors table is the combination of the au_id column (the authors table’s primary key) and the title_id column (the titles table’s primary key).
+
+3.One-to-One Relationships
+
+In a one-to-one relationship, a row in table A can have no more than one matching row in table B, and vice versa. A one-to-one relationship is created if both of the related columns are primary keys or have unique constraints.
+
+This type of relationship is not common because most information related in this way would be all in one table. You might use a one-to-one relationship to:
+
+Divide a table with many columns.
+Isolate part of a table for security reasons.
+Store data that is short-lived and could be easily deleted by simply deleting the table.
+Store information that applies only to a subset of the main table.

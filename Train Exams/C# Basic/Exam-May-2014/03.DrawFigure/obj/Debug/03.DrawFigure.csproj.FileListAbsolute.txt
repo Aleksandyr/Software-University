@@ -1,0 +1,9 @@
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\03.DrawFigure\bin\Debug\03.DrawFigure.exe.config
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\03.DrawFigure\bin\Debug\03.DrawFigure.exe
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\03.DrawFigure\bin\Debug\03.DrawFigure.pdb
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\03.DrawFigure\obj\Debug\03.DrawFigure.exe
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\03.DrawFigure\obj\Debug\03.DrawFigure.pdb
+E:\SoftUni\C# Exams May 2014\Exam-May-2014\03.DrawFigure\obj\Debug\03.DrawFigure.csprojResolveAssemblyReference.cache
+E:\SoftUni\Train Exams\Exam-May-2014\03.DrawFigure\bin\Debug\03.DrawFigure.exe.config
+E:\SoftUni\Train Exams\Exam-May-2014\03.DrawFigure\obj\Debug\03.DrawFigure.exe
+E:\SoftUni\Train Exams\Exam-May-2014\03.DrawFigure\obj\Debug\03.DrawFigure.pdb

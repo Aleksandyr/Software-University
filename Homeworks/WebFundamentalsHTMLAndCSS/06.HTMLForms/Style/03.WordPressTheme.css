@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+}
+
+#wrapper{
+    border: 1px solid gray;
+    width: 360px;
+    height: 160px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+img{
+    width: 310px;
+    height: 70px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+form input[type="file"]{
+    width: 180px;
+}
+
+form input[type="search"]{
+    width: 140px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+form input[type="image"]{
+    width: 35px;
+    height: 35px;
+    vertical-align: bottom;
+}

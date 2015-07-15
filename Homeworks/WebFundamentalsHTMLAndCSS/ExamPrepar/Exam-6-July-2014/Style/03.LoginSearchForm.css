@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    background-image: url("../Images/blurred-green-background.jpg");
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 30%;
+    margin: 5% 15%;
+    /*border-radius: 5px;*/
+}
+
+form header{
+    text-align: center;
+    color: white;
+    background-color: yellowgreen;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+form section{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5%;
+}
+
+form section span{
+    /*width: 30%;*/
+    background-color: aliceblue;
+    padding: 1.7% 5%;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid gray;
+    border-right: none;
+}
+
+form section input{
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+    padding-left: 1%;
+    right: 0;
+    float: left;
+}
+
+

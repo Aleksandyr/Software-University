@@ -1,0 +1,6 @@
+E:\InfoStart\Homeworks\JS\Loops-Homework\07.CalculateTheExpression\bin\Debug\07.CalculateTheExpression.exe.config
+E:\InfoStart\Homeworks\JS\Loops-Homework\07.CalculateTheExpression\bin\Debug\07.CalculateTheExpression.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\07.CalculateTheExpression\bin\Debug\07.CalculateTheExpression.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\07.CalculateTheExpression\obj\Debug\07.CalculateTheExpression.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\07.CalculateTheExpression\obj\Debug\07.CalculateTheExpression.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\07.CalculateTheExpression\obj\Debug\07.CalculateTheExpression.csprojResolveAssemblyReference.cache

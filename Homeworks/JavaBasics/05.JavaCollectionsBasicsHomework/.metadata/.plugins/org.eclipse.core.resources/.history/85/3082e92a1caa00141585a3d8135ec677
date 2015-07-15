@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class P02_SequencesOfEqualStrings {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String input = in.nextLine();
+		String[] seqOfStr = input.split("\\s+");
+		
+		int counter = 0;
+		for (int i = 0; i < seqOfStr.length; i++) {
+			String currString = seqOfStr[i];
+			for (int j = 0; j < seqOfStr.length; j++) {
+				if (currString.equals(seqOfStr[j + 1])) {
+					System.out.print(seqOfStr[j] + " ");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\05.BooleanVariable\bin\Debug\05.BooleanVariable.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\05.BooleanVariable\bin\Debug\05.BooleanVariable.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\05.BooleanVariable\bin\Debug\05.BooleanVariable.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\05.BooleanVariable\obj\Debug\05.BooleanVariable.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\05.BooleanVariable\obj\Debug\05.BooleanVariable.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\05.BooleanVariable\obj\Debug\05.BooleanVariable.pdb

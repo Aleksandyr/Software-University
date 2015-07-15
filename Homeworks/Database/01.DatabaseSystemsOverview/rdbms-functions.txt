@@ -1,0 +1,9 @@
+RDBMS - Relational Database Managment System main functions
+
+- Provides data to be stored in tables
+- Persists data in the form of rows and columns
+- Provides facility primary key, to uniquely identify the rows
+- Creates indexes for quicker data retrieval
+- Provides a virtual table creation in which sensitive data can be stored and simplified query can be applied.(views)
+- Sharing a common column in two or more tables(primary key and foreign key)
+- Provides multi user accessibility that can be controlled by individual users

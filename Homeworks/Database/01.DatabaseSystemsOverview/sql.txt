@@ -1,0 +1,35 @@
+1. What is SQL
+
+Structured Query Language (SQL) is a standard computer language for relational database management and data manipulation. SQL is used to query, insert, update and modify data. Most relational databases support SQL, which is an added benefit for database administrators (DBAs), as they are often required to support databases across several different platforms.
+
+2. What type of language is SQL
+
+Yes, SQL is a language
+As the SQL acronym pronounces, it is a language. It offers looping, logic directives, variables, and so on. Now, it’s not a language in the same sense as, say, Java or C++: SQL is considered a fourth-generation language (4GL), whereas Java and C++ are third-generation languages (3GLs).
+
+Fourth-generation languages are programming languages that are closer to human language than high-level languages like Java. These 4GLs are often used to access databases, such as SQL, where humanlike syntax is used to retrieve and manipulate data.
+
+SQL may not be a language on par with Java or C#, but it is a language. This is often a moot argument with Visual Basic or C developers. They refute the claim by stating that SQL is not compiled and offers little functionality compared to a 3GL.
+
+SELECT * FROM table_name1 (this shoul show to the user all the data in this table)
+
+The power of SQL
+The best way to prove a point is by offering a concrete example. The following sample SQL illustrates the power and depth of SQL:
+IF EXISTS (SELECT * FROM table_name1)
+BEGIN
+UPDATE table_name2 SET field_name = ‘value’
+FROM table_name2 alias2 INNER JOIN table_name1 alias1
+ON alias2.field_name = alias1.field_name AND alias2.fieldname = alias1.fieldname
+END
+ELSE
+BEGIN
+UPDATE table_name2 SET field_name = ‘value’
+FROM table_name2 alias3 INNER JOIN table_name1 alias4
+ON alias3.fieldname = alias4.fieldname AND alias3.fieldname = alias4.fieldname
+END
+ELSE
+PRINT ‘Error’
+
+This example was constructed on SQL Server. It demonstrates a few points: control flow (IF/ELSE), control block (BEGIN/END), and Boolean operators (AND)—all elements of a programming language.
+
+In addition, it’s easy to incorporate variables. You can reuse code in stored procedures and automate or schedule procedures using triggers. Many of these elements depend on the database platform (SQL Server, Oracle, Sybase, Informix, DB/2, etc.), but the core SQL99 standard is often supported.

@@ -1,0 +1,6 @@
+E:\InfoStart\Homeworks\JS\Loops-Homework\18.TrailingZeroesInN!\bin\Debug\18.TrailingZeroesInN!.exe.config
+E:\InfoStart\Homeworks\JS\Loops-Homework\18.TrailingZeroesInN!\bin\Debug\18.TrailingZeroesInN!.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\18.TrailingZeroesInN!\bin\Debug\18.TrailingZeroesInN!.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\18.TrailingZeroesInN!\obj\Debug\18.TrailingZeroesInN!.csprojResolveAssemblyReference.cache
+E:\InfoStart\Homeworks\JS\Loops-Homework\18.TrailingZeroesInN!\obj\Debug\18.TrailingZeroesInN!.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\18.TrailingZeroesInN!\obj\Debug\18.TrailingZeroesInN!.pdb

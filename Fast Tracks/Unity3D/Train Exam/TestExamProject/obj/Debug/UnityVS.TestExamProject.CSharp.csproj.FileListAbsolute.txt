@@ -1,0 +1,11 @@
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\UnityEditor.dll
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\UnityEngine.dll
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\UnityEngine.xml
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\UnityEditor.xml
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\obj\Debug\UnityVS.TestExamProject.CSharp.csprojResolveAssemblyReference.cache
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\obj\Debug\Assembly-CSharp.dll
+E:\SoftUni\Fast Tracks\Unity3D\Train Exam\TestExamProject\obj\Debug\Assembly-CSharp.pdb

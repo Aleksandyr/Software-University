@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="P01_StuckNumbers"/>
+<fullyQualifiedTypeName name="javax.security.sasl.SaslException"/>
+<fullyQualifiedTypeName name="P02_SumCards"/>
+<fullyQualifiedTypeName name="javax.tools.Diagnostic"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.InlineView"/>
+<fullyQualifiedTypeName name="P04_LogsAggregator"/>
+</qualifiedTypeNameHistroy>

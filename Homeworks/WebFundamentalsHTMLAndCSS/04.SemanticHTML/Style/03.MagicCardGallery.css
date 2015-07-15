@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 5px auto;
+    background-color: black;
+    width: 35em;
+    height: 15.5em;
+    border-radius: 0.7em;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    padding: 0.3em;
+}
+
+main>article{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+iframe{
+    width: 12.5em;
+    height: 9.3em;
+    margin: 0.5em 0 0 0.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.7em;
+    padding-left: 0.3em;
+}

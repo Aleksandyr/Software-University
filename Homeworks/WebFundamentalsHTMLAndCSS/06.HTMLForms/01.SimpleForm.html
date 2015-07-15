@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Style/01.SimpleForm.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                Enter the system
+            </h1>
+            <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        </header>
+        <section>
+            <div id="register">
+                <p id="first-paragraph">
+                    <span id="new">are you new?</span>
+                    <span id="reg">register</span>
+                </p>
+                <form>
+                    <input type="text" placeholder="User name" name="userName" required="true"
+                           pattern="[^a-zA-Z]+" />
+                    <input type="email" placeholder="Email" name" name="email" required="true" />
+                    <input type="password" placeholder="Password" name="password" required="true" />
+                    <input type="password" placeholder="Confirm password" name="confirmPassword" required="true" />
+                    <input type="submit" value="Register" />
+                </form>
+            </div>
+            <div id="login">
+                <p id="second-paragraph">
+                    <span>already a student? login</span>
+                </p>
+                <form id="second-form">
+                    <input type="text" placeholder="User name" name="userName" required="true"
+                           pattern="[^a-zA-Z]+" />
+                    <input type="password" placeholder="Password" name="password" required="true" />
+                    <input type="checkbox" name="remember" id="remember" />
+                    <label for="remember">Remember me?</label>
+                    <input type="submit" value="Login" />
+                </form>
+                <a href="#">Forgot password</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

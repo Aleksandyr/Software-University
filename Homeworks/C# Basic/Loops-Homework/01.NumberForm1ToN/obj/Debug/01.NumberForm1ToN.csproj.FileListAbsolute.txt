@@ -1,0 +1,9 @@
+E:\InfoStart\Homeworks\JS\Loops-Homework\01.NumberForm1ToN\bin\Debug\01.NumberForm1ToN.exe.config
+E:\InfoStart\Homeworks\JS\Loops-Homework\01.NumberForm1ToN\bin\Debug\01.NumberForm1ToN.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\01.NumberForm1ToN\bin\Debug\01.NumberForm1ToN.pdb
+E:\InfoStart\Homeworks\JS\Loops-Homework\01.NumberForm1ToN\obj\Debug\01.NumberForm1ToN.csprojResolveAssemblyReference.cache
+E:\InfoStart\Homeworks\JS\Loops-Homework\01.NumberForm1ToN\obj\Debug\01.NumberForm1ToN.exe
+E:\InfoStart\Homeworks\JS\Loops-Homework\01.NumberForm1ToN\obj\Debug\01.NumberForm1ToN.pdb
+E:\SoftUni\Homework\C# Basic\Loops-Homework\01.NumberForm1ToN\bin\Debug\01.NumberForm1ToN.exe.config
+E:\SoftUni\Homework\C# Basic\Loops-Homework\01.NumberForm1ToN\obj\Debug\01.NumberForm1ToN.exe
+E:\SoftUni\Homework\C# Basic\Loops-Homework\01.NumberForm1ToN\obj\Debug\01.NumberForm1ToN.pdb

@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe.config
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.pdb
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.exe
+E:\SoftUni\Homework\C# Basic\Primitive-Data-Types-And-Variables-Homework\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.pdb

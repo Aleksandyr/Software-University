@@ -1,0 +1,5 @@
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\15.House\bin\Debug\15.House.exe.config
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\15.House\bin\Debug\15.House.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\15.House\bin\Debug\15.House.pdb
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\15.House\obj\Debug\15.House.exe
+E:\SoftUni\Homework\C# Basic\Conditional-Statements-Homewrok\15.House\obj\Debug\15.House.pdb

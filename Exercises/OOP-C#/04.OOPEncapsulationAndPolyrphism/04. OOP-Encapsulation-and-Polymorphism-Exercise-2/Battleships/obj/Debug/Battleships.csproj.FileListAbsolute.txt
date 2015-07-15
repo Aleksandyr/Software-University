@@ -1,0 +1,6 @@
+E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-2\Battleships\bin\Debug\Battleships.exe.config
+E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-2\Battleships\obj\Debug\Battleships.csprojResolveAssemblyReference.cache
+E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-2\Battleships\bin\Debug\Battleships.exe
+E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-2\Battleships\bin\Debug\Battleships.pdb
+E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-2\Battleships\obj\Debug\Battleships.exe
+E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-2\Battleships\obj\Debug\Battleships.pdb

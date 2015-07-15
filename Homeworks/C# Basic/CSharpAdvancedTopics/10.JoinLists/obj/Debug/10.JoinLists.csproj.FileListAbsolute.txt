@@ -1,0 +1,5 @@
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\10.JoinLists\bin\Debug\10.JoinLists.exe.config
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\10.JoinLists\bin\Debug\10.JoinLists.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\10.JoinLists\bin\Debug\10.JoinLists.pdb
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\10.JoinLists\obj\Debug\10.JoinLists.exe
+E:\InfoStart\Homeworks\JS\CSharpAdvancedTopics\10.JoinLists\obj\Debug\10.JoinLists.pdb

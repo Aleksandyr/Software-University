@@ -1,0 +1,6 @@
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.exe.config
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.exe
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.pdb
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.exe
+E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.pdb

@@ -1,0 +1,4 @@
+(cd) and (cd ..) For directories.
+For Compile and Run:
+javac P6_SumTwoNumbers.java
+java P6_SumTwoNumbers
