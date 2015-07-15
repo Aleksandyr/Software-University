@@ -1,0 +1,9 @@
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\09.CallAStoredFunction.exe.config
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\09.CallAStoredFunction.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\09.CallAStoredFunction.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\EntityFramework.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\EntityFramework.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\obj\Debug\09.CallAStoredFunction.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\09.CallAStoredFunction\obj\Debug\09.CallAStoredFunction.pdb

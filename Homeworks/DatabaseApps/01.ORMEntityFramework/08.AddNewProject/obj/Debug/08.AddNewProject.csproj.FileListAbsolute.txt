@@ -1,0 +1,9 @@
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\08.AddNewProject.exe.config
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\08.AddNewProject.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\08.AddNewProject.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\EntityFramework.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\EntityFramework.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\obj\Debug\08.AddNewProject.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\08.AddNewProject\obj\Debug\08.AddNewProject.pdb

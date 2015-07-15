@@ -1,0 +1,10 @@
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\05.EmployessByDepartmentAndManager.exe.config
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\05.EmployessByDepartmentAndManager.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\05.EmployessByDepartmentAndManager.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\EntityFramework.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\EntityFramework.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\obj\Debug\05.EmployessByDepartmentAndManager.csprojResolveAssemblyReference.cache
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\obj\Debug\05.EmployessByDepartmentAndManager.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\05.EmployessByDepartmentAndManager\obj\Debug\05.EmployessByDepartmentAndManager.pdb

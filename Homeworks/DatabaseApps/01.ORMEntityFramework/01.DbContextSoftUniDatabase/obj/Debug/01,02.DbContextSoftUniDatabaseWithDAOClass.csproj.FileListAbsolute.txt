@@ -1,3 +1,9 @@
 E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\01.DbContextSoftUniDatabase.exe.config
 E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\obj\Debug\01.DbContextSoftUniDatabase.exe
 E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\obj\Debug\01.DbContextSoftUniDatabase.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\01.DbContextSoftUniDatabase.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\01.DbContextSoftUniDatabase.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\EntityFramework.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\EntityFramework.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DbContextSoftUniDatabase\bin\Debug\EntityFramework.SqlServer.xml

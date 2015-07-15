@@ -11,7 +11,7 @@ namespace _01.DbContextSoftUniDatabase
         static void Main(string[] args)
         {
             //EmployeeDAOClass.InsertEmployee("Misho", "Toshev", "Programmer", "Engineering", DateTime.Now, 3000);
-            //EmployeeDAOClass.UpdateEmployee(1, "Pesho");
+            EmployeeDAOClass.UpdateFirstNameOfEmployee(1, "Pesho");
             //EmployeeDAOClass.DeleteEmployeeFromId(3);
 
         }

@@ -1,0 +1,9 @@
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\06.TwoDifferentDataChanges.exe.config
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\06.TwoDifferentDataChanges.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\06.TwoDifferentDataChanges.pdb
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\EntityFramework.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\EntityFramework.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\obj\Debug\06.TwoDifferentDataChanges.exe
+E:\SoftUni\Homeworks\DatabaseApps\01.ORMEntityFramework\06.TwoDifferentDataChanges\obj\Debug\06.TwoDifferentDataChanges.pdb
