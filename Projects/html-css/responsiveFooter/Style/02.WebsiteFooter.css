@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+body{
+	font-family: Tahoma, sans-serif;
+	color: white;
+	font-size: 0.9em;
+}
+
+footer{
+	background-color: #234465;
+	width: 100%;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-bottom: 1%;
+}
+
+footer section{
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
+    padding-top: 1.5%;
+}
+
+footer section div{
+    padding-bottom: 10%;
+    width: 130px;
+    text-align: center;
+    padding-top: 7%;
+    border: 1px solid #000000;
+    margin-bottom: 5%;
+}
+
+footer section:first-child div:hover{
+ background-color: orange;
+}
+
+footer section ul li a:hover{
+	color: orange;
+}
+
+footer section #blanks{
+    padding-top: 10%;
+}
+
+footer section:nth-child(4) ul li a:hover{
+	opacity: 0.5;
+}
+
+footer section:last-child{
+    padding-top: 0;
+}
+
+footer section h5{
+	padding-bottom: 5%;
+	color: orange;
+}
+
+footer section ul li{
+	padding-bottom: 3%;
+}
+
+iframe{
+	background-color: #E9EDF0;
+	margin-left: 20%;
+}
+
+@media only screen and (min-width: 780px) and (max-width: 960px){
+    iframe{
+        display: none;
+    }
+
+    footer section{
+        padding-right: 7%;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 780px){
+    footer section:nth-child(3){
+        display: none;
+    }
+
+    footer section{
+        width: 30%;
+    }
+
+    iframe{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    footer section{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer section:first-child h5{
+        margin-top: 2%;
+    }
+
+    footer section:first-child div{
+        display: inline-block;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    footer section #second-botton{
+        margin-left: 10%;
+        margin-bottom: 1%;
+    }
+
+    footer section h5{
+        padding-bottom: 3%;
+        padding-top: 5%;
+    }
+
+    footer section ul li{
+        padding-bottom: 1%;
+    }
+
+    footer section:first-child div a{
+        padding: 2%;
+    }
+
+    iframe{
+        display: none;
+    }
+}

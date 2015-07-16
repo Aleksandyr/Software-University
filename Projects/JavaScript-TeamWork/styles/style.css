@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    margin: 10px 20px;
+}
+
+canvas{
+    border: 1px solid black;
+    background-image: url("../ressources/images/galaxy.jpg");
+}
+
+#SplashScreen{
+    width: 800px;
+    height: 600px;
+    background-image: url("../ressources/images/menuBG.jpg");
+    color: white;
+    text-align: center;
+}
+
+#SplashScreen h1{
+    padding-top: 50px;
+    font-size: 6em;
+}
+
+#SplashScreen input[type = button]{
+    padding: 20px 10px;
+    background-image: url("../ressources/images/startButton.jpg");
+    border: none;
+	width : 204px;
+	height : 204px;
+	margin-top : 200px;
+}

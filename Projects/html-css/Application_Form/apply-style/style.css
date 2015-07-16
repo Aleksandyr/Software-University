@@ -1,0 +1,328 @@
+/* Application Form css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    color: white;
+    font-size: 0.9em;
+}
+
+#wrapper{
+    background-image: url("../apply-images/despicable_me_minions-wide.jpg");
+    background-repeat: no-repeat;
+}
+
+#white-list-sheet{
+    width: 900px;
+    height: 100%;
+    /*background-color: white;*/
+    margin: 50px auto;
+    box-shadow: 20px 20px 10px black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+header{
+    background-color: #234465;
+    width: 100%;
+    height: 100px;
+}
+
+header a img{
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+header div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 850px;
+    margin-top: 22px;
+}
+
+header div p{
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+header ul{
+    display: inline-block;
+}
+
+header div .menu, header div form{
+    display: inline-block;
+    vertical-align: top;
+}
+
+header div .menu{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header div .menu li{
+    width: 65px;
+    height: 25px;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+header .menu li:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+
+header div .menu li a{
+    vertical-align: middle;
+}
+
+header form{
+    width: 230px;
+}
+
+header div form input[type="text"]{
+    width: 220px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    position: absolute;
+}
+
+header div form button{
+    background-color: #fff;
+    border: none;
+    border-left: solid 1px lightgray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 203px;
+    position: relative;
+    margin-top: 5px;
+}
+
+header div form button:hover{
+    background-color: orange;
+}
+
+header div form button img{
+    width: 22px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+header .menu-down{
+    width: 840px;
+    display: inline-block;
+    padding-left: 480px;
+    position: relative;
+}
+
+header .menu-down li{
+    display: inline-block;
+    position: relative;
+    margin-right: 1%;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+header .menu-down li a{
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+header .menu-down li:hover{
+    background-color: orange;
+}
+
+header ul ul{
+    display: none;
+}
+
+header ul ul li{
+    width: 170px;
+}
+
+header .sub-menu li a{
+    font-weight: normal;
+}
+
+header .menu-down li:hover ul{
+    position: absolute;
+    display: block;
+    background-color: #234465;
+    margin-top: 7px;
+    width: 190px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    background-color: #234465;
+    width: 100%;
+    height: 330px;
+}
+
+footer section{
+    padding-left: 20px;
+    padding-top: 80px;
+    width: 170px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer section:first-child{
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-top: 100px;
+}
+
+footer section:first-child a:hover{
+    background-color: orange;
+}
+
+footer section:first-child a{
+    display: inline-block;
+    border: 2px solid orange;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer section ul li a:hover{
+    color: orange;
+}
+
+footer section:nth-child(4){
+    width: 250px;
+    padding-bottom: 15px;
+}
+
+footer section:nth-child(4) ul{
+    padding-bottom: 15px;
+}
+
+footer section:nth-child(4) ul li a:hover{
+    opacity: 0.5;
+}
+
+footer section:last-child{
+    width: 270px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+footer section h5{
+    padding-bottom: 20px;
+    color: orange;
+}
+
+footer section ul li{
+    padding-bottom: 5px;
+}
+
+iframe{
+    background-color: #E9EDF0;
+    margin-left: 30px;
+}
+-------------------------------------------------------------------------------------------
+#bell::before {
+    content: "1001";
+    color: #FEA71E;
+    font-weight: bold;
+    margin-right: 5px;
+    vertical-align: middle;   
+}
+
+#bell>img {
+    margin-bottom: -10px;
+}
+
+#white-list-sheet {
+    color: black;
+    font-family: "Comic Sans MS",Tahoma;
+}
+
+#white-list-sheet h2 {
+    background-color: orange;
+    text-align: center;
+}
+
+#white-list-sheet h1 {
+    background-color: #234465;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.abilities {
+    display: inline-block;
+    margin: 1% 0 1% 8%;
+}
+
+.info-top {
+    display: inline-block;
+    margin: 1% 0 1% 15%;
+}
+
+.info-bottom {
+    display: inline-block;
+    margin: 1% 0 1% 10%;
+}
+
+#necessary-abilities {
+    text-align: left;
+}
+
+#apply-button {
+    margin: 4%;
+    text-align: center;
+}
+
+#apply-button > button {
+    font-size: 1.5em;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: rgba(255, 102, 0, 0.2);
+}
+
+#apply-button > button:hover {
+    background-color: orange;
+}
+
+select,input {
+    border-radius: 5px; 
+}
+
+@media only screen and (max-width: 900px) {
+    #white-list-sheet {
+        width: 100%;
+    }
+}
