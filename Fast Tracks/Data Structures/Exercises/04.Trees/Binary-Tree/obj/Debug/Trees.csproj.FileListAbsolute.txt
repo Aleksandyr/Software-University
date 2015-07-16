@@ -1,0 +1,5 @@
+E:\Software-University\Fast Tracks\Data Structures\Exercises\04.Trees\Binary-Tree\bin\Debug\Trees.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\04.Trees\Binary-Tree\bin\Debug\Trees.pdb
+E:\Software-University\Fast Tracks\Data Structures\Exercises\04.Trees\Binary-Tree\obj\Debug\Trees.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Exercises\04.Trees\Binary-Tree\obj\Debug\Trees.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\04.Trees\Binary-Tree\obj\Debug\Trees.pdb
