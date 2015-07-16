@@ -1,0 +1,7 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\bin\Debug\06.LinkedStackTests.dll
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\bin\Debug\06.LinkedStackTests.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\bin\Debug\05.LinkedStack.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\bin\Debug\05.LinkedStack.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\obj\Debug\06.LinkedStackTests.dll
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\obj\Debug\06.LinkedStackTests.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\06.LinkedStackTests\obj\Debug\06.LinkedStackTests.csprojResolveAssemblyReference.cache

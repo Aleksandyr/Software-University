@@ -87,7 +87,7 @@ public class DoublyLinkedList<T> : IEnumerable<T>
             throw new InvalidOperationException("List is empty!");
         }
 
-        var lastElement = this.tail.Value;
+        var firstElement = this.tail.Value;
         this.tail = this.tail.PrevNode;
 
         if (this.tail != null)
@@ -100,7 +100,7 @@ public class DoublyLinkedList<T> : IEnumerable<T>
         }
 
         this.Count--;
-        return lastElement;
+        return firstElement;
     }
 
     public void ForEach(Action<T> action)

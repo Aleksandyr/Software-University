@@ -1,0 +1,5 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\07.LinkedQueue\bin\Debug\07.LinkedQueue.exe.config
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\07.LinkedQueue\bin\Debug\07.LinkedQueue.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\07.LinkedQueue\bin\Debug\07.LinkedQueue.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\07.LinkedQueue\obj\Debug\07.LinkedQueue.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\07.LinkedQueue\obj\Debug\07.LinkedQueue.pdb

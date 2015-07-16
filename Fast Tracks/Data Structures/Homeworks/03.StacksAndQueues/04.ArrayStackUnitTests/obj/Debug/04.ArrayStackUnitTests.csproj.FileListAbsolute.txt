@@ -1,0 +1,7 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\bin\Debug\04.ArrayStackUnitTests.dll
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\bin\Debug\04.ArrayStackUnitTests.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\bin\Debug\03.ArrayStack.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\bin\Debug\03.ArrayStack.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\obj\Debug\04.ArrayStackUnitTests.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\obj\Debug\04.ArrayStackUnitTests.dll
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\04.ArrayStackUnitTests\obj\Debug\04.ArrayStackUnitTests.pdb

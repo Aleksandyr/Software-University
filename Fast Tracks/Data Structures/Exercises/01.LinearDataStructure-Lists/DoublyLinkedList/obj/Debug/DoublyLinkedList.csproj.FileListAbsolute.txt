@@ -3,3 +3,5 @@ E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\Do
 E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList\obj\Debug\DoublyLinkedList.csprojResolveAssemblyReference.cache
 E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList\obj\Debug\DoublyLinkedList.exe
 E:\SoftUni\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb
+E:\Software-University\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList\obj\Debug\DoublyLinkedList.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\01.LinearDataStructure-Lists\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb

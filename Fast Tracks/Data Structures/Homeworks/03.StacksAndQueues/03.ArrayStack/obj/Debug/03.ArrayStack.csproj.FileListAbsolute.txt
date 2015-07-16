@@ -1,0 +1,5 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\03.ArrayStack\bin\Debug\03.ArrayStack.exe.config
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\03.ArrayStack\bin\Debug\03.ArrayStack.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\03.ArrayStack\bin\Debug\03.ArrayStack.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\03.ArrayStack\obj\Debug\03.ArrayStack.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\03.ArrayStack\obj\Debug\03.ArrayStack.pdb

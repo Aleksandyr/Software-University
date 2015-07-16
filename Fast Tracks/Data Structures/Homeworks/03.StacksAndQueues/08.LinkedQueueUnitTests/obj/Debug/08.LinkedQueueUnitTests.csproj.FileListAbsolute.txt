@@ -1,0 +1,7 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\bin\Debug\08.LinkedQueueUnitTests.dll
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\bin\Debug\08.LinkedQueueUnitTests.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\bin\Debug\07.LinkedQueue.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\bin\Debug\07.LinkedQueue.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\obj\Debug\08.LinkedQueueUnitTests.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\obj\Debug\08.LinkedQueueUnitTests.dll
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\08.LinkedQueueUnitTests\obj\Debug\08.LinkedQueueUnitTests.pdb

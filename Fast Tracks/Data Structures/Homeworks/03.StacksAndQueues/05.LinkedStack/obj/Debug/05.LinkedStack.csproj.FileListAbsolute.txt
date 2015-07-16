@@ -1,0 +1,5 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\05.LinkedStack\bin\Debug\05.LinkedStack.exe.config
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\05.LinkedStack\bin\Debug\05.LinkedStack.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\05.LinkedStack\bin\Debug\05.LinkedStack.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\05.LinkedStack\obj\Debug\05.LinkedStack.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\05.LinkedStack\obj\Debug\05.LinkedStack.pdb

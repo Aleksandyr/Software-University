@@ -1,0 +1,6 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\02.CalcSequenceWithQueue\bin\Debug\02.CalcSequenceWithQueue.exe.config
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\02.CalcSequenceWithQueue\bin\Debug\02.CalcSequenceWithQueue.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\02.CalcSequenceWithQueue\bin\Debug\02.CalcSequenceWithQueue.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\02.CalcSequenceWithQueue\obj\Debug\02.CalcSequenceWithQueue.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\02.CalcSequenceWithQueue\obj\Debug\02.CalcSequenceWithQueue.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\03.StacksAndQueues\02.CalcSequenceWithQueue\obj\Debug\02.CalcSequenceWithQueue.csprojResolveAssemblyReference.cache
