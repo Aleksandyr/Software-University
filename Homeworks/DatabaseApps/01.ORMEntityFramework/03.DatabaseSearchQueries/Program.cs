@@ -68,7 +68,7 @@ namespace _03.DatabaseSearchQueries
                 db.Departments.Where(d => d.Employees.Count > 5).OrderBy(d => d.Employees.Count).Select(d => new
                 {
                     DepartmentName = d.Name,
-                    MName = d.Employee.Employee1.FirstName + " " + d.Employee.Employee1.LastName,
+                    MName = d.Employee.FirstName + " " + d.Employee.LastName,
                     Employees = d.Employees.Select(e => new
                         {
                             e.FirstName,
