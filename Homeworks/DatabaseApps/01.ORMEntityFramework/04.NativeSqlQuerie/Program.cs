@@ -1,18 +1,29 @@
-﻿using _01.DBContextSoftuni;
-using System;
-using System.Linq;
-
+﻿using System.Diagnostics;
+using System.IO;
 
 namespace _04.NativeSqlQuerie
 {
+    using _01.DBContextSoftuni;
+    using System;
+    using System.Linq;
+
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            FindEmployeesWithProjects(2002);
+            var sw = new Stopwatch();
+            sw.Start();
+            PrintNameWithNativeQuery(2002);
+            Console.WriteLine("Native: " + sw.Elapsed);
+
+            sw.Restart();
+
+            PrintNameWithLinqQuery(2002);
+            Console.WriteLine("Linq: " + sw.Elapsed);
         }
 
-        public static void FindEmployeesWithProjects(int projectStartDateYear)
+        public static void PrintNameWithNativeQuery(int projectStartDateYear)
         {
             var softUniEntities = new SoftUniEntities();
             var query = "SELECT [e].[FirstName]" +
@@ -26,11 +37,13 @@ namespace _04.NativeSqlQuerie
                         "ORDER BY [e].[FirstName]";
 
             var employeeFirstNames = softUniEntities.Database.SqlQuery<string>(String.Format(query, projectStartDateYear)).ToList();
+        }
 
-            foreach (var employeeFirstName in employeeFirstNames)
-            {
-                Console.WriteLine(employeeFirstName);
-            }
+        public static void PrintNameWithLinqQuery(int projectStartDateYear)
+        {
+            var db = new SoftUniEntities();
+
+            var employees = db.Employees.Where(e => e.Projects.Any(p => p.StartDate.Year.ToString() == "2002")).Select(e => e.FirstName);
         }
     }
 }

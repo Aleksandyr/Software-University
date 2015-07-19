@@ -16,7 +16,7 @@ namespace _03.DatabaseSearchQueries
         {
             var db = new SoftUniEntities();
 
-            var employees = db.Employees.Where(e => e.Projects.Any(p => p.StartDate.Year == year));
+            var employees = db.Employees.Where(e => e.Projects.Any(p => p.StartDate.Year.ToString() == year.ToString()));
 
             foreach (var employee in employees)
             {

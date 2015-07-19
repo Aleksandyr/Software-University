@@ -1,0 +1,5 @@
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Model\obj\Debug\BookShopSystem.Model.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Model\bin\Debug\BookShopSystem.Model.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Model\bin\Debug\BookShopSystem.Model.pdb
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Model\obj\Debug\BookShopSystem.Model.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Model\obj\Debug\BookShopSystem.Model.pdb

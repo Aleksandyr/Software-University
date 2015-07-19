@@ -1,0 +1,12 @@
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.dll.config
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.pdb
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Model.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Model.pdb
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.xml
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.dll
+E:\Software-University\Exercises\DatabaseApps\02.CodeFirstModel\BookShopSystem\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.pdb

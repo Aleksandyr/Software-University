@@ -1,0 +1,10 @@
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\01.DBContextSoftuni.exe.config
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\01.DBContextSoftuni.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\01.DBContextSoftuni.pdb
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\EntityFramework.dll
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\EntityFramework.xml
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\obj\Debug\01.DBContextSoftuni.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\obj\Debug\01.DBContextSoftuni.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\01.DBContextSoftuni\obj\Debug\01.DBContextSoftuni.pdb

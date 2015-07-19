@@ -1,0 +1,11 @@
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\03.DatabaseSearchQueries.exe.config
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\03.DatabaseSearchQueries.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\03.DatabaseSearchQueries.pdb
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\01.DBContextSoftuni.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\EntityFramework.dll
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\01.DBContextSoftuni.pdb
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\EntityFramework.xml
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\obj\Debug\03.DatabaseSearchQueries.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\obj\Debug\03.DatabaseSearchQueries.pdb

@@ -1,0 +1,12 @@
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\04.NativeSqlQuerie.exe.config
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\04.NativeSqlQuerie.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\04.NativeSqlQuerie.pdb
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\01.DBContextSoftuni.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\EntityFramework.dll
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\01.DBContextSoftuni.pdb
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\EntityFramework.xml
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\obj\Debug\04.NativeSqlQuerie.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\obj\Debug\04.NativeSqlQuerie.exe
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\04.NativeSqlQuerie\obj\Debug\04.NativeSqlQuerie.pdb
