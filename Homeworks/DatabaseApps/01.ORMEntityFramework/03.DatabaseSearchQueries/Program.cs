@@ -35,7 +35,7 @@ namespace _03.DatabaseSearchQueries
         {
             var db = new SoftUniEntities();
 
-            var addresses = db.Addresses.Where(a => a.Employees.Any()).OrderByDescending(a => a.Employees.Count).ThenBy(a => a.Town.Name).Take(10);
+            var addresses = db.Addresses.OrderByDescending(a => a.Employees.Count).ThenBy(a => a.Town.Name).Take(10);
             foreach (var address in addresses)
             {
                 Console.WriteLine("{0}, {1} - {2} employees", address.AddressText, address.Town.Name, address.Employees.Count);
