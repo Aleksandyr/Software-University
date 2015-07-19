@@ -9,3 +9,4 @@ E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseS
 E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\bin\Debug\EntityFramework.SqlServer.xml
 E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\obj\Debug\03.DatabaseSearchQueries.exe
 E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\obj\Debug\03.DatabaseSearchQueries.pdb
+E:\Software-University\Homeworks\DatabaseApps\01.ORMEntityFramework\03.DatabaseSearchQueries\obj\Debug\03.DatabaseSearchQueries.csprojResolveAssemblyReference.cache
