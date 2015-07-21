@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Ad">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ImageDataURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OwnerId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="TownId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AdStatus" Relationship="Self.FK_Ads_AdStatuses" FromRole="Ads" ToRole="AdStatuses" />
+    <NavigationProperty Name="AspNetUser" Relationship="Self.FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId" FromRole="Ads" ToRole="AspNetUsers" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_dbo_Advertisements_dbo_Categories_CategoryId" FromRole="Ads" ToRole="Categories" />
+    <NavigationProperty Name="Town" Relationship="Self.FK_dbo_Advertisements_dbo_Towns_TownId" FromRole="Ads" ToRole="Towns" />
+  </EntityType>
+  <EntityType Name="AdStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Ads" Relationship="Self.FK_Ads_AdStatuses" FromRole="AdStatuses" ToRole="Ads" />
+  </EntityType>
+  <EntityType Name="AspNetRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.AspNetUserRoles" FromRole="AspNetRoles" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TownId" Type="Int32" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Ads" Relationship="Self.FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId" FromRole="AspNetUsers" ToRole="Ads" />
+    <NavigationProperty Name="Town" Relationship="Self.FK_dbo_AspNetUsers_dbo_Towns_TownId" FromRole="AspNetUsers" ToRole="Towns" />
+    <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Ads" Relationship="Self.FK_dbo_Advertisements_dbo_Categories_CategoryId" FromRole="Categories" ToRole="Ads" />
+  </EntityType>
+  <EntityType Name="Town">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Ads" Relationship="Self.FK_dbo_Advertisements_dbo_Towns_TownId" FromRole="Towns" ToRole="Ads" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUsers_dbo_Towns_TownId" FromRole="Towns" ToRole="AspNetUsers" />
+  </EntityType>
+  <Association Name="FK_Ads_AdStatuses">
+    <End Role="AdStatuses" Type="Self.AdStatus" Multiplicity="1" />
+    <End Role="Ads" Type="Self.Ad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AdStatuses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ads">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId">
+    <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Ads" Type="Self.Ad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ads">
+        <PropertyRef Name="OwnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Advertisements_dbo_Categories_CategoryId">
+    <End Role="Categories" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Ads" Type="Self.Ad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ads">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Advertisements_dbo_Towns_TownId">
+    <End Role="Towns" Type="Self.Town" Multiplicity="0..1" />
+    <End Role="Ads" Type="Self.Ad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Towns">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ads">
+        <PropertyRef Name="TownId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUsers_dbo_Towns_TownId">
+    <End Role="Towns" Type="Self.Town" Multiplicity="0..1" />
+    <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Towns">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUsers">
+        <PropertyRef Name="TownId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Role="AspNetRoles" Type="Self.AspNetRole" Multiplicity="*" />
+    <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="AdsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ads" EntityType="Self.Ad" />
+    <EntitySet Name="AdStatuses" EntityType="Self.AdStatus" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRole" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUser" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Towns" EntityType="Self.Town" />
+    <AssociationSet Name="FK_Ads_AdStatuses" Association="Self.FK_Ads_AdStatuses">
+      <End Role="AdStatuses" EntitySet="AdStatuses" />
+      <End Role="Ads" EntitySet="Ads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId" Association="Self.FK_dbo_Advertisements_dbo_AspNetUsers_OwnerId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Ads" EntitySet="Ads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Advertisements_dbo_Categories_CategoryId" Association="Self.FK_dbo_Advertisements_dbo_Categories_CategoryId">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Ads" EntitySet="Ads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Advertisements_dbo_Towns_TownId" Association="Self.FK_dbo_Advertisements_dbo_Towns_TownId">
+      <End Role="Towns" EntitySet="Towns" />
+      <End Role="Ads" EntitySet="Ads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUsers_dbo_Towns_TownId" Association="Self.FK_dbo_AspNetUsers_dbo_Towns_TownId">
+      <End Role="Towns" EntitySet="Towns" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="Self.AspNetUserRoles">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
