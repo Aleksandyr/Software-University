@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\02.CodeFirst\StudentSystem.Model\bin\Debug\StudentSystem.Model.dll
+E:\Software-University\Homeworks\DatabaseApps\02.CodeFirst\StudentSystem.Model\bin\Debug\StudentSystem.Model.pdb
+E:\Software-University\Homeworks\DatabaseApps\02.CodeFirst\StudentSystem.Model\obj\Debug\StudentSystem.Model.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\02.CodeFirst\StudentSystem.Model\obj\Debug\StudentSystem.Model.dll
+E:\Software-University\Homeworks\DatabaseApps\02.CodeFirst\StudentSystem.Model\obj\Debug\StudentSystem.Model.pdb
