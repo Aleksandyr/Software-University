@@ -1,0 +1,6 @@
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\02.TraverseAndSaveDirectory\bin\Debug\02.TraverseAndSaveDirectory.exe.config
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\02.TraverseAndSaveDirectory\bin\Debug\02.TraverseAndSaveDirectory.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\02.TraverseAndSaveDirectory\bin\Debug\02.TraverseAndSaveDirectory.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\02.TraverseAndSaveDirectory\obj\Debug\02.TraverseAndSaveDirectory.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\02.TraverseAndSaveDirectory\obj\Debug\02.TraverseAndSaveDirectory.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\02.TraverseAndSaveDirectory\obj\Debug\02.TraverseAndSaveDirectory.pdb

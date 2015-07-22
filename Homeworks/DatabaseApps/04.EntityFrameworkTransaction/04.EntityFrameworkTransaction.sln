@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Model", "NewsDB.Model\NewsDB.Model.csproj", "{90139A94-6133-4425-BA06-742358BE1EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Data", "NewsDB.Data\NewsDB.Data.csproj", "{76D9C15B-94A8-4D2D-9039-BD698739509C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.ConsoleClient", "NewsDB.ConsoleClient\NewsDB.ConsoleClient.csproj", "{F81ADA98-0CEB-414B-9F1F-4F5561A72103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90139A94-6133-4425-BA06-742358BE1EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90139A94-6133-4425-BA06-742358BE1EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90139A94-6133-4425-BA06-742358BE1EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90139A94-6133-4425-BA06-742358BE1EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D9C15B-94A8-4D2D-9039-BD698739509C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D9C15B-94A8-4D2D-9039-BD698739509C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D9C15B-94A8-4D2D-9039-BD698739509C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D9C15B-94A8-4D2D-9039-BD698739509C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

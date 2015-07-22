@@ -1,0 +1,12 @@
+E:\Software-University\Homeworks\DatabaseApps\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.exe.config
+E:\Software-University\Homeworks\DatabaseApps\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.exe
+E:\Software-University\Homeworks\DatabaseApps\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.exe
+E:\Software-University\Homeworks\DatabaseApps\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.exe.config
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.exe
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.pdb
+E:\Software-University\Fast Tracks\Data Structures\Homeworks\04.TreesAndTreeLikeDataStructures\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.csprojResolveAssemblyReference.cache

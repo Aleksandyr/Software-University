@@ -1,0 +1,14 @@
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.ConsoleClient.exe.config
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.ConsoleClient.exe
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.ConsoleClient.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\EntityFramework.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.Data.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.Model.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.Data.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\NewsDB.Model.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\EntityFramework.xml
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\obj\Debug\NewsDB.ConsoleClient.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\obj\Debug\NewsDB.ConsoleClient.exe
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.ConsoleClient\obj\Debug\NewsDB.ConsoleClient.pdb

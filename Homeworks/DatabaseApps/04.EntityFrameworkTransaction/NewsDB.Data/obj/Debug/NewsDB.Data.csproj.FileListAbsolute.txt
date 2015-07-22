@@ -1,0 +1,12 @@
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\NewsDB.Data.dll.config
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\NewsDB.Data.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\NewsDB.Data.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\EntityFramework.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\NewsDB.Model.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\NewsDB.Model.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\EntityFramework.xml
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\obj\Debug\NewsDB.Data.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\obj\Debug\NewsDB.Data.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Data\obj\Debug\NewsDB.Data.pdb

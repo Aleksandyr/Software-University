@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Model\bin\Debug\NewsDB.Model.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Model\bin\Debug\NewsDB.Model.pdb
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Model\obj\Debug\NewsDB.Model.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Model\obj\Debug\NewsDB.Model.dll
+E:\Software-University\Homeworks\DatabaseApps\04.EntityFrameworkTransaction\NewsDB.Model\obj\Debug\NewsDB.Model.pdb
