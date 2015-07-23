@@ -1,0 +1,5 @@
+E:\Software-University\Fast Tracks\Data Structures\Exercises\05.TreeAndGraph\DFS-Graph-Traversal\bin\Debug\Graph-Traversal.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\05.TreeAndGraph\DFS-Graph-Traversal\bin\Debug\Graph-Traversal.pdb
+E:\Software-University\Fast Tracks\Data Structures\Exercises\05.TreeAndGraph\DFS-Graph-Traversal\obj\Debug\DFS-Graph-Traversal.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Exercises\05.TreeAndGraph\DFS-Graph-Traversal\obj\Debug\Graph-Traversal.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\05.TreeAndGraph\DFS-Graph-Traversal\obj\Debug\Graph-Traversal.pdb
