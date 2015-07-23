@@ -1,4 +1,4 @@
-using NewsDB.Data.Migrations;
+//using NewsDB.Data.Migrations;
 using NewsDB.Model;
 
 namespace NewsDB.Data
@@ -12,7 +12,7 @@ namespace NewsDB.Data
         public NewsDBContext()
             : base("name=NewsDBContext")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<NewsDBContext, Configuration>());
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<NewsDBContext, Configuration>());
         }
 
         public IDbSet<New> News { get; set; }

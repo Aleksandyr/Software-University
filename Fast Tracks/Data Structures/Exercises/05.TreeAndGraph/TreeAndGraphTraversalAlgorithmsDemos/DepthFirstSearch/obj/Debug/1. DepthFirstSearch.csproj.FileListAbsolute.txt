@@ -1,0 +1,1 @@
+E:\Software-University\Fast Tracks\Data Structures\Exercises\05.TreeAndGraph\TreeAndGraphTraversalAlgorithmsDemos\DepthFirstSearch\bin\Debug\DepthFirstSearch.exe.config
