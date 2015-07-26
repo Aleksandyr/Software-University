@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Data", "NewsDB.Data\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.ConsoleClient", "NewsDB.ConsoleClient\NewsDB.ConsoleClient.csproj", "{F81ADA98-0CEB-414B-9F1F-4F5561A72103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.TransactionalATMWithdraw", "05.TransactionalATMWithdraw\05.TransactionalATMWithdraw.csproj", "{1954D064-39CA-402D-A70A-D68CA9FE105D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ATMTransactionHistory", "06.ATMTransactionHistory\06.ATMTransactionHistory.csproj", "{BF2C3C93-8F1C-4668-9322-3B3889C6C954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ATMDatabase", "04.ATMDatabase\04.ATMDatabase.csproj", "{3F0545AF-C152-45B7-B9F0-0980E962C21A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81ADA98-0CEB-414B-9F1F-4F5561A72103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1954D064-39CA-402D-A70A-D68CA9FE105D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1954D064-39CA-402D-A70A-D68CA9FE105D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1954D064-39CA-402D-A70A-D68CA9FE105D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1954D064-39CA-402D-A70A-D68CA9FE105D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2C3C93-8F1C-4668-9322-3B3889C6C954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2C3C93-8F1C-4668-9322-3B3889C6C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2C3C93-8F1C-4668-9322-3B3889C6C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2C3C93-8F1C-4668-9322-3B3889C6C954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0545AF-C152-45B7-B9F0-0980E962C21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0545AF-C152-45B7-B9F0-0980E962C21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0545AF-C152-45B7-B9F0-0980E962C21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0545AF-C152-45B7-B9F0-0980E962C21A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
