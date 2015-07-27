@@ -1,0 +1,6 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\04.ArtistAndNumberOfAlbums\bin\Debug\04.ArtistAndNumberOfAlbums.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\04.ArtistAndNumberOfAlbums\bin\Debug\04.ArtistAndNumberOfAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\04.ArtistAndNumberOfAlbums\bin\Debug\04.ArtistAndNumberOfAlbums.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\04.ArtistAndNumberOfAlbums\obj\Debug\04.ArtistAndNumberOfAlbums.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\04.ArtistAndNumberOfAlbums\obj\Debug\04.ArtistAndNumberOfAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\04.ArtistAndNumberOfAlbums\obj\Debug\04.ArtistAndNumberOfAlbums.pdb

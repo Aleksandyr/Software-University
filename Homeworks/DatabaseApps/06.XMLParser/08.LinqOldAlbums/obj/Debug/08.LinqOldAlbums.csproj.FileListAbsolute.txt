@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\08.LinqOldAlbums\bin\Debug\08.LinqOldAlbums.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\08.LinqOldAlbums\bin\Debug\08.LinqOldAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\08.LinqOldAlbums\bin\Debug\08.LinqOldAlbums.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\08.LinqOldAlbums\obj\Debug\08.LinqOldAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\08.LinqOldAlbums\obj\Debug\08.LinqOldAlbums.pdb

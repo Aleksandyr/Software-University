@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\07.XPathAllAlbums\bin\Debug\07.XPathAllAlbums.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\07.XPathAllAlbums\bin\Debug\07.XPathAllAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\07.XPathAllAlbums\bin\Debug\07.XPathAllAlbums.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\07.XPathAllAlbums\obj\Debug\07.XPathAllAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\07.XPathAllAlbums\obj\Debug\07.XPathAllAlbums.pdb

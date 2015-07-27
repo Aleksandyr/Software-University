@@ -1,0 +1,6 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\02.ExtractAlbumNames\bin\Debug\02.ExtractAlbumNames.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\02.ExtractAlbumNames\bin\Debug\02.ExtractAlbumNames.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\02.ExtractAlbumNames\bin\Debug\02.ExtractAlbumNames.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\02.ExtractAlbumNames\obj\Debug\02.ExtractAlbumNames.csprojResolveAssemblyReference.cache
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\02.ExtractAlbumNames\obj\Debug\02.ExtractAlbumNames.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\02.ExtractAlbumNames\obj\Debug\02.ExtractAlbumNames.pdb

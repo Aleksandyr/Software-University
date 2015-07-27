@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students xmlns ="urn:Students">
+  <Student>
+    <Name>Pesho</Name>
+    <Gender>5</Gender>
+    <BirthDate>1995-02-07</BirthDate>
+    <PhoneNumber>234523345</PhoneNumber>
+    <Email>Pesho@mail.mail</Email>
+    <University>Software University</University>
+    <Specialty>Software engineer</Specialty>
+    <FacultyNumber>0129423</FacultyNumber>
+    <Exams>
+      <Exam>
+        <Name>C#</Name>
+        <Date>2010-05-07</Date>  
+        <grade>6</grade>
+      </Exam>
+      <Exam>
+        <Name>Java</Name>
+        <Date>2010-06-07</Date>  
+        <grade>5</grade>  
+      </Exam>
+    </Exams>
+   <Name>Ivo</Name>
+    <Gender>4</Gender>
+    <BirthDate>1994-02-07</BirthDate>
+    <Email>Ivo@mail.mail</Email>
+    <University>Software University</University>
+    <Specialty>Software engineer</Specialty>
+    <Exams>
+      <Exam>
+        <Name>C#</Name>
+        <Date>2010-05-07</Date>  
+        <grade>4</grade>
+      </Exam>
+      <Exam>
+        <Name>Java</Name>
+        <Date>2010-06-07</Date>  
+        <grade>2</grade>  
+      </Exam>
+    </Exams>
+   <Name>Mutko</Name>
+    <Gender>6</Gender>
+    <BirthDate>1996-02-07</BirthDate>
+    <Email>Mitko@mail.mail</Email>
+    <University>Software University</University>
+    <Specialty>Software engineer</Specialty>
+    <Exams>
+      <Exam>
+        <Name>C#</Name>
+        <Date>2010-05-07</Date>  
+        <grade>6</grade>
+      </Exam>
+      <Exam>
+        <Name>CJava</Name>
+        <Date>2010-06-07</Date>  
+        <grade>6</grade>  
+      </Exam>
+    </Exams>
+   <Endorsements>
+      <Endorsement>
+        <Author>Some</Author>
+        <AuthorEmail>Some@mail.mail</AuthorEmail>
+        <EndorsementDate>2012-05-11</EndorsementDate>
+        <EndorsementText>whte4hg</EndorsementText>
+      </Endorsement>
+    </Endorsements>
+  </Student>
+</Students>

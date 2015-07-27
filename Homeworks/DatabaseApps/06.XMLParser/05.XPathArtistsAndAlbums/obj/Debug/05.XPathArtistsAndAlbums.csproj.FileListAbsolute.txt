@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\05.XPathArtistsAndAlbums\bin\Debug\05.XPathArtistsAndAlbums.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\05.XPathArtistsAndAlbums\bin\Debug\05.XPathArtistsAndAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\05.XPathArtistsAndAlbums\bin\Debug\05.XPathArtistsAndAlbums.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\05.XPathArtistsAndAlbums\obj\Debug\05.XPathArtistsAndAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\05.XPathArtistsAndAlbums\obj\Debug\05.XPathArtistsAndAlbums.pdb

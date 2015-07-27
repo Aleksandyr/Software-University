@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\06.DeleteAlbums\bin\Debug\06.DeleteAlbums.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\06.DeleteAlbums\bin\Debug\06.DeleteAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\06.DeleteAlbums\bin\Debug\06.DeleteAlbums.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\06.DeleteAlbums\obj\Debug\06.DeleteAlbums.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\06.DeleteAlbums\obj\Debug\06.DeleteAlbums.pdb

@@ -1,0 +1,5 @@
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\03.AllArtistAlphabetically\bin\Debug\03.AllArtistAlphabetically.exe.config
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\03.AllArtistAlphabetically\bin\Debug\03.AllArtistAlphabetically.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\03.AllArtistAlphabetically\bin\Debug\03.AllArtistAlphabetically.pdb
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\03.AllArtistAlphabetically\obj\Debug\03.AllArtistAlphabetically.exe
+E:\Software-University\Homeworks\DatabaseApps\06.XMLParser\03.AllArtistAlphabetically\obj\Debug\03.AllArtistAlphabetically.pdb
