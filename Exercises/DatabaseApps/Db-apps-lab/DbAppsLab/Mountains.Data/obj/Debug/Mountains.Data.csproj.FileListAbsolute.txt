@@ -1,0 +1,12 @@
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\Mountains.Data.dll.config
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\Mountains.Data.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\Mountains.Data.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\EntityFramework.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\Mountains.Models.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\Mountains.Models.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\EntityFramework.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\obj\Debug\Mountains.Data.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\obj\Debug\Mountains.Data.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Data\obj\Debug\Mountains.Data.pdb

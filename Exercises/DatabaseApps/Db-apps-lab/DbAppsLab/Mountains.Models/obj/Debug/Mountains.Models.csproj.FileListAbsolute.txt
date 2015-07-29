@@ -1,0 +1,5 @@
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Models\bin\Debug\Mountains.Models.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Models\bin\Debug\Mountains.Models.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Models\obj\Debug\Mountains.Models.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Models\obj\Debug\Mountains.Models.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\Mountains.Models\obj\Debug\Mountains.Models.pdb

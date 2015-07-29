@@ -1,0 +1,14 @@
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\05.CodeFirstEF.exe.config
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\05.CodeFirstEF.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\05.CodeFirstEF.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\EntityFramework.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\Mountains.Data.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\Mountains.Models.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\Mountains.Data.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\Mountains.Models.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\EntityFramework.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\obj\Debug\05.CodeFirstEF.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\obj\Debug\05.CodeFirstEF.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\05.CodeFirstEF\obj\Debug\05.CodeFirstEF.pdb

@@ -1,0 +1,10 @@
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\01.MappingsDatabase.exe.config
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\01.MappingsDatabase.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\01.MappingsDatabase.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\EntityFramework.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\EntityFramework.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\obj\Debug\01.MappingsDatabase.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\obj\Debug\01.MappingsDatabase.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\01.MappingsDatabase\obj\Debug\01.MappingsDatabase.pdb

@@ -1,0 +1,12 @@
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\02.RiversAsJson.exe.config
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\02.RiversAsJson.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\02.RiversAsJson.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\01.MappingsDatabase.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\EntityFramework.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\01.MappingsDatabase.pdb
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\EntityFramework.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\obj\Debug\02.RiversAsJson.csprojResolveAssemblyReference.cache
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\obj\Debug\02.RiversAsJson.exe
+E:\Software-University\Exercises\DatabaseApps\Db-apps-lab\DbAppsLab\02.RiversAsJson\obj\Debug\02.RiversAsJson.pdb

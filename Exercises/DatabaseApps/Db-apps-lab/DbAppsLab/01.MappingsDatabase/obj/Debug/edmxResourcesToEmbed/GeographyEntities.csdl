@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GeographyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Continent">
+    <Key>
+      <PropertyRef Name="ContinentCode" />
+    </Key>
+    <Property Name="ContinentCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ContinentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Countries" Relationship="Self.FK_Countries_Continents" FromRole="Continents" ToRole="Countries" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="CountryCode" />
+    </Key>
+    <Property Name="CountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="IsoCode" Type="String" MaxLength="3" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CountryName" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CurrencyCode" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="ContinentCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Population" Type="Int32" Nullable="false" />
+    <Property Name="AreaInSqKm" Type="Int32" Nullable="false" />
+    <Property Name="Capital" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Continent" Relationship="Self.FK_Countries_Continents" FromRole="Countries" ToRole="Continents" />
+    <NavigationProperty Name="Currency" Relationship="Self.FK_Countries_Currencies" FromRole="Countries" ToRole="Currencies" />
+    <NavigationProperty Name="Monasteries" Relationship="Self.FK_Monasteries_Countries" FromRole="Countries" ToRole="Monasteries" />
+    <NavigationProperty Name="Rivers" Relationship="Self.CountriesRivers" FromRole="Countries" ToRole="Rivers" />
+  </EntityType>
+  <EntityType Name="Currency">
+    <Key>
+      <PropertyRef Name="CurrencyCode" />
+    </Key>
+    <Property Name="CurrencyCode" Type="String" MaxLength="3" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Countries" Relationship="Self.FK_Countries_Currencies" FromRole="Currencies" ToRole="Countries" />
+  </EntityType>
+  <EntityType Name="Monastery">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CountryCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_Monasteries_Countries" FromRole="Monasteries" ToRole="Countries" />
+  </EntityType>
+  <EntityType Name="River">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RiverName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Length" Type="Int32" Nullable="false" />
+    <Property Name="DrainageArea" Type="Int32" />
+    <Property Name="AverageDischarge" Type="Int32" />
+    <Property Name="Outflow" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Countries" Relationship="Self.CountriesRivers" FromRole="Rivers" ToRole="Countries" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Countries_Continents">
+    <End Role="Continents" Type="Self.Continent" Multiplicity="1" />
+    <End Role="Countries" Type="Self.Country" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Continents">
+        <PropertyRef Name="ContinentCode" />
+      </Principal>
+      <Dependent Role="Countries">
+        <PropertyRef Name="ContinentCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Countries_Currencies">
+    <End Role="Currencies" Type="Self.Currency" Multiplicity="0..1" />
+    <End Role="Countries" Type="Self.Country" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Currencies">
+        <PropertyRef Name="CurrencyCode" />
+      </Principal>
+      <Dependent Role="Countries">
+        <PropertyRef Name="CurrencyCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Monasteries_Countries">
+    <End Role="Countries" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Monasteries" Type="Self.Monastery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CountryCode" />
+      </Principal>
+      <Dependent Role="Monasteries">
+        <PropertyRef Name="CountryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CountriesRivers">
+    <End Role="Countries" Type="Self.Country" Multiplicity="*" />
+    <End Role="Rivers" Type="Self.River" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="GeographyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Continents" EntityType="Self.Continent" />
+    <EntitySet Name="Countries" EntityType="Self.Country" />
+    <EntitySet Name="Currencies" EntityType="Self.Currency" />
+    <EntitySet Name="Monasteries" EntityType="Self.Monastery" />
+    <EntitySet Name="Rivers" EntityType="Self.River" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Countries_Continents" Association="Self.FK_Countries_Continents">
+      <End Role="Continents" EntitySet="Continents" />
+      <End Role="Countries" EntitySet="Countries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Countries_Currencies" Association="Self.FK_Countries_Currencies">
+      <End Role="Currencies" EntitySet="Currencies" />
+      <End Role="Countries" EntitySet="Countries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Monasteries_Countries" Association="Self.FK_Monasteries_Countries">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Monasteries" EntitySet="Monasteries" />
+    </AssociationSet>
+    <AssociationSet Name="CountriesRivers" Association="Self.CountriesRivers">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Rivers" EntitySet="Rivers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
