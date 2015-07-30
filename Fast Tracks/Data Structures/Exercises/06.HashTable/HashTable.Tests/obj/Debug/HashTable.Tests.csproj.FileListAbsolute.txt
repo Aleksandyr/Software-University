@@ -1,0 +1,7 @@
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\bin\Debug\HashTable.Tests.dll
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\bin\Debug\HashTable.Tests.pdb
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\bin\Debug\HashTable.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\bin\Debug\HashTable.pdb
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\obj\Debug\HashTable.Tests.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\obj\Debug\HashTable.Tests.dll
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable.Tests\obj\Debug\HashTable.Tests.pdb

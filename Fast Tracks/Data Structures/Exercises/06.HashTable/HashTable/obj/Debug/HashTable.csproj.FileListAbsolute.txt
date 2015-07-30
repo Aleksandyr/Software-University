@@ -1,0 +1,5 @@
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable\bin\Debug\HashTable.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable\bin\Debug\HashTable.pdb
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable\obj\Debug\HashTable.csprojResolveAssemblyReference.cache
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable\obj\Debug\HashTable.exe
+E:\Software-University\Fast Tracks\Data Structures\Exercises\06.HashTable\HashTable\obj\Debug\HashTable.pdb

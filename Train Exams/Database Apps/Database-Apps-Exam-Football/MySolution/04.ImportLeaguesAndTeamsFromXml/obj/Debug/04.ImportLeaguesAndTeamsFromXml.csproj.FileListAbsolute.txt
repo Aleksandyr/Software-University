@@ -1,0 +1,12 @@
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\04.ImportLeaguesAndTeamsFromXml.exe.config
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\04.ImportLeaguesAndTeamsFromXml.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\04.ImportLeaguesAndTeamsFromXml.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\01.FootballDatabaseFirst.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\EntityFramework.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\01.FootballDatabaseFirst.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\EntityFramework.xml
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\obj\Debug\04.ImportLeaguesAndTeamsFromXml.csprojResolveAssemblyReference.cache
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\obj\Debug\04.ImportLeaguesAndTeamsFromXml.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Football\MySolution\04.ImportLeaguesAndTeamsFromXml\obj\Debug\04.ImportLeaguesAndTeamsFromXml.pdb
