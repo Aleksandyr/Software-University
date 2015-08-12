@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PhotographyDatabaseFirst", "01.PhotographyDatabaseFirst\01.PhotographyDatabaseFirst.csproj", "{94133D58-AFC2-473A-BD6D-A0BA22ADD6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ManufacturersAndCamerasAsJson", "02.ManufacturersAndCamerasAsJson\02.ManufacturersAndCamerasAsJson.csproj", "{8178AE51-BB91-475A-AC8B-248220F13F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExportPhotographsAsXML", "03.ExportPhotographsAsXML\03.ExportPhotographsAsXML.csproj", "{3A32D5B1-EF94-4E16-9DC3-DEEE393B086E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ManufacturerAndLensesFromXml", "04.ManufacturerAndLensesFromXml\04.ManufacturerAndLensesFromXml.csproj", "{742D54B3-E2C4-404A-ABC1-04EF0804A202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Models", "PhoneBook.Models\PhoneBook.Models.csproj", "{FC183F90-A758-46D1-A46B-5A9931EFBC98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBookCodeFirst", "PhoneBookCodeFirst", "{BE94911C-B1C1-448B-B7E8-10C0D01ADA45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94133D58-AFC2-473A-BD6D-A0BA22ADD6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94133D58-AFC2-473A-BD6D-A0BA22ADD6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94133D58-AFC2-473A-BD6D-A0BA22ADD6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94133D58-AFC2-473A-BD6D-A0BA22ADD6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8178AE51-BB91-475A-AC8B-248220F13F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8178AE51-BB91-475A-AC8B-248220F13F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8178AE51-BB91-475A-AC8B-248220F13F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8178AE51-BB91-475A-AC8B-248220F13F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A32D5B1-EF94-4E16-9DC3-DEEE393B086E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A32D5B1-EF94-4E16-9DC3-DEEE393B086E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A32D5B1-EF94-4E16-9DC3-DEEE393B086E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A32D5B1-EF94-4E16-9DC3-DEEE393B086E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742D54B3-E2C4-404A-ABC1-04EF0804A202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742D54B3-E2C4-404A-ABC1-04EF0804A202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742D54B3-E2C4-404A-ABC1-04EF0804A202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742D54B3-E2C4-404A-ABC1-04EF0804A202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC183F90-A758-46D1-A46B-5A9931EFBC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC183F90-A758-46D1-A46B-5A9931EFBC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC183F90-A758-46D1-A46B-5A9931EFBC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC183F90-A758-46D1-A46B-5A9931EFBC98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC183F90-A758-46D1-A46B-5A9931EFBC98} = {BE94911C-B1C1-448B-B7E8-10C0D01ADA45}
+	EndGlobalSection
+EndGlobal

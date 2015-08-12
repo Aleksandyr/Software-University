@@ -1,0 +1,12 @@
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\obj\Debug\02.CharactersAndPlayersAsJson.csprojResolveAssemblyReference.cache
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\02.CharactersAndPlayersAsJson.exe.config
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\02.CharactersAndPlayersAsJson.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\02.CharactersAndPlayersAsJson.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\01.DiabloDatabaseFirst.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\EntityFramework.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\01.DiabloDatabaseFirst.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\EntityFramework.xml
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\obj\Debug\02.CharactersAndPlayersAsJson.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\02.CharactersAndPlayersAsJson\obj\Debug\02.CharactersAndPlayersAsJson.pdb

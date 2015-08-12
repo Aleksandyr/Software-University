@@ -1,0 +1,445 @@
+[
+    {
+        "name": "Agfa",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Canon",
+        "camera": [
+            {
+                "Model": "5DS",
+                "Price": 3899.0000
+            },
+            {
+                "Model": "EOS 1200D",
+                "Price": 849.0000
+            },
+            {
+                "Model": "EOS 750D",
+                "Price": 749.0000
+            },
+            {
+                "Model": "EOS 760D",
+                "Price": 1298.0000
+            },
+            {
+                "Model": "EOS 7D Mark II",
+                "Price": 2248.0000
+            },
+            {
+                "Model": "EOS M3",
+                "Price": null
+            },
+            {
+                "Model": "PowerShot G3 X",
+                "Price": 999.0000
+            },
+            {
+                "Model": "PowerShot G7 X",
+                "Price": 649.0000
+            },
+            {
+                "Model": "PowerShot SX410 IS",
+                "Price": 249.0000
+            },
+            {
+                "Model": "PowerShot SX530 HS",
+                "Price": 299.0000
+            },
+            {
+                "Model": "PowerShot SX60 HS",
+                "Price": 479.0000
+            },
+            {
+                "Model": "PowerShot SX610 HS",
+                "Price": 296.0000
+            },
+            {
+                "Model": "PowerShot SX700 HS",
+                "Price": 515.0000
+            },
+            {
+                "Model": "PowerShot SX710 HS",
+                "Price": 329.0000
+            },
+            {
+                "Model": "XC10",
+                "Price": null
+            }
+        ]
+    },
+    {
+        "name": "Casio",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Contax",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Epson",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Fujifilm",
+        "camera": [
+            {
+                "Model": "FinePix S1",
+                "Price": 330.0000
+            },
+            {
+                "Model": "FinePix S9800",
+                "Price": 245.0000
+            },
+            {
+                "Model": "FixePix S8600",
+                "Price": 123.0000
+            },
+            {
+                "Model": "FixePix S9400W",
+                "Price": 300.0000
+            },
+            {
+                "Model": "FixePix S990W",
+                "Price": 287.0000
+            },
+            {
+                "Model": "X100T",
+                "Price": 1299.0000
+            },
+            {
+                "Model": "X30",
+                "Price": 599.0000
+            },
+            {
+                "Model": "X-A2",
+                "Price": 550.0000
+            },
+            {
+                "Model": "X-E2",
+                "Price": 685.0000
+            },
+            {
+                "Model": "XQ1",
+                "Price": 375.0000
+            },
+            {
+                "Model": "XQ2",
+                "Price": 399.0000
+            },
+            {
+                "Model": "X-T1",
+                "Price": 1899.0000
+            },
+            {
+                "Model": "X-T10",
+                "Price": 799.0000
+            }
+        ]
+    },
+    {
+        "name": "HP",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Kodak",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Konica Minolta",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Kyocera",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Leica",
+        "camera": [
+            {
+                "Model": "C (Typ 112)",
+                "Price": 669.0000
+            },
+            {
+                "Model": "M Edition 60",
+                "Price": null
+            },
+            {
+                "Model": "M Monochrom (Typ 246)",
+                "Price": null
+            },
+            {
+                "Model": "Q (Typ 116)",
+                "Price": null
+            },
+            {
+                "Model": "X (Typ 113)",
+                "Price": null
+            },
+            {
+                "Model": "X Vario",
+                "Price": 2099.0000
+            }
+        ]
+    },
+    {
+        "name": "Nikon",
+        "camera": [
+            {
+                "Model": "Coolpix AW130",
+                "Price": 297.0000
+            },
+            {
+                "Model": "Coolpix L320",
+                "Price": 250.0000
+            },
+            {
+                "Model": "Coolpix L840",
+                "Price": 295.0000
+            },
+            {
+                "Model": "Coolpix P530",
+                "Price": 269.0000
+            },
+            {
+                "Model": "Coolpix P610",
+                "Price": 447.0000
+            },
+            {
+                "Model": "Coolpix P900",
+                "Price": 597.0000
+            },
+            {
+                "Model": "Coolpix S810c",
+                "Price": 347.0000
+            },
+            {
+                "Model": "D5500",
+                "Price": 1194.0000
+            },
+            {
+                "Model": "D7200",
+                "Price": 1644.0000
+            },
+            {
+                "Model": "D750",
+                "Price": 3697.0000
+            },
+            {
+                "Model": "D810",
+                "Price": 4697.0000
+            }
+        ]
+    },
+    {
+        "name": "Olympus",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Panasonic",
+        "camera": [
+            {
+                "Model": "Lumix DMC G7",
+                "Price": 1098.0000
+            },
+            {
+                "Model": "Lumix DMC GF7",
+                "Price": 544.0000
+            },
+            {
+                "Model": "Lumix DMC-GH3",
+                "Price": 898.0000
+            },
+            {
+                "Model": "Lumix DMC-LX100",
+                "Price": 725.0000
+            },
+            {
+                "Model": "Lumix DMC-ZS40",
+                "Price": 384.0000
+            },
+            {
+                "Model": "Lumix DMC-ZS50",
+                "Price": 398.0000
+            }
+        ]
+    },
+    {
+        "name": "Pentax",
+        "camera": [
+            {
+                "Model": "645Z",
+                "Price": 8024.0000
+            },
+            {
+                "Model": "Efina",
+                "Price": 2.0000
+            },
+            {
+                "Model": "K-3",
+                "Price": 979.0000
+            },
+            {
+                "Model": "K-3 II",
+                "Price": 969.0000
+            },
+            {
+                "Model": "K-30",
+                "Price": 890.0000
+            },
+            {
+                "Model": "K-5 II",
+                "Price": 998.0000
+            },
+            {
+                "Model": "K-50",
+                "Price": 423.0000
+            },
+            {
+                "Model": "K-500",
+                "Price": 650.0000
+            },
+            {
+                "Model": "K-S1",
+                "Price": 360.0000
+            },
+            {
+                "Model": "K-S2",
+                "Price": 860.0000
+            },
+            {
+                "Model": "MX-1",
+                "Price": 520.0000
+            },
+            {
+                "Model": "Q10",
+                "Price": 250.0000
+            },
+            {
+                "Model": "Q7",
+                "Price": 420.0000
+            },
+            {
+                "Model": "Q-S1",
+                "Price": 297.0000
+            },
+            {
+                "Model": "WG-10",
+                "Price": 360.0000
+            },
+            {
+                "Model": "WG-3",
+                "Price": 359.0000
+            },
+            {
+                "Model": "WG-3 GPS",
+                "Price": 339.0000
+            },
+            {
+                "Model": "X-5",
+                "Price": 575.0000
+            },
+            {
+                "Model": "XG-1",
+                "Price": 165.0000
+            }
+        ]
+    },
+    {
+        "name": "Ricoh",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Samsung",
+        "camera": [
+            {
+                "Model": "Galaxy NX",
+                "Price": 1399.0000
+            },
+            {
+                "Model": "NX mini",
+                "Price": 298.0000
+            },
+            {
+                "Model": "NX1",
+                "Price": 1299.0000
+            },
+            {
+                "Model": "NX30",
+                "Price": 796.0000
+            },
+            {
+                "Model": "NX3000",
+                "Price": 530.0000
+            },
+            {
+                "Model": "NX500",
+                "Price": 600.0000
+            },
+            {
+                "Model": "WB2200F",
+                "Price": 270.0000
+            },
+            {
+                "Model": "WB250F",
+                "Price": 264.0000
+            },
+            {
+                "Model": "WB350F",
+                "Price": 210.0000
+            }
+        ]
+    },
+    {
+        "name": "Sigma",
+        "camera": [
+        ]
+    },
+    {
+        "name": "Sony",
+        "camera": [
+            {
+                "Model": "Alpha 7",
+                "Price": 1596.0000
+            },
+            {
+                "Model": "Alpha 7 II",
+                "Price": 1698.0000
+            },
+            {
+                "Model": "Alpha 7R II",
+                "Price": 3198.0000
+            },
+            {
+                "Model": "Alpha 7S",
+                "Price": 2498.0000
+            },
+            {
+                "Model": "Alpha QX1",
+                "Price": 398.0000
+            },
+            {
+                "Model": "Cyber-shot DSC-RX10 II",
+                "Price": 1298.0000
+            },
+            {
+                "Model": "Cyber-shot DSC-RX100 IV",
+                "Price": 948.0000
+            },
+            {
+                "Model": "Cyber-shot DSC-WX350",
+                "Price": 320.0000
+            }
+        ]
+    }
+]

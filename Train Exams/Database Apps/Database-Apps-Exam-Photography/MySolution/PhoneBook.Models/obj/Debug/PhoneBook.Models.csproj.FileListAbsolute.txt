@@ -1,0 +1,4 @@
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Photography\New folder\MySolution\PhoneBook.Models\bin\Debug\PhoneBook.Models.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Photography\New folder\MySolution\PhoneBook.Models\bin\Debug\PhoneBook.Models.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Photography\New folder\MySolution\PhoneBook.Models\obj\Debug\PhoneBook.Models.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Photography\New folder\MySolution\PhoneBook.Models\obj\Debug\PhoneBook.Models.pdb

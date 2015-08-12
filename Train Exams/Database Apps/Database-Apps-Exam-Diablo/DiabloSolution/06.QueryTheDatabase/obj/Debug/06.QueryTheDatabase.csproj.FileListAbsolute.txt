@@ -1,0 +1,15 @@
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\06.QueryTheDatabase.exe.config
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\obj\Debug\06.QueryTheDatabase.csprojResolveAssemblyReference.cache
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\06.QueryTheDatabase.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\06.QueryTheDatabase.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\EntityFramework.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\Movies.Data.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\Movies.Models.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\Newtonsoft.Json.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\Movies.Data.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\Movies.Models.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\EntityFramework.xml
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\obj\Debug\06.QueryTheDatabase.exe
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\06.QueryTheDatabase\obj\Debug\06.QueryTheDatabase.pdb

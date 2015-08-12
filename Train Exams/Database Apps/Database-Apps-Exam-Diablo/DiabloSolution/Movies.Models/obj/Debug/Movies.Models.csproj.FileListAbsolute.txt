@@ -1,0 +1,5 @@
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\Movies.Models\bin\Debug\Movies.Models.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\Movies.Models\bin\Debug\Movies.Models.pdb
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\Movies.Models\obj\Debug\Movies.Models.csprojResolveAssemblyReference.cache
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\Movies.Models\obj\Debug\Movies.Models.dll
+E:\Software-University\Train Exams\Database Apps\Database-Apps-Exam-Diablo\DiabloSolution\Movies.Models\obj\Debug\Movies.Models.pdb
