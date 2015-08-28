@@ -8,8 +8,8 @@ public class Sound : MonoBehaviour
 
     void PlayAudioClip()
     {
-        audio.clip = audioClip;
-        audio.Play();
+        GetComponent<AudioSource>().clip = audioClip;
+        GetComponent<AudioSource>().Play();
     }
 
     void Update()

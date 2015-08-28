@@ -7,7 +7,7 @@ public class LoadSave : MonoBehaviour {
     public Button backButton;
 	// Use this for initialization
 	void Start () {
-        Screen.showCursor = true;
+        Cursor.visible = true;
         if (backButton == null)
         {
             return;

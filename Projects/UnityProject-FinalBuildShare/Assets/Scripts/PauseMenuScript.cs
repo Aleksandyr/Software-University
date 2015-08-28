@@ -27,7 +27,7 @@ public class PauseMenuScript : MonoBehaviour {
 	void Update () {
         if (Application.isPlaying)
         {
-            Screen.showCursor = false;
+            Cursor.visible = false;
         }
       
         if (Input.GetKeyUp(KeyCode.Escape))
@@ -38,7 +38,7 @@ public class PauseMenuScript : MonoBehaviour {
         if (paused)
         {
             Time.timeScale = 0;
-            Screen.showCursor = true;
+            Cursor.visible = true;
         }
         else
         {

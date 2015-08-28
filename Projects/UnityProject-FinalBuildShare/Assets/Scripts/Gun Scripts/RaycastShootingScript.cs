@@ -26,7 +26,7 @@ public class RaycastShootingScript : MonoBehaviour
         }
         else
         {
-            audio.volume = 0;
+            GetComponent<AudioSource>().volume = 0;
         }
     }
 }

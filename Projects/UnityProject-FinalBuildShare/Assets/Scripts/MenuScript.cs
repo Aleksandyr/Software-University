@@ -13,7 +13,7 @@ public class MenuScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        Screen.showCursor = true;
+        Cursor.visible = true;
 
 		if (playButton == null || quiteButton == null || loadButton == null)
 		{
