@@ -19,7 +19,7 @@ namespace MoviesGallery.Data
 
         public virtual DbSet<Actor> Actors{ get; set; }
 
-        public virtual DbSet<Genere> Generes{ get; set; }
+        public virtual DbSet<Genre> Generes{ get; set; }
 
         public virtual DbSet<Movie> Movies{ get; set; }
 
@@ -29,5 +29,7 @@ namespace MoviesGallery.Data
         {
             return new MoviesGalleryContext();
         }
+
+        //public System.Data.Entity.DbSet<WebServices.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }

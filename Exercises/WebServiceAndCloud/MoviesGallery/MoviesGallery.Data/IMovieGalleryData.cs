@@ -10,7 +10,7 @@ namespace MoviesGallery.Data
 
         IRepository<Movie> Moveis { get; }
 
-        IRepository<Genere> Geners { get; }
+        IRepository<Genre> Geners { get; }
 
         IRepository<Actor> Actors { get; }
 

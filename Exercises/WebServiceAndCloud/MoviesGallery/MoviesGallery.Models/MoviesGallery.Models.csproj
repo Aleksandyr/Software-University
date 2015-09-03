@@ -58,7 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actor.cs" />
-    <Compile Include="Genere.cs" />
+    <Compile Include="Gender.cs" />
+    <Compile Include="Genre.cs" />
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

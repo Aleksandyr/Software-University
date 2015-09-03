@@ -20,6 +20,8 @@ namespace MoviesGallery.Models
 
         public ApplicationUser User { get; set; }
 
+        public virtual Genre Genre { get; set; }
+
         public virtual ICollection<Actor> Actors { get; set; }
 
         public virtual ICollection<Review> Reviews { get; set; }

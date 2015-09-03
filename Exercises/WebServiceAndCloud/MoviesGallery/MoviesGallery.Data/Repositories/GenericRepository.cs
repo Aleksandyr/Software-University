@@ -20,7 +20,7 @@ namespace MoviesGallery.Data.Repositories
             return this.DbSet.AsQueryable();
         }
 
-        public T GetById(T id)
+        public T GetById(object id)
         {
             return this.DbSet.Find(id);
         }

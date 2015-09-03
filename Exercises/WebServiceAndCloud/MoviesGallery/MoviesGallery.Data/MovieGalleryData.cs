@@ -29,9 +29,9 @@ namespace MoviesGallery.Data
             get { return this.GetRepository<Movie>(); }
         }
 
-        public IRepository<Genere> Geners
+        public IRepository<Genre> Geners
         {
-            get { return this.GetRepository<Genere>(); }
+            get { return this.GetRepository<Genre>(); }
         }
 
         public IRepository<Actor> Actors

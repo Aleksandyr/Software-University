@@ -8,7 +8,7 @@ namespace MoviesGallery.Data.Repositories
     {
         IQueryable<T> All();
 
-        T GetById(T id);
+        T GetById(object id);
 
         void Add(T entity);
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using MoviesGallery.Models;
 using Newtonsoft.Json;
 
 namespace MoviesGallery.WebService.Models
@@ -35,6 +36,10 @@ namespace MoviesGallery.WebService.Models
     public class RegisterBindingModel
     {
         [Required]
+        [Display(Name = "Username")]
+        public string Username { get; set; }
+
+        [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
 
@@ -48,6 +53,17 @@ namespace MoviesGallery.WebService.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Display(Name = "Personal Page")]
+        public string PersonalPage { get; set; }
+
+        [Required]
+        [Display(Name = "Gender")]
+        public Gender Gender { get; set; }
+
+        [Required]
+        [Display(Name = "Birth Date")]
+        public DateTime BirthDate { get; set; }
     }
 
     public class RegisterExternalBindingModel
