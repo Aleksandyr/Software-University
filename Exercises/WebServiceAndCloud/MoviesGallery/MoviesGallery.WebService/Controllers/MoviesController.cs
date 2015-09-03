@@ -67,7 +67,7 @@ namespace MoviesGallery.WebService.Controllers
 
             movie.Title = model.Title;
             movie.Length = movie.Length;
-            movie.Rotation = movie.Rotation;
+            movie.Ration = movie.Ration;
            
             return StatusCode(HttpStatusCode.NoContent);
         }
@@ -85,7 +85,7 @@ namespace MoviesGallery.WebService.Controllers
             {
                 Title = model.Title,
                 Length = model.Length,
-                Rotation = model.Rotation
+                Ration = model.Rotation
             };
 
             this.Data.Moveis.Add(moive);

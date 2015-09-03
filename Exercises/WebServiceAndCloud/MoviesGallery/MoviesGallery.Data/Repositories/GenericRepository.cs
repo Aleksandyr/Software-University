@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.Migrations;
 using System.Linq;
 
 namespace MoviesGallery.Data.Repositories
@@ -26,19 +27,33 @@ namespace MoviesGallery.Data.Repositories
         }
 
         public void Add(T entity)
-        {
+        { 
             this.ChangeState(entity, EntityState.Added);
+            //this.DbSet.Add(entity);
+            //return entity;
         }
 
         public void Update(T entity)
         {
             this.ChangeState(entity, EntityState.Modified);
+            //this.DbSet.AddOrUpdate(entity);
+            //return entity;
         }
 
         public void Delete(T entity)
         {
-            this.ChangeState(entity, EntityState.Detached);
+            this.ChangeState(entity, EntityState.Deleted);
+            //this.DbSet.Remove(entity);
+            //return entity;
         }
+
+        public T Delete(object id)
+        {
+            var entity = this.GetById(id);
+            this.Delete(entity);
+            return entity;
+        }  
+
 
         public int SaveChanges()
         {

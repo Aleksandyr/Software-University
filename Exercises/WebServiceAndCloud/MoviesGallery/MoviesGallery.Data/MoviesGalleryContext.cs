@@ -29,7 +29,5 @@ namespace MoviesGallery.Data
         {
             return new MoviesGalleryContext();
         }
-
-        //public System.Data.Entity.DbSet<WebServices.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace MoviesGallery.Models
         public int Length { get; set; }
 
         [Range(1, 10)]
-        public int Rotation { get; set; }
+        public int Ration { get; set; }
 
         public string Country { get; set; }
 

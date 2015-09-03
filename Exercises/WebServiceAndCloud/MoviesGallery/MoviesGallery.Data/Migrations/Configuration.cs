@@ -10,13 +10,13 @@ namespace MoviesGallery.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = false;
+            AutomaticMigrationDataLossAllowed = true;
             ContextKey = "MoviesGallery.Data.MoviesGalleryContext";
         }
 
         protected override void Seed(MoviesGallery.Data.MoviesGalleryContext context)
         {
-
+                           
         }
     }
 }
