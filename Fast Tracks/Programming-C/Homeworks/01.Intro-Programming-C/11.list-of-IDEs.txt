@@ -1,0 +1,39 @@
+1.Code::Blocks
+	Code::Blocks is a free and open source, cross-platform IDE which supports multiple compilers including GCC, 
+Clang and Visual C++. 
+It is developed in C++ using wxWidgets as the GUI toolkit. 
+Using a plugin architecture, its capabilities and features are defined by the provided plugins. 
+Currently, Code::Blocks is oriented towards C, C++, and Fortran. It has a custom build system and optional Make support.
+
+
+2.Eclipse
+	In computer programming, Eclipse is an integrated development environment (IDE). 
+It contains a base workspace and an extensible plug-in system for customizing the environment. 
+Written mostly in Java, Eclipse can be used to develop applications. 
+
+
+3.NetBeans
+	NetBeans is an integrated development environment (IDE) for developing primarily with Java, 
+but also with other languages, in particular PHP, C/C++, and HTML5.
+It is also an application platform framework for Java desktop applications and others.
+The NetBeans IDE is written in Java and can run on Windows, OS X, Linux, Solaris 
+and other platforms supporting a compatible JVM.
+
+
+4.Oracle Solaris Studio
+	The Oracle Solaris Studio, formerly named Sun Studio, Sun WorkShop, Forte Developer, 
+and SunPro Compilers, is a compiler suite which is Oracle Corporation's flagship software development product 
+for the operating systems Solaris and Linux. 
+The Oracle Solaris Studio software delivers optimizing compilers for C, C++, and Fortran, libraries, 
+and performance analysis, and debugging tools for Solaris on SPARC, and both Solaris and Linux on x86/x64 platforms, 
+including multi-core systems.
+The Oracle Studio compiler and development tools software suite is downloadable at no charge from an 
+Oracle website however there are many security and functionality patch updates which are only available with 
+a support contract from Oracle.
+
+
+5.Visual Studio
+	Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop console     
+and graphical user interface applications along with Windows Forms or WPF applications, web sites, web applications,     
+web services, and also Windows Store apps in both native code together with managed code for all platforms supported     
+by Microsoft.
