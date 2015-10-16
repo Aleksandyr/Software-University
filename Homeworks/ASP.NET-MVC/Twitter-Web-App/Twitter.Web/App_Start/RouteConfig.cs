@@ -14,9 +14,9 @@ namespace Twitter.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Users",
-                url: "User/{username}",
-                defaults: new { controller = "Users", action = "Index" }
+                name: "HomePage",
+                url: "{controller}/{action}/{page}",
+                defaults: new { controller = "Home", action = "Index" }
             );
 
 

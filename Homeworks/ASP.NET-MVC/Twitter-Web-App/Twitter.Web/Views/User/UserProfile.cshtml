@@ -1,0 +1,15 @@
+﻿@using Twitter.Models
+@model Twitter.Web.Models.UserModels.UserViewModel
+
+<h2>Welcome @Model.UserName</h2>
+@Html.ActionLink("Manage Account", "Index", "Manage", routeValues: null, htmlAttributes: new {title = "Manage"})
+<br />
+<hr/>
+@using (@Html.BeginForm("CreateTweet", "User"))
+{
+    @Html.ValidationSummary(true)
+    @Html.TextArea("Message")
+    <input type="submit" name="Submit" value="Tweet"/>
+    @Html.AntiForgeryToken()
+}
+
