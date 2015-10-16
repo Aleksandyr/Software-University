@@ -1,0 +1,17 @@
+﻿@model Twitter.Web.Models.Tweets.TweetViewModel
+           
+<div class="col-md-4">
+    <div class="col-md-4">
+        <a href="../user/@Model.Author.Username" class="tweet-author-name">@Model.Author.Username</a>
+        <p>
+            @Model.Content
+        </p>
+        <p>
+            <a class="btn btn-primary btn-sm" href="#">Reply</a>
+            <a class="btn btn-primary btn-sm" href="#">Retweet</a>
+            <a class="btn btn-primary btn-sm" href="#">Favourite</a>
+            <a class="btn btn-primary btn-sm" href="#">Report</a>
+        </p>
+    </div>
+</div>
+
