@@ -290,7 +290,6 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Play\index.cshtml" />
-    <Content Include="Views\Shared\_PlayLayout.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\TweetViewModel.cshtml" />
     <Content Include="Views\User\UserProfile.cshtml" />
   </ItemGroup>

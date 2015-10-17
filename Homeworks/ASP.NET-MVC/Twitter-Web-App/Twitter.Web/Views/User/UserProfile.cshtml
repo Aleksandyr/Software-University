@@ -8,7 +8,8 @@
 @using (@Html.BeginForm("CreateTweet", "User"))
 {
     @Html.ValidationSummary(true)
-    @Html.TextArea("Message")
+    @Html.TextArea("Content")
+    @Html.TextArea("WallOwnerUserName")
     <input type="submit" name="Submit" value="Tweet"/>
     @Html.AntiForgeryToken()
 }
