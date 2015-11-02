@@ -1,5 +1,0 @@
-E:\SoftUni\Train Exams\25-July-2014-Evening\NakovsMatching\bin\Debug\NakovsMatching.exe.config
-E:\SoftUni\Train Exams\25-July-2014-Evening\NakovsMatching\bin\Debug\NakovsMatching.exe
-E:\SoftUni\Train Exams\25-July-2014-Evening\NakovsMatching\bin\Debug\NakovsMatching.pdb
-E:\SoftUni\Train Exams\25-July-2014-Evening\NakovsMatching\obj\Debug\NakovsMatching.exe
-E:\SoftUni\Train Exams\25-July-2014-Evening\NakovsMatching\obj\Debug\NakovsMatching.pdb

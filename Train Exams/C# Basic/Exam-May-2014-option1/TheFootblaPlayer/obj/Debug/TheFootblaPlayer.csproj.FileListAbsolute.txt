@@ -1,9 +1,0 @@
-E:\SoftUni\Exam-May-2014-option1\TheFootblaPlayer\bin\Debug\TheFootblaPlayer.exe.config
-E:\SoftUni\Exam-May-2014-option1\TheFootblaPlayer\bin\Debug\TheFootblaPlayer.exe
-E:\SoftUni\Exam-May-2014-option1\TheFootblaPlayer\bin\Debug\TheFootblaPlayer.pdb
-E:\SoftUni\Exam-May-2014-option1\TheFootblaPlayer\obj\Debug\TheFootblaPlayer.csprojResolveAssemblyReference.cache
-E:\SoftUni\Exam-May-2014-option1\TheFootblaPlayer\obj\Debug\TheFootblaPlayer.exe
-E:\SoftUni\Exam-May-2014-option1\TheFootblaPlayer\obj\Debug\TheFootblaPlayer.pdb
-E:\SoftUni\Train Exams\Exam-May-2014-option1\TheFootblaPlayer\bin\Debug\TheFootblaPlayer.exe.config
-E:\SoftUni\Train Exams\Exam-May-2014-option1\TheFootblaPlayer\obj\Debug\TheFootblaPlayer.exe
-E:\SoftUni\Train Exams\Exam-May-2014-option1\TheFootblaPlayer\obj\Debug\TheFootblaPlayer.pdb

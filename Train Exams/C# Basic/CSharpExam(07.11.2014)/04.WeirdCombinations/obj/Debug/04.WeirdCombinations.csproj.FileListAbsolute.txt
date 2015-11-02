@@ -1,6 +1,0 @@
-C:\Users\Alexander\Desktop\CSharpExam\04.WeirdCombinations\bin\Debug\04.WeirdCombinations.exe.config
-C:\Users\Alexander\Desktop\CSharpExam\04.WeirdCombinations\bin\Debug\04.WeirdCombinations.exe
-C:\Users\Alexander\Desktop\CSharpExam\04.WeirdCombinations\bin\Debug\04.WeirdCombinations.pdb
-C:\Users\Alexander\Desktop\CSharpExam\04.WeirdCombinations\obj\Debug\04.WeirdCombinations.exe
-C:\Users\Alexander\Desktop\CSharpExam\04.WeirdCombinations\obj\Debug\04.WeirdCombinations.pdb
-C:\Users\Alexander\Desktop\CSharpExam\04.WeirdCombinations\obj\Debug\04.WeirdCombinations.csprojResolveAssemblyReference.cache

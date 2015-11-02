@@ -1,6 +1,0 @@
-E:\SoftUni\C# Exam 25 july 2014 Morning\Exam-22-August-2014\CarDraw\bin\Debug\CarDraw.exe.config
-E:\SoftUni\C# Exam 25 july 2014 Morning\Exam-22-August-2014\CarDraw\obj\Debug\CarDraw.csprojResolveAssemblyReference.cache
-E:\SoftUni\C# Exam 25 july 2014 Morning\Exam-22-August-2014\CarDraw\bin\Debug\CarDraw.exe
-E:\SoftUni\C# Exam 25 july 2014 Morning\Exam-22-August-2014\CarDraw\bin\Debug\CarDraw.pdb
-E:\SoftUni\C# Exam 25 july 2014 Morning\Exam-22-August-2014\CarDraw\obj\Debug\CarDraw.exe
-E:\SoftUni\C# Exam 25 july 2014 Morning\Exam-22-August-2014\CarDraw\obj\Debug\CarDraw.pdb

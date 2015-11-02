@@ -1,6 +1,0 @@
-E:\SoftUni\C# Exams May 2014\Exam-May-2014\02.SimpleLoop\bin\Debug\02.SimpleLoop.exe.config
-E:\SoftUni\C# Exams May 2014\Exam-May-2014\02.SimpleLoop\bin\Debug\02.SimpleLoop.exe
-E:\SoftUni\C# Exams May 2014\Exam-May-2014\02.SimpleLoop\bin\Debug\02.SimpleLoop.pdb
-E:\SoftUni\C# Exams May 2014\Exam-May-2014\02.SimpleLoop\obj\Debug\02.SimpleLoop.csprojResolveAssemblyReference.cache
-E:\SoftUni\C# Exams May 2014\Exam-May-2014\02.SimpleLoop\obj\Debug\02.SimpleLoop.exe
-E:\SoftUni\C# Exams May 2014\Exam-May-2014\02.SimpleLoop\obj\Debug\02.SimpleLoop.pdb

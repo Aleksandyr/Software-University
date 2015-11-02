@@ -1,9 +1,0 @@
-E:\SoftUni\Train Exams\25-July-2014-Morning\04.Morse-Code-Numbers\bin\Debug\04.Morse-Code-Numbers.exe.config
-E:\SoftUni\Train Exams\25-July-2014-Morning\04.Morse-Code-Numbers\bin\Debug\04.Morse-Code-Numbers.exe
-E:\SoftUni\Train Exams\25-July-2014-Morning\04.Morse-Code-Numbers\bin\Debug\04.Morse-Code-Numbers.pdb
-E:\SoftUni\Train Exams\25-July-2014-Morning\04.Morse-Code-Numbers\obj\Debug\04.Morse-Code-Numbers.csprojResolveAssemblyReference.cache
-E:\SoftUni\Train Exams\25-July-2014-Morning\04.Morse-Code-Numbers\obj\Debug\04.Morse-Code-Numbers.exe
-E:\SoftUni\Train Exams\25-July-2014-Morning\04.Morse-Code-Numbers\obj\Debug\04.Morse-Code-Numbers.pdb
-E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\04.Morse-Code-Numbers\bin\Debug\04.Morse-Code-Numbers.exe.config
-E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\04.Morse-Code-Numbers\obj\Debug\04.Morse-Code-Numbers.exe
-E:\SoftUni\Train Exams\C# Basic\25-July-2014-Morning\04.Morse-Code-Numbers\obj\Debug\04.Morse-Code-Numbers.pdb

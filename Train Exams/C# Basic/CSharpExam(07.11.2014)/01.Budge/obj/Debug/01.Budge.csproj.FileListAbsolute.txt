@@ -1,6 +1,0 @@
-C:\Users\Alexander\Desktop\CSharpExam\01.Budge\bin\Debug\01.Budge.exe.config
-C:\Users\Alexander\Desktop\CSharpExam\01.Budge\bin\Debug\01.Budge.exe
-C:\Users\Alexander\Desktop\CSharpExam\01.Budge\bin\Debug\01.Budge.pdb
-C:\Users\Alexander\Desktop\CSharpExam\01.Budge\obj\Debug\01.Budge.exe
-C:\Users\Alexander\Desktop\CSharpExam\01.Budge\obj\Debug\01.Budge.pdb
-C:\Users\Alexander\Desktop\CSharpExam\01.Budge\obj\Debug\01.Budge.csprojResolveAssemblyReference.cache

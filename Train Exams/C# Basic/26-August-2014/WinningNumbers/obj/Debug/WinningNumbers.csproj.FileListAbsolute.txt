@@ -1,5 +1,0 @@
-E:\SoftUni\Train Exams\26-August-2014\WinningNumbers\bin\Debug\WinningNumbers.exe.config
-E:\SoftUni\Train Exams\26-August-2014\WinningNumbers\bin\Debug\WinningNumbers.exe
-E:\SoftUni\Train Exams\26-August-2014\WinningNumbers\bin\Debug\WinningNumbers.pdb
-E:\SoftUni\Train Exams\26-August-2014\WinningNumbers\obj\Debug\WinningNumbers.exe
-E:\SoftUni\Train Exams\26-August-2014\WinningNumbers\obj\Debug\WinningNumbers.pdb

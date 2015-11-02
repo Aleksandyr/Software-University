@@ -1,9 +1,0 @@
-E:\SoftUni\Exam-May-2014-Option3\SumOfElements\bin\Debug\SumOfElements.exe.config
-E:\SoftUni\Exam-May-2014-Option3\SumOfElements\bin\Debug\SumOfElements.exe
-E:\SoftUni\Exam-May-2014-Option3\SumOfElements\bin\Debug\SumOfElements.pdb
-E:\SoftUni\Exam-May-2014-Option3\SumOfElements\obj\Debug\SumOfElements.csprojResolveAssemblyReference.cache
-E:\SoftUni\Exam-May-2014-Option3\SumOfElements\obj\Debug\SumOfElements.exe
-E:\SoftUni\Exam-May-2014-Option3\SumOfElements\obj\Debug\SumOfElements.pdb
-E:\SoftUni\Train Exams\Exam-May-2014-Option3\SumOfElements\bin\Debug\SumOfElements.exe.config
-E:\SoftUni\Train Exams\Exam-May-2014-Option3\SumOfElements\obj\Debug\SumOfElements.exe
-E:\SoftUni\Train Exams\Exam-May-2014-Option3\SumOfElements\obj\Debug\SumOfElements.pdb

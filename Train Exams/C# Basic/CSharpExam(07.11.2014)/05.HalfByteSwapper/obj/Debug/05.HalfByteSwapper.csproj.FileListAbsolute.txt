@@ -1,6 +1,0 @@
-C:\Users\Alexander\Desktop\CSharpExam\05.HalfByteSwapper\bin\Debug\05.HalfByteSwapper.exe.config
-C:\Users\Alexander\Desktop\CSharpExam\05.HalfByteSwapper\bin\Debug\05.HalfByteSwapper.exe
-C:\Users\Alexander\Desktop\CSharpExam\05.HalfByteSwapper\bin\Debug\05.HalfByteSwapper.pdb
-C:\Users\Alexander\Desktop\CSharpExam\05.HalfByteSwapper\obj\Debug\05.HalfByteSwapper.csprojResolveAssemblyReference.cache
-C:\Users\Alexander\Desktop\CSharpExam\05.HalfByteSwapper\obj\Debug\05.HalfByteSwapper.exe
-C:\Users\Alexander\Desktop\CSharpExam\05.HalfByteSwapper\obj\Debug\05.HalfByteSwapper.pdb

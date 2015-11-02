@@ -1,6 +1,0 @@
-E:\SoftUni\Train Exams\Exam-May-2014\05.WeAllLoveBits\bin\Debug\05.WeAllLoveBits.exe.config
-E:\SoftUni\Train Exams\Exam-May-2014\05.WeAllLoveBits\bin\Debug\05.WeAllLoveBits.exe
-E:\SoftUni\Train Exams\Exam-May-2014\05.WeAllLoveBits\bin\Debug\05.WeAllLoveBits.pdb
-E:\SoftUni\Train Exams\Exam-May-2014\05.WeAllLoveBits\obj\Debug\05.WeAllLoveBits.csprojResolveAssemblyReference.cache
-E:\SoftUni\Train Exams\Exam-May-2014\05.WeAllLoveBits\obj\Debug\05.WeAllLoveBits.exe
-E:\SoftUni\Train Exams\Exam-May-2014\05.WeAllLoveBits\obj\Debug\05.WeAllLoveBits.pdb

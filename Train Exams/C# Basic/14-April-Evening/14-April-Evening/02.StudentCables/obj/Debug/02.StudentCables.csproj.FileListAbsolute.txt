@@ -1,5 +1,0 @@
-E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\02.StudentCables\bin\Debug\02.StudentCables.exe.config
-E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\02.StudentCables\bin\Debug\02.StudentCables.exe
-E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\02.StudentCables\bin\Debug\02.StudentCables.pdb
-E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\02.StudentCables\obj\Debug\02.StudentCables.exe
-E:\SoftUni\Train Exams\C# Basic\14-April-Evening\14-April-Evening\02.StudentCables\obj\Debug\02.StudentCables.pdb

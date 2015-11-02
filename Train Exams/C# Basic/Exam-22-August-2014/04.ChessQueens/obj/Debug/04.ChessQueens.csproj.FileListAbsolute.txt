@@ -1,5 +1,0 @@
-E:\SoftUni\Train Exams\C# Basic\Exam-22-August-2014\04.ChessQueens\bin\Debug\04.ChessQueens.exe.config
-E:\SoftUni\Train Exams\C# Basic\Exam-22-August-2014\04.ChessQueens\bin\Debug\04.ChessQueens.exe
-E:\SoftUni\Train Exams\C# Basic\Exam-22-August-2014\04.ChessQueens\bin\Debug\04.ChessQueens.pdb
-E:\SoftUni\Train Exams\C# Basic\Exam-22-August-2014\04.ChessQueens\obj\Debug\04.ChessQueens.exe
-E:\SoftUni\Train Exams\C# Basic\Exam-22-August-2014\04.ChessQueens\obj\Debug\04.ChessQueens.pdb

@@ -1,9 +1,0 @@
-E:\SoftUni\Exam-May-2014-option1\Halfum\bin\Debug\Halfum.exe.config
-E:\SoftUni\Exam-May-2014-option1\Halfum\bin\Debug\Halfum.exe
-E:\SoftUni\Exam-May-2014-option1\Halfum\bin\Debug\Halfum.pdb
-E:\SoftUni\Exam-May-2014-option1\Halfum\obj\Debug\Halfum.exe
-E:\SoftUni\Exam-May-2014-option1\Halfum\obj\Debug\Halfum.pdb
-E:\SoftUni\Exam-May-2014-option1\Halfum\obj\Debug\Halfum.csprojResolveAssemblyReference.cache
-E:\SoftUni\Train Exams\Exam-May-2014-option1\Halfum\bin\Debug\Halfum.exe.config
-E:\SoftUni\Train Exams\Exam-May-2014-option1\Halfum\obj\Debug\Halfum.exe
-E:\SoftUni\Train Exams\Exam-May-2014-option1\Halfum\obj\Debug\Halfum.pdb
