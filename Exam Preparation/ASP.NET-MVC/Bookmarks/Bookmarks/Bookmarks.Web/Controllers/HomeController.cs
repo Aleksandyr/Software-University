@@ -1,7 +1,13 @@
 ﻿namespace Bookmarks.Web.Controllers
 {
-    using Bookmars.Data;
+    using System.Linq;
     using System.Web.Mvc;
+
+    using AutoMapper.QueryableExtensions;
+    
+    using Bookmarks.Web.ViewModels;
+    using Bookmars.Data;
+    using Bookmarks.Common;
 
     public class HomeController : BaseController
     {
@@ -12,7 +18,14 @@
 
         public ActionResult Index()
         {
-            return View();
+            var bookmarks = this.Data.Bookmarks
+                .All()
+                .OrderByDescending(x => x.Votes.Count)
+                .Take(GlobalConstants.HomePageNumberOfBookmarks)
+                .Project()
+                .To<BookmarkViewModel>();
+
+            return View(bookmarks);
         }
 
         public ActionResult About()

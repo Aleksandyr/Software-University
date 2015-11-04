@@ -51,7 +51,7 @@
             var type = typeof(T);
             if (!this.repositories.ContainsKey(type))
             {
-                var typeOfRepository = typeof(EfRepository<T>);
+                var typeOfRepository = typeof(GenericRepository<T>);
 
                 var repository = Activator.CreateInstance(typeOfRepository, this.context);
                 this.repositories.Add(type, repository);

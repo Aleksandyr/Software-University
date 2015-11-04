@@ -3,12 +3,12 @@
     using System.Data.Entity;
     using System.Linq;
 
-    public class EfRepository<T> : IRepository<T> where T : class
+    public class GenericRepository<T> : IRepository<T> where T : class
     {
         private DbContext context;
         private IDbSet<T> set;
 
-        public EfRepository()
+        public GenericRepository(DbContext context)
         {
             this.context = context;
             this.set = context.Set<T>();
