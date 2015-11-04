@@ -4,29 +4,20 @@ namespace Bookmars.Data.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using Bookmars.Data;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Bookmars.Data.BookmarksDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BookmarksDbContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            ContextKey = "Bookmars.Data.BookmarksDbContext";
+            this.AutomaticMigrationsEnabled = true;
+            this.AutomaticMigrationDataLossAllowed = false;
+            ContextKey = "BookmarksDbContext";
         }
 
         protected override void Seed(Bookmars.Data.BookmarksDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+           
         }
     }
 }
