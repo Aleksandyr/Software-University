@@ -5,7 +5,7 @@
     using System.Data.Entity;
     using Bookmars.Data.Migrations;
 
-    public class BookmarksDbContext : IdentityDbContext<User>
+    public class BookmarksDbContext : IdentityDbContext<User>, IBookmarksDbContext
     {
         public BookmarksDbContext()
             : base("Bookmarks", throwIfV1Schema: false)
@@ -20,6 +20,7 @@
         public virtual IDbSet<Comment> Comments { get; set; }
         
         public virtual IDbSet<Vote> Votes { get; set; }
+
 
         public static BookmarksDbContext Create()
         {
