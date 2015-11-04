@@ -165,7 +165,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -233,6 +232,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bookmarks.Models\Bookmarks.Models.csproj">
+      <Project>{4d4292d0-d85e-4d92-b24e-e3fba522ddfe}</Project>
+      <Name>Bookmarks.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bookmars.Data\Bookmarks.Data.csproj">
+      <Project>{250feb48-c1f6-41e9-a065-f45617cd13f9}</Project>
+      <Name>Bookmarks.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
