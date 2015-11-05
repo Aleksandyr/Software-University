@@ -3,5 +3,49 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>@Model.Title</h2>
+
+<div>
+    <p>@Html.DisplayNameFor(x => x.Url) : @Html.DisplayFor(x => x.Url)</p>
+    <p>@Html.DisplayNameFor(x => x.CategoryName) : @Html.DisplayFor(x => x.CategoryName)</p>
+    <p>@Html.DisplayNameFor(x => x.Description) : @Html.DisplayFor(x => x.Description)</p>
+</div>
+<div id="comments">
+    <h2>Comments</h2>
+    @if (@Model.Comments.Any())
+    {
+        @Html.DisplayFor(x => x.Comments)
+    }
+    else
+    {
+        <span>No comments</span>
+    }
+</div>
+<div>
+    <h2>Add Comment</h2>
+    @using (Ajax.BeginForm("AddComment", "Bookmarks", new {bookmarkId = Model.Id}, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.InsertAfter,
+        UpdateTargetId = "comments",
+        OnSuccess = "onAddCommentSuccess"
+    }))
+    {
+        @Html.AntiForgeryToken()
+
+        <input type="text" id="text" name="text" value=""/>
+        <input type="submit" name="name" value="Add Comment"/>
+    }
+</div>
+
+@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function onAddCommentSuccess() {
+            document.getElementById("text").value = '';
+        }
+    </script>
+}
+    
+
 

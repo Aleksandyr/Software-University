@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Bookmarks.Models;
+using Kendo.Mvc.Extensions;
+using Microsoft.AspNet.Identity;
 
 namespace Bookmarks.Web.Controllers
 {
@@ -87,6 +89,28 @@ namespace Bookmarks.Web.Controllers
                     Value = x.Id.ToString(),
                     Text = x.Name
                 });
+        }
+
+        public ActionResult AddComment(CommentInputModel model)
+        {
+            if (model != null && this.ModelState.IsValid)
+            {
+                model.UserId = this.User.Identity.GetUserId();
+                var comment = Mapper.Map<Comment>(model);
+                this.Data.Comments.Add(comment);
+                this.Data.SaveChanges();
+
+                var commentDb = this.Data.Comments
+                    .All()
+                    .Where(x => x.Id == comment.Id)
+                    .Project()
+                    .To<CommentViewModel>()
+                    .FirstOrDefault();
+
+                return this.PartialView("DisplayTemplates/CommentViewModel", commentDb);
+            }
+
+            return this.Json("Error");
         }
     }
 }
