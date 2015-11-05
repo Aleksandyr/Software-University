@@ -1,7 +1,21 @@
 ﻿@model Bookmarks.Web.ViewModels.CommentViewModel
 
-<dvi class="body-content">
-    <p>@Model.Text</p>
+<div id="comment-@Model.Id" class="body-content">
+    <p>
+        @Model.Text
+        @if (User.Identity.Name == @Model.User)
+        {
+            using (Ajax.BeginForm("DeleteComment", "Bookmarks", new{ commentId = Model.Id }, new AjaxOptions()
+             {
+                 HttpMethod = "POST",
+                 InsertionMode = InsertionMode.ReplaceWith,
+                 UpdateTargetId = "comment-" + @Model.Id
+             }))
+             {
+                <input type="submit" name="name" value="x"/>
+             }
+        }
+    </p>
     <p>User: @Model.User</p>
-</dvi>
+</div>
 

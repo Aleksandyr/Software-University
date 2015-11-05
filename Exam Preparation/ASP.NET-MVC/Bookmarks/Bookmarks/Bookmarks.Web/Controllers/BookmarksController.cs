@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Net;
+using AutoMapper;
 using Bookmarks.Models;
 using Kendo.Mvc.Extensions;
 using Microsoft.AspNet.Identity;
@@ -111,6 +112,24 @@ namespace Bookmarks.Web.Controllers
             }
 
             return this.Json("Error");
+        }
+
+        public ActionResult DeleteComment(int commentId)
+        {
+            var comment = Data.Comments
+                .All()
+                .FirstOrDefault(x => x.Id == commentId);
+
+            if (comment != null && comment.UserId == User.Identity.GetUserId())
+            {
+                Data.Comments.Delete(comment);
+                Data.SaveChanges();
+
+                return this.Content(string.Empty);
+            }
+
+            return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "Can not delete the comment!");
+
         }
     }
 }
