@@ -193,6 +193,10 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
+    <Compile Include="Areas\Admin\ViewModels\CategoryAdminViewModel.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\BookmarksController.cs" />
@@ -213,12 +217,32 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Kendo\Black\editor.png" />
+    <Content Include="Content\Kendo\Black\imagebrowser.png" />
+    <Content Include="Content\Kendo\Black\indeterminate.gif" />
+    <Content Include="Content\Kendo\Black\loading-image.gif" />
+    <Content Include="Content\Kendo\Black\loading.gif" />
+    <Content Include="Content\Kendo\Black\loading_2x.gif" />
+    <Content Include="Content\Kendo\Black\markers.png" />
+    <Content Include="Content\Kendo\Black\markers_2x.png" />
+    <Content Include="Content\Kendo\Black\slider-h.gif" />
+    <Content Include="Content\Kendo\Black\slider-v.gif" />
+    <Content Include="Content\Kendo\Black\sprite.png" />
+    <Content Include="Content\Kendo\Black\sprite_2x.png" />
+    <Content Include="Content\Kendo\Black\sprite_kpi.png" />
+    <Content Include="Content\Kendo\Black\sprite_kpi_2x.png" />
+    <Content Include="Content\Kendo\kendo.black.min.css" />
+    <Content Include="Content\Kendo\kendo.common.core.min.css" />
+    <Content Include="Content\Kendo\kendo.common.min.css" />
     <Content Include="Content\PagedList.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Categories\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -229,6 +253,9 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Kendo\jquery.min.js" />
+    <Content Include="Scripts\Kendo\kendo.all.min.js" />
+    <Content Include="Scripts\Kendo\kendo.aspnetmvc.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -275,6 +302,8 @@
     <Content Include="Views\Shared\DisplayTemplates\CommentViewModel.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
