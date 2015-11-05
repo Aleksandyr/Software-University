@@ -92,6 +92,8 @@ namespace Bookmarks.Web.Controllers
                 });
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult AddComment(CommentInputModel model)
         {
             if (model != null && this.ModelState.IsValid)
@@ -114,6 +116,8 @@ namespace Bookmarks.Web.Controllers
             return this.Json("Error");
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult DeleteComment(int commentId)
         {
             var comment = Data.Comments
@@ -130,6 +134,36 @@ namespace Bookmarks.Web.Controllers
 
             return new HttpStatusCodeResult(HttpStatusCode.BadRequest, "Can not delete the comment!");
 
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Vote(int bookmarkId)
+        {
+            var bookmark = Data.Bookmarks
+                .All()
+                .FirstOrDefault(x => x.Id == bookmarkId);
+            if (bookmark != null)
+            {
+                var userHasVoted = bookmark.Votes.Any(x => x.UserId == User.Identity.GetUserId());
+                if (!userHasVoted)
+                {
+                    Data.Votes.Add(new Vote()
+                    {
+                        BookmarkId = bookmark.Id,
+                        UserId = User.Identity.GetUserId(),
+                        Value = 1
+                    });
+
+                    Data.SaveChanges();
+                }
+
+                var votesCount = bookmark.Votes.Sum(x => x.Value);
+                return this.Content(votesCount.ToString());
+            }
+
+            
+            return new EmptyResult();
         }
     }
 }

@@ -10,4 +10,4 @@
     @Html.DisplayFor(x => x)
 </div>
 
-<a href="~/Bookmarks" class="btn btn-primary">View all bookmarks...</a>
+@Html.ActionLink("View all bookmarks", "Index", "Bookmarks", new{}, new{ @class = "btn btn-primary pull-right" });

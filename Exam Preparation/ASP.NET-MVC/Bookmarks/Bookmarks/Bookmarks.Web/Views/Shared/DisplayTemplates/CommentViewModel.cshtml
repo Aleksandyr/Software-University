@@ -12,6 +12,7 @@
                  UpdateTargetId = "comment-" + @Model.Id
              }))
              {
+                @Html.AntiForgeryToken();
                 <input type="submit" name="name" value="x"/>
              }
         }
