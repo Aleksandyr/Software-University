@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Data.Entity;
+using System.Net;
 using AutoMapper;
 using Bookmarks.Models;
 using Kendo.Mvc.Extensions;
@@ -46,12 +47,13 @@ namespace Bookmarks.Web.Controllers
         {
             var bookmark = Data.Bookmarks
                 .All()
-                .Where(x => x.Id == id)
-                .Project()
-                .To<BookmarkDetailsViewModel>()
-                .FirstOrDefault();
+                .Include(x => x.Votes)
+                .FirstOrDefault(x => x.Id == id);
+            var bookmarkViewModel = Mapper.Map<BookmarkDetailsViewModel>(bookmark);
 
-            return View(bookmark);
+            var userId = User.Identity.GetUserId();
+            bookmarkViewModel.UserHasVoted = bookmark.Votes.Any(x => x.UserId == userId);
+            return View(bookmarkViewModel);
         }
 
         public ActionResult Create()

@@ -25,15 +25,21 @@
 <div id="votes" class="pull-right">
     <div>
         Votes: <span id="votes-count">@Model.Votes</span>
-        @using (Ajax.BeginForm("Vote", "Bookmarks", new {bookmarkId = Model.Id}, new AjaxOptions()
+        @if (!Model.UserHasVoted)
         {
-            HttpMethod = "POST",
-            UpdateTargetId = "votes-count",
-            InsertionMode = InsertionMode.Replace
-        }))
-        {
-            @Html.AntiForgeryToken();
-            <input type="submit" name="name" value="+"/>
+            <div id="vote-button">
+                @using (Ajax.BeginForm("Vote", "Bookmarks", new {bookmarkId = Model.Id}, new AjaxOptions()
+                {
+                    HttpMethod = "POST",
+                    UpdateTargetId = "votes-count",
+                    InsertionMode = InsertionMode.Replace,
+                    OnSuccess = "onVoteSuccess"
+                }))
+                {
+                    @Html.AntiForgeryToken();
+                    <input type="submit" name="name" value="+" />
+                }
+            </div>
         }
     </div>
 </div>
@@ -60,6 +66,10 @@
     <script>
         function onAddCommentSuccess() {
             document.getElementById("text").value = '';
+        }
+        function onVoteSuccess() {
+            var button = document.getElementById("vote-button");
+            button.parentNode.removeChild(button);
         }
     </script>
 }

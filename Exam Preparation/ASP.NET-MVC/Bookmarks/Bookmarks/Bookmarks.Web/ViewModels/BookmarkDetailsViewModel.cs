@@ -30,11 +30,8 @@ namespace Bookmarks.Web.ViewModels
 
         public void CreateMappings(IConfiguration configuration)
         {
-            //take user id
-            var userId = Thread.CurrentPrincipal.Identity.GetUserId();
             configuration.CreateMap<Bookmark, BookmarkDetailsViewModel>()
-                .ForMember(x => x.Votes, cnf => cnf.MapFrom(m => m.Votes.Any() ? m.Votes.Sum(v => v.Value) : 0))
-                .ForMember(x => x.UserHasVoted, cnf => cnf.MapFrom(m => m.Votes.Any(v => v.UserId == userId)));
+                .ForMember(x => x.Votes, cnf => cnf.MapFrom(m => m.Votes.Any() ? m.Votes.Sum(v => v.Value) : 0));
         }
     }
 
