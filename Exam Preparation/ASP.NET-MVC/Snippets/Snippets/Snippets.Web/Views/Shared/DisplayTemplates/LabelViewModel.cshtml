@@ -1,0 +1,3 @@
+﻿@model Snippets.Web.ViewModels.LabelViewModel
+
+@Html.ActionLink(@Model.Text, "Details", "Labels", new { id = @Model.Id }, new { @class = "btn btn-primary"})

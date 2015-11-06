@@ -1,0 +1,67 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#snippet-input {
+    width: 30%;
+}
+
+#comment-input {
+    width: 30%;
+}
+
+#label-input {
+    width: 15%;
+    margin-left: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#label-snippets-count {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50px
+}
+
+#comment {
+    padding: 5px;
+    background-color: #C0C0C0;
+    margin-bottom: 10px;
+}
+
+.details-comment {
+    padding: 5px;
+    background-color: #C0C0C0;
+    margin-bottom: 10px;
+    width: 40%
+}
+
+#label {
+    padding: 30px
+}
+
+#username {
+    font-family: bold;
+    font-size: 20px;
+}

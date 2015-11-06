@@ -1,0 +1,20 @@
+﻿@model Snippets.Web.ViewModels.DetailsCommentViewModel
+
+<div id="comment-@Model.Id" class="details-comment">
+    <div>@Model.Content</div>
+    <span id="username">@Model.Author</span> on <span>@Model.CreationTime</span>
+    @if (User.Identity.Name == @Model.Author)
+    {
+        using (Ajax.BeginForm("DeleteComment", "Snippets", new { commentId = Model.Id }, new AjaxOptions()
+         {
+             HttpMethod = "POST",
+             InsertionMode = InsertionMode.ReplaceWith,
+             UpdateTargetId = "comment-" + @Model.Id
+         }))
+        {
+            @Html.AntiForgeryToken();
+            <input type="submit" name="name" value="x" />
+        }
+    }
+</div>
+

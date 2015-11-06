@@ -1,0 +1,51 @@
+﻿@model Snippets.Web.ViewModels.SnippetDetailsViewModel
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    <p><span>@Html.DisplayFor(x => x.Language)</span> @Html.DisplayFor(x => x.Title)</p>
+    <p>by @Html.DisplayFor(x => x.User) on @Html.DisplayFor(x => x.CreationTime)</p>
+    <p>@Html.DisplayNameFor(x => x.Labels): @Html.DisplayFor(x => x.Labels)</p>
+    <p>@Html.DisplayFor(x => x.Description)</p>
+    <div>@Html.DisplayFor(x => x.Code)</div>
+</div>
+
+<div id="comments">
+    <h2>Comments</h2>
+    @if (@Model.Comments.Any())
+    {
+        @Html.DisplayFor(x => x.Comments)
+    }
+    else
+    {
+        <span>There are no comments right now.</span>
+    }
+</div>
+
+<div>
+    <h2>Add Comment</h2>
+    @using (Ajax.BeginForm("AddComment", "Snippets", new {snippetId = Model.Id}, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.InsertAfter,
+        UpdateTargetId = "comments",
+        OnSuccess = "onAddCommentSuccess"
+    }))
+    {
+        @Html.AntiForgeryToken()
+
+        <input type="text" id="text" name="content" value=""/>
+        <input type="submit" name="name" value="Add Comment"/>
+    }
+</div>
+
+@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function onAddCommentSuccess() {
+            document.getElementById("text").value = '';
+        }
+    </script>
+}
+

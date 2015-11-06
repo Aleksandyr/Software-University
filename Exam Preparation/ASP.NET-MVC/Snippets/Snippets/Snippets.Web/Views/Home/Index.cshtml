@@ -1,0 +1,17 @@
+﻿@model Snippets.Web.ViewModels.HomePageViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="snippet-input" class="pull-left">
+    <h2>Latest Snippets:</h2>
+    @Html.DisplayFor(x => x.Snippets)
+</div>
+<div id="comment-input" class="pull-left">
+    <h2>Latest Comments:</h2>
+    @Html.DisplayFor(x => x.Comments)
+</div>
+<div id="label-input" class="pull-left">
+    <h2>Best Labels:</h2>
+    @Html.DisplayFor(x => x.Labels)
+</div>

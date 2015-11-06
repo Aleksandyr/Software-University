@@ -1,0 +1,10 @@
+﻿@model Snippets.Web.ViewModels.SnippetViewModel
+
+<div>
+
+    @Html.ActionLink(@Model.Title, "Details", "Snippets", new { id = @Model.Id }, new {})
+    <div>
+        @Html.DisplayFor(x => x.Labels)
+    </div>
+</div>
+

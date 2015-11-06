@@ -1,0 +1,9 @@
+﻿@using System.Globalization
+@model Snippets.Web.ViewModels.CommentViewModel
+
+<div id="comment" class="row">
+    <div>@Model.Content</div>
+    <span id="username">@Model.Author</span> on <span>@Model.CreationTime</span>
+    <div>on snippet @Html.ActionLink(@Model.Snipped, "Details", "Snippets", new { id = @Model.Id }, new { })</div>
+</div>
+

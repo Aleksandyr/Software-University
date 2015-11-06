@@ -1,0 +1,6 @@
+﻿@model Snippets.Web.ViewModels.HomePageLabelViewModel
+
+<div id="label" class="row">
+    <div><span>@Html.ActionLink(@Model.Text, "Details", "Labels", new { id = @Model.Id }, new {})</span> <span id="label-snippets-count">@Model.SnippetsCount</span></div>
+</div>
+
