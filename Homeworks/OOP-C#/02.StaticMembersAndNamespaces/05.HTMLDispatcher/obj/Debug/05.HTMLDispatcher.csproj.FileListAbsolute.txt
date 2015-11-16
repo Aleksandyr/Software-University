@@ -1,6 +1,0 @@
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\05.HTMLDispatcher\bin\Debug\05.HTMLDispatcher.exe.config
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\05.HTMLDispatcher\obj\Debug\05.HTMLDispatcher.csprojResolveAssemblyReference.cache
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\05.HTMLDispatcher\bin\Debug\05.HTMLDispatcher.exe
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\05.HTMLDispatcher\bin\Debug\05.HTMLDispatcher.pdb
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\05.HTMLDispatcher\obj\Debug\05.HTMLDispatcher.exe
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\05.HTMLDispatcher\obj\Debug\05.HTMLDispatcher.pdb

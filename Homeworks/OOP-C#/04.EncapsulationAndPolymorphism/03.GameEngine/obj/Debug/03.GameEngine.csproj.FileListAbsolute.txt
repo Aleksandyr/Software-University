@@ -1,6 +1,0 @@
-E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\03.GameEngine\bin\Debug\03.GameEngine.exe.config
-E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\03.GameEngine\bin\Debug\03.GameEngine.exe
-E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\03.GameEngine\bin\Debug\03.GameEngine.pdb
-E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\03.GameEngine\obj\Debug\03.GameEngine.csprojResolveAssemblyReference.cache
-E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\03.GameEngine\obj\Debug\03.GameEngine.exe
-E:\SoftUni\Homework\Leve 2\OOP\04.EncapsulationAndPolymorphism\03.GameEngine\obj\Debug\03.GameEngine.pdb

@@ -1,6 +1,0 @@
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\06.BitArray\bin\Debug\06.BitArray.exe.config
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\06.BitArray\bin\Debug\06.BitArray.exe
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\06.BitArray\bin\Debug\06.BitArray.pdb
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\06.BitArray\obj\Debug\06.BitArray.csprojResolveAssemblyReference.cache
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\06.BitArray\obj\Debug\06.BitArray.exe
-E:\SoftUni\Homework\Leve 2\OOP\02.StaticMembersAndNamespaces\06.BitArray\obj\Debug\06.BitArray.pdb

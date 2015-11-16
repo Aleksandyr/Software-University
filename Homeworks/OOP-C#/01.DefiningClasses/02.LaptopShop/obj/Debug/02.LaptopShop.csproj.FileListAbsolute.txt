@@ -1,6 +1,0 @@
-E:\SoftUni\Homework\Leve 2\OOP\01.DefiningClasses\02.LaptopShop\bin\Debug\02.LaptopShop.exe.config
-E:\SoftUni\Homework\Leve 2\OOP\01.DefiningClasses\02.LaptopShop\bin\Debug\02.LaptopShop.exe
-E:\SoftUni\Homework\Leve 2\OOP\01.DefiningClasses\02.LaptopShop\bin\Debug\02.LaptopShop.pdb
-E:\SoftUni\Homework\Leve 2\OOP\01.DefiningClasses\02.LaptopShop\obj\Debug\02.LaptopShop.exe
-E:\SoftUni\Homework\Leve 2\OOP\01.DefiningClasses\02.LaptopShop\obj\Debug\02.LaptopShop.pdb
-E:\SoftUni\Homework\Leve 2\OOP\01.DefiningClasses\02.LaptopShop\obj\Debug\02.LaptopShop.csprojResolveAssemblyReference.cache
