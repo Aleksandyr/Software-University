@@ -1,9 +1,10 @@
 ﻿namespace PcCatalog
 {
-    using Microsoft.Build.Framework;
     using System;
     using System.Collections.Generic;
     using System.Text;
+    using System.Linq;
+    using Microsoft.Build.Framework;
 
     public class Computer
     {
@@ -60,6 +61,14 @@
             }
         }
 
+        public decimal AllPrice 
+        {
+            get
+            {
+                return this.price + this.components.Sum(x => x.Price);
+            }
+        }
+
         public List<Component> Components
         {
             get
@@ -70,17 +79,6 @@
             {
                 this.components = value;
             }
-        }
-
-        private decimal calcAllPrice()
-        {
-            decimal sum = this.Price;
-            foreach (var component in this.Components)
-            {
-                sum += component.Price;
-            }
-
-            return sum;
         }
 
         public override string ToString()
@@ -98,7 +96,7 @@
                 }
             }
 
-            sb.AppendLine("All price: " + this.calcAllPrice() + "lv.");
+            sb.AppendLine("All price: " + this.AllPrice + "lv.");
 
             return sb.ToString();
         }
