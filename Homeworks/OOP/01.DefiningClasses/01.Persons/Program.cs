@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01.Persons
+﻿namespace Persons
 {
+    using System;
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Person pesho = new Person("pesho", 22);
             Console.WriteLine(pesho);

@@ -1,15 +1,12 @@
-﻿using System;
-using Microsoft.Build.Framework;
-
-
-namespace _01.Persons
+﻿namespace Persons
 {
+    using System;
+    using Microsoft.Build.Framework;
+
     class Person
     {
         private string name;
-        
         private int age;
-        
         private string email;
 
         public Person(string name, int age, string email)
