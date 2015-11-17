@@ -18,6 +18,7 @@
             Storage.SavePointsInFile("@../../../../AllPoints.txt", path);
 
             var pointsFromFile = Storage.LoadPointsFromATextFile("@../../../../AllPoints.txt");
+
             foreach (var currPoint in pointsFromFile)
             {
                 System.Console.WriteLine(currPoint is Point3D);

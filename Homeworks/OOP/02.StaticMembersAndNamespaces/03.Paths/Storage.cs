@@ -31,6 +31,12 @@
                     {
                         Regex expression = new Regex(@"[\-\+\s]*[0-9\s]");
                         var nums = expression.Matches(point);
+                        
+                        if (nums.Count < 3)
+                        {
+                            throw new InvalidOperationException("Incorrect point!");
+                        }
+                        
                         float firstNumber = float.Parse(nums[0].Value);
                         float secondNumber = float.Parse(nums[1].Value);
                         float thirdNumber = float.Parse(nums[2].Value);
