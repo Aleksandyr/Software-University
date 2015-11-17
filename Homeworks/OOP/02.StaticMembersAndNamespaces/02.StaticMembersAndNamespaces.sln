@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Point3D", "01.Point3D\01.Point3D.csproj", "{68C75BC6-AF87-4415-BF18-4975B8C85033}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DistanceCalculator", "02.DistanceCalculator\02.DistanceCalculator.csproj", "{8AF853F5-8456-4203-B81B-DD2D3D0B7E48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{68C75BC6-AF87-4415-BF18-4975B8C85033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C75BC6-AF87-4415-BF18-4975B8C85033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C75BC6-AF87-4415-BF18-4975B8C85033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF853F5-8456-4203-B81B-DD2D3D0B7E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF853F5-8456-4203-B81B-DD2D3D0B7E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF853F5-8456-4203-B81B-DD2D3D0B7E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF853F5-8456-4203-B81B-DD2D3D0B7E48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
