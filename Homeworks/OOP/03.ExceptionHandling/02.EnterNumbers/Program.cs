@@ -10,7 +10,6 @@
             int start = 1;
             int end = 100;
             int num = 0;
-            List<int> nums = new List<int>(10);
 
             for (int i = 0; i < 10; i++)
             {
