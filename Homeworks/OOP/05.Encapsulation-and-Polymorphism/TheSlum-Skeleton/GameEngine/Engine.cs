@@ -1,9 +1,10 @@
 ﻿namespace TheSlum.GameEngine
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using Interfaces;
+    using System.Collections.Generic;
+    
+    using TheSlum.Interfaces;
 
     public class Engine
     {

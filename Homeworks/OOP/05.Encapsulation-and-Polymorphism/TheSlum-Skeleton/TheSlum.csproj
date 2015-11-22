@@ -42,12 +42,20 @@
   <ItemGroup>
     <Compile Include="Bonus.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="Characters\Items\Axe.cs" />
+    <Compile Include="Characters\Items\Bonuses\Injection.cs" />
+    <Compile Include="Characters\Items\Bonuses\Pill.cs" />
+    <Compile Include="Characters\Items\Shield.cs" />
+    <Compile Include="Characters\Warrior.cs" />
     <Compile Include="GameEngine\Engine.cs" />
+    <Compile Include="GameEngine\ExtendEngine.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="Characters\Healer.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IHeal.cs" />
     <Compile Include="Interfaces\ITimeoutable.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Characters\Mage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Team.cs" />
   </ItemGroup>
