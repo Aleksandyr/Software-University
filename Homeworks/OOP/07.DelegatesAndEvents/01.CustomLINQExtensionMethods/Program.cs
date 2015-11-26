@@ -16,6 +16,16 @@
             {
                 System.Console.WriteLine(num);
             }
+
+            var students = new List<Student>
+            {
+                new Student("Pesho", 3),
+                new Student("Gosho", 2),
+                new Student("Mariika", 7),
+                new Student("Stamat", 5),
+            };
+
+            System.Console.WriteLine(students.Max(st => st.Age));
         }
     }
 }
