@@ -1,5 +1,6 @@
 ﻿namespace CustomLINQExtensionMethods
 {
+    using System;
     using System.Collections.Generic;
 
     public class Program
@@ -14,7 +15,7 @@
             var getOddNums = elements.WhereNot(x => x % 2 == 0);
             foreach (var num in getOddNums)
             {
-                System.Console.WriteLine(num);
+                Console.WriteLine(num);
             }
 
             var students = new List<Student>
@@ -25,7 +26,7 @@
                 new Student("Stamat", 5),
             };
 
-            System.Console.WriteLine(students.Max(st => st.Age));
+            Console.WriteLine(students.Max(st => st.Age));
         }
     }
 }
