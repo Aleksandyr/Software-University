@@ -18,6 +18,7 @@
 
         public int TickInterval { get; set; }
 
+
         public void StartTimer()
         {
             for (int i = 0; i < this.Tick; i++)
