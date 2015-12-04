@@ -1,15 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03.StringDisparser
+namespace StringDisparser
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            StringDisperserCs firstStringDisperser = new StringDisperserCs("hello", "beautifull", "World!");
+            StringDisperserCs secondStringDisperser = new StringDisperserCs("gosho", "pesho", "tanio");
+            StringDisperserCs thirdStringDisperser = (StringDisperserCs)firstStringDisperser.Clone();
+
+            Console.WriteLine(firstStringDisperser + "\n");
+
+            Console.WriteLine(firstStringDisperser.Equals(secondStringDisperser));
+            Console.WriteLine(firstStringDisperser.Equals(thirdStringDisperser) + "\n");
+
+            foreach (string character in secondStringDisperser)
+            {
+                Console.Write(character);
+            }
+
+            Console.WriteLine();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace Customer
 {
-    public interface IComparable<StringDisparser>
+    public interface IComparable<Customer>
     {
-        int CompareTo(StringDisparser other);
+        int CompareTo(Customer other);
     }
 }
