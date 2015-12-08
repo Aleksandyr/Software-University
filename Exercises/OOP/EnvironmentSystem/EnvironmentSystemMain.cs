@@ -13,12 +13,14 @@
             var objectGenerator = new ObjectGenerator(WorldWidth, WorldHeight);
             var consoleRenderer = new ConsoleRenderer(WorldWidth, WorldHeight);
             var collisionHandler = new CollisionHandler(WorldWidth, WorldHeight);
+            var keyboardController = new KeyboardController();
 
-            var engine = new Engine(WorldWidth, 
+            var engine = new ExtendEngine(WorldWidth, 
                 WorldHeight, 
                 objectGenerator, 
                 collisionHandler, 
-                consoleRenderer);
+                consoleRenderer,
+                keyboardController);
 
             engine.Run();
         }

@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Core\CollisionHandler.cs" />
     <Compile Include="Core\ConsoleRenderer.cs" />
+    <Compile Include="Core\ExtendEngine.cs" />
     <Compile Include="Core\Generator\ObjectGenerator.cs" />
     <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\KeyboardController.cs" />
     <Compile Include="Interfaces\ICollidable.cs" />
     <Compile Include="Interfaces\ICollisionHandler.cs" />
     <Compile Include="Interfaces\IController.cs" />

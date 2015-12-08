@@ -60,7 +60,7 @@
                     int x = this.randomGenerator.Next(0, this.worldWidth);
                     var envObject = new Snowflake(x, 1, 1, 1, new Point(0, 1));
 
-                    //generatedObjects.Add(envObject);
+                    generatedObjects.Add(envObject);
                 }
             }
 
