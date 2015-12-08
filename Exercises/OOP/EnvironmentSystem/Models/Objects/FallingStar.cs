@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    class FallingStar : MovingObject
+    public class FallingStar : MovingObject
     {
         public FallingStar(int x, int y, int width, int height, Point direction)
             : base(x, y, width, height, direction)

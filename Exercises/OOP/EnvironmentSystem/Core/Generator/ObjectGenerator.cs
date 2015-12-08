@@ -38,7 +38,7 @@
                 generatedObjects.Add(new Star(x, y, 1, 1));
             }
 
-            generatedObjects.Add(new FallingStar(25, 5, 1, 1, new Point(0, 1)));
+            generatedObjects.Add(new UnstableStar(25, 5, 1, 1, new Point(0, 1)));
             generatedObjects.Add(new Ground(0, 25, 50, 2, '#'));
 
             return generatedObjects;

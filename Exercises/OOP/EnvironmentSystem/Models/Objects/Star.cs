@@ -32,7 +32,10 @@
 
         public override void RespondToCollision(CollisionInfo collisionInfo)
         {
-            
+            if (collisionInfo.HitObject.CollisionGroup == CollisionGroup.Explosion)
+            {
+                this.Exists = false;
+            }
         }
 
         public override IEnumerable<EnvironmentObject> ProduceObjects()

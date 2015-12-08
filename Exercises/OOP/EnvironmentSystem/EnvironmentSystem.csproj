@@ -53,6 +53,7 @@
     <Compile Include="Interfaces\IRenderable.cs" />
     <Compile Include="Interfaces\IRenderer.cs" />
     <Compile Include="Models\CollisionInfo.cs" />
+    <Compile Include="Models\Objects\Explosion.cs" />
     <Compile Include="Models\Objects\FallingStar.cs" />
     <Compile Include="Models\Objects\Ground.cs" />
     <Compile Include="Models\CollisionGroup.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Models\Objects\Snowflake.cs" />
     <Compile Include="Models\Objects\Star.cs" />
     <Compile Include="Models\Objects\Tail.cs" />
+    <Compile Include="Models\Objects\UnstableStar.cs" />
     <Compile Include="Models\Point.cs" />
     <Compile Include="Models\DataStructures\QuadTree.cs" />
     <Compile Include="Models\DataStructures\Rectangle.cs" />
