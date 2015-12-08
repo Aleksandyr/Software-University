@@ -19,7 +19,7 @@
         public override void RespondToCollision(CollisionInfo collisionInfo)
         {
             var hitObjectGroup = collisionInfo.HitObject.CollisionGroup;
-            if (hitObjectGroup == CollisionGroup.Ground)
+            if (hitObjectGroup == CollisionGroup.Ground || hitObjectGroup == CollisionGroup.Snow)
             {
                 this.Exists = false;
             }
