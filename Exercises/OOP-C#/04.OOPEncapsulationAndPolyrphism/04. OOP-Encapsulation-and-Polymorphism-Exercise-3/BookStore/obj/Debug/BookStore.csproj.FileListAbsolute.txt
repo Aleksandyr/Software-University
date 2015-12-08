@@ -1,6 +1,0 @@
-E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-3\BookStore\bin\Debug\BookStore.exe.config
-E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-3\BookStore\bin\Debug\BookStore.exe
-E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-3\BookStore\bin\Debug\BookStore.pdb
-E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-3\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
-E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-3\BookStore\obj\Debug\BookStore.exe
-E:\SoftUni\Exercises\Level2\OOP\04.OOPEncapsulationAndPolyrphism\04. OOP-Encapsulation-and-Polymorphism-Exercise-3\BookStore\obj\Debug\BookStore.pdb

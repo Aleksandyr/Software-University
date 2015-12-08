@@ -1,6 +1,0 @@
-E:\SoftUni\Exercises\Level2\OOP\07.DelegatesAndEvents\07.DelegatesAndEvents\bin\Debug\07.DelegatesAndEvents.exe.config
-E:\SoftUni\Exercises\Level2\OOP\07.DelegatesAndEvents\07.DelegatesAndEvents\bin\Debug\07.DelegatesAndEvents.exe
-E:\SoftUni\Exercises\Level2\OOP\07.DelegatesAndEvents\07.DelegatesAndEvents\bin\Debug\07.DelegatesAndEvents.pdb
-E:\SoftUni\Exercises\Level2\OOP\07.DelegatesAndEvents\07.DelegatesAndEvents\obj\Debug\07.DelegatesAndEvents.csprojResolveAssemblyReference.cache
-E:\SoftUni\Exercises\Level2\OOP\07.DelegatesAndEvents\07.DelegatesAndEvents\obj\Debug\07.DelegatesAndEvents.exe
-E:\SoftUni\Exercises\Level2\OOP\07.DelegatesAndEvents\07.DelegatesAndEvents\obj\Debug\07.DelegatesAndEvents.pdb
