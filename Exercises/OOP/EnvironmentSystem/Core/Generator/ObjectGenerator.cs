@@ -35,6 +35,7 @@
                 int x = this.randomGenerator.Next(0, this.worldWidth);
                 int y = this.randomGenerator.Next(0, 20);
 
+                generatedObjects.Add(new Star(x, y, 1, 1));
             }
 
             generatedObjects.Add(new Ground(0, 25, 50, 2, '#'));
@@ -58,11 +59,16 @@
                     int x = this.randomGenerator.Next(0, this.worldWidth);
                     var envObject = new Snowflake(x, 1, 1, 1, new Point(0, 1));
 
-                    generatedObjects.Add(envObject);
+                    //generatedObjects.Add(envObject);
                 }
             }
 
             return generatedObjects;
+        }
+
+        public IEnumerable<EnvironmentObject> NightSky()
+        {
+            throw new NotImplementedException();
         }
     }
 }

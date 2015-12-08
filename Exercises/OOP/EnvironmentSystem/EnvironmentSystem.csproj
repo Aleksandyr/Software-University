@@ -58,6 +58,7 @@
     <Compile Include="Models\Objects\MovingObject.cs" />
     <Compile Include="Models\Objects\Snow.cs" />
     <Compile Include="Models\Objects\Snowflake.cs" />
+    <Compile Include="Models\Objects\Star.cs" />
     <Compile Include="Models\Point.cs" />
     <Compile Include="Models\DataStructures\QuadTree.cs" />
     <Compile Include="Models\DataStructures\Rectangle.cs" />
