@@ -18,9 +18,10 @@
 
         public override void RespondToCollision(CollisionInfo collisionInfo)
         {
-            var hitObjectGroup = collisionInfo.HitObject.CollisionGroup ;
+            var hitObjectGroup = collisionInfo.HitObject.CollisionGroup;
             if (hitObjectGroup == CollisionGroup.Ground)
             {
+                this.Exists = false;
             }
         }
 
