@@ -9,7 +9,7 @@
     {
         IEnumerable<IBuilding> Buildings { get; }
 
-        IEnumerable<IUnit> Units { get; }
+        IDictionary<string, int> Units { get; }
 
         IDictionary<ResourceType, int> Resources { get; }
 

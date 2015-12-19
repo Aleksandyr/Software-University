@@ -5,6 +5,10 @@
 
     public abstract class Building : IBuilding
     {
+        private const int ProductionDelay = 1;
+
+        private int cyclesCount = 0;
+
         private string unitType;
         private int unitCycleLength;
         private int resourceCycleLength;
@@ -31,9 +35,27 @@
             this.resourceFactory = resourceFactory;
         }
 
-        public bool CanProduceResource { get; private set; }
+        public bool CanProduceResource
+        {
+            get
+            {
+                bool canProduceResource = this.cyclesCount > ProductionDelay &&
+                    (this.cyclesCount - ProductionDelay) % this.resourceCycleLength == 0;
 
-        public bool CanProduceUnit { get; private set; }
+                return canProduceResource;
+            }
+        }
+
+        public bool CanProduceUnit
+        {
+            get
+            {
+                bool canProduceUnit = this.cyclesCount > ProductionDelay && 
+                    (this.cyclesCount - ProductionDelay) % this.unitCycleLength == 0;
+
+                return canProduceUnit;
+            }
+        }
 
         public IResource ProduceResource()
         {
@@ -51,7 +73,23 @@
 
         public void Update()
         {
-            throw new System.NotImplementedException();
+            this.cyclesCount++;
+        }
+
+        public override string ToString()
+        {
+            int turnsUntilUnit = this.unitCycleLength - (this.cyclesCount - ProductionDelay) % this.unitCycleLength;
+            int turnsUntilResource = this.resourceCycleLength - (this.cyclesCount - ProductionDelay) % this.resourceCycleLength;
+
+            var result = string.Format("--{0}: {1} turns ({2} turns until {3}, {4} turns until {5})", 
+                this.GetType().Name, 
+                this.cyclesCount - ProductionDelay,
+                turnsUntilUnit,
+                this.unitType,
+                turnsUntilResource,
+                this.resourceType);
+
+            return result;
         }
     }
 }

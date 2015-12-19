@@ -13,10 +13,8 @@
             {
                 case "Archer":
                     return new Archer();
-                    break;
                 case "Swordsman":
                     return new Swordsman();
-                    break;
                 default:
                     throw new InvalidOperationException("Unknown unit type.");
             }

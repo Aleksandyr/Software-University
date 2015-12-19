@@ -9,11 +9,11 @@
     public class EmpiresData : IData
     {
         private readonly ICollection<IBuilding> buildings = new List<IBuilding>();
-        private readonly ICollection<IUnit> units = new List<IUnit>();
 
         public EmpiresData()
         {
             this.Resources = new Dictionary<ResourceType, int>();
+            this.Units = new Dictionary<string, int>();
             this.InitResources();
         }
 
@@ -25,13 +25,7 @@
             }
         }
 
-        public IEnumerable<IUnit> Units
-        {
-            get
-            {
-                return this.units;
-            }
-        }
+        public IDictionary<string, int> Units { get; private set; }
 
         public IDictionary<ResourceType, int> Resources { get; private set; }
 
@@ -52,7 +46,14 @@
                 throw new ArgumentNullException("unit");
             }
 
-            this.units.Add(unit);
+            var unitType = unit.GetType().Name;
+
+            if (!this.Units.ContainsKey(unitType))
+            {
+                this.Units.Add(unitType, 0);
+            }
+
+            this.Units[unitType]++;
         }
 
         private void InitResources()

@@ -5,7 +5,7 @@
 
     public class Archery : Building
     {
-        private const string ArcheryUnitType = "Archery";
+        private const string ArcheryUnitType = "Archer";
         private const int ArcheryUnitCycleLength = 3;
         
         private const ResourceType ArcheryResourceType = ResourceType.Gold;

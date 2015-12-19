@@ -13,10 +13,8 @@
             {
                 case "archery":
                     return new Archery(unitFactory, resourceFacotory);
-                    break;
                 case  "barracks":
                     return new Barracks(unitFactory, resourceFacotory);
-                    break;
                 default:
                     throw new InvalidOperationException("Uknown building type.");
             }
