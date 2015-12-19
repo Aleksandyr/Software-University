@@ -1,6 +1,8 @@
 ﻿namespace Empires.Core.Factories
 {
     using System;
+    using System.Reflection;
+    using System.Linq;
 
     using Empires.Interfaces;
     using Empires.Models.Buildings;
@@ -9,15 +11,17 @@
     {
         public IBuilding CreateBuilding(string buildingType, IUnitFactory unitFactory, IResourceFactory resourceFacotory)
         {
-            switch (buildingType)
+            var type = Assembly.GetExecutingAssembly().GetTypes()
+                .FirstOrDefault(t => t.Name.ToLowerInvariant() == buildingType);
+
+            if (type == null)
             {
-                case "archery":
-                    return new Archery(unitFactory, resourceFacotory);
-                case  "barracks":
-                    return new Barracks(unitFactory, resourceFacotory);
-                default:
-                    throw new InvalidOperationException("Uknown building type.");
+                throw new InvalidOperationException("Invalid building type.");
             }
+
+            var building = Activator.CreateInstance(type, unitFactory, resourceFacotory) as IBuilding;
+
+            return building;
         }
     }
 }

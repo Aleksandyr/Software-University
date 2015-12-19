@@ -1,6 +1,8 @@
 ﻿namespace Empires.Core.Factories
 {
     using System;
+    using System.Reflection;
+    using System.Linq;
 
     using Empires.Interfaces;
     using Empires.Models.Units;
@@ -9,15 +11,17 @@
     {
         public IUnit CreateUnit(string unitType)
         {
-            switch (unitType)
+            var type = Assembly.GetExecutingAssembly().GetTypes()
+                .FirstOrDefault(t => t.Name.ToLowerInvariant() == unitType.ToLowerInvariant());
+
+            if (type == null)
             {
-                case "Archer":
-                    return new Archer();
-                case "Swordsman":
-                    return new Swordsman();
-                default:
-                    throw new InvalidOperationException("Unknown unit type.");
+                throw new InvalidOperationException("Invalid unit type.");
             }
+
+            var unit = Activator.CreateInstance(type) as IUnit;
+
+            return unit;
         }
     }
 }
