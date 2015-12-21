@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF0E33DC-5683-4FC5-9B90-97B7D7D061E2}</ProjectGuid>
+    <ProjectGuid>{270BC35A-A40D-4A07-8ACF-B0C7B2D57F74}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Capitalism</RootNamespace>
-    <AssemblyName>Capitalism</AssemblyName>
+    <RootNamespace>ISIS</RootNamespace>
+    <AssemblyName>ISIS</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,17 +41,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Department.cs" />
-    <Compile Include="Models\Employee.cs" />
-    <Compile Include="Models\IPaidPerson.cs" />
-    <Compile Include="Models\IPerson.cs" />
-    <Compile Include="Models\PaidPerson.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\Factories\AttackTypeFactory.cs" />
+    <Compile Include="Core\Factories\GroupFactory.cs" />
+    <Compile Include="Core\Factories\WarEffectFactory.cs" />
+    <Compile Include="Core\ISISData.cs" />
+    <Compile Include="Interfaces\IAttacker.cs" />
+    <Compile Include="Interfaces\IAttackType.cs" />
+    <Compile Include="Interfaces\IAttackTypeFactory.cs" />
+    <Compile Include="Interfaces\IDamageRegulator.cs" />
+    <Compile Include="Interfaces\IData.cs" />
+    <Compile Include="Interfaces\IDestroyable.cs" />
+    <Compile Include="Interfaces\IGroup.cs" />
+    <Compile Include="Interfaces\IGroupFactory.cs" />
+    <Compile Include="Interfaces\IHealthRegulator.cs" />
+    <Compile Include="Interfaces\IInputReader.cs" />
+    <Compile Include="Interfaces\IMultipleRegulator.cs" />
+    <Compile Include="Interfaces\IOutputWriter.cs" />
+    <Compile Include="Interfaces\IRunnable.cs" />
+    <Compile Include="Interfaces\IUpdateable.cs" />
+    <Compile Include="Interfaces\IWarEffect.cs" />
+    <Compile Include="Interfaces\IWarEffectFactory.cs" />
+    <Compile Include="IO\ConsoleReader.cs" />
+    <Compile Include="IO\ConsoleWriter.cs" />
+    <Compile Include="ISISApplication.cs" />
+    <Compile Include="Models\AttackTypes\AttackType.cs" />
+    <Compile Include="Models\AttackTypes\Paris.cs" />
+    <Compile Include="Models\AttackTypes\SU24.cs" />
+    <Compile Include="Models\GroupGame.cs" />
+    <Compile Include="Models\WarEffects\Jihad.cs" />
+    <Compile Include="Models\WarEffects\Kamikaze.cs" />
+    <Compile Include="Models\WarEffects\WarEffect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
