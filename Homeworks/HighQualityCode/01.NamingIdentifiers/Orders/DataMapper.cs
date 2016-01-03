@@ -5,62 +5,65 @@ using System.IO;
 
 namespace Orders
 {
-    public class dataMapper
+    public class DataMapper
     {
+        private const string CategoriesFileName = "../../Data/categories.txt";
+        private const string ProductsFileName = "../../Data/products.txt";
+        private const string OrdersFileName = "../../Data/orders.txt";
         private string categoriesFileName;
         private string productsFileName;
         private string ordersFileName;
 
-        public dataMapper(string categoriesFileName, string productsFileName, string ordersFileName)
+        public DataMapper(string categoriesFileName, string productsFileName, string ordersFileName)
         {
             this.categoriesFileName = categoriesFileName;
             this.productsFileName = productsFileName;
             this.ordersFileName = ordersFileName;
         }
 
-        public dataMapper()
-            : this("../../Data/categories.txt", "../../Data/products.txt", "../../Data/orders.txt")
+        public DataMapper()
+            : this(CategoriesFileName, ProductsFileName, OrdersFileName)
         {
         }
 
-        public IEnumerable<category> getAllCategories()
+        public IEnumerable<Category> getAllCategories()
         {
             var cat = readFileLines(this.categoriesFileName, true);
             return cat
                 .Select(c => c.Split(','))
-                .Select(c => new category
+                .Select(c => new Category
                 {
                     Id = int.Parse(c[0]),
-                    NAME = c[1],
+                    Name = c[1],
                     Description = c[2]
                 });
         }
 
-        public IEnumerable<product> getAllProducts()
+        public IEnumerable<Product> getAllProducts()
         {
             var prod = readFileLines(this.productsFileName, true);
             return prod
                 .Select(p => p.Split(','))
-                .Select(p => new product
+                .Select(p => new Product
                 {
-                    id = int.Parse(p[0]),
-                    nome = p[1],
-                    catId = int.Parse(p[2]),
-                    unit_price = decimal.Parse(p[3]),
+                    Id = int.Parse(p[0]),
+                    Name = p[1],
+                    CategoryId = int.Parse(p[2]),
+                    UnitPrice = decimal.Parse(p[3]),
                     UnitsInStock = int.Parse(p[4]),
                 });
         }
 
-        public IEnumerable<order> getAllOrders()
+        public IEnumerable<Order> getAllOrders()
         {
             var ord = readFileLines(this.ordersFileName, true);
             return ord
                 .Select(p => p.Split(','))
-                .Select(p => new order
+                .Select(p => new Order
                 {
-                    ID = int.Parse(p[0]),
-                    product_id = int.Parse(p[1]),
-                    quant = int.Parse(p[2]),
+                    Id = int.Parse(p[0]),
+                    ProductId = int.Parse(p[1]),
+                    Quantity = int.Parse(p[2]),
                     Discount = decimal.Parse(p[3]),
                 });
         }

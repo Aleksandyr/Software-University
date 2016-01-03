@@ -42,10 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataMapper.cs" />
-    <Compile Include="Models\category.cs" />
+    <Compile Include="Models\Category.cs" />
     <Content Include="Data\orders.txt" />
-    <Compile Include="Models\order.cs" />
-    <Compile Include="Models\product.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Product.cs" />
     <Content Include="Data\products.txt" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
