@@ -10,35 +10,35 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var m = new double[,] { { 1, 3 }, { 5, 7 } };
-            var _mm = new double[,] { { 4, 2 }, { 1, 5 } };
-            var r = mm(m, _mm);
+            var firstArr = new double[,] { { 1, 3 }, { 5, 7 } };
+            var secondArr = new double[,] { { 4, 2 }, { 1, 5 } };
+            var result = MultTwoMatrix(firstArr, secondArr);
 
-            for (int ii = 0; ii < r.GetLength(0); ii++)
+            for (int i = 0; i < result.GetLength(0); i++)
             {
-                for (int jj = 0; jj < r.GetLength(1); jj++)
+                for (int j = 0; j < result.GetLength(1); j++)
                 {
-                    Console.Write(r[ii, jj] + " ");
+                    Console.Write(result[i, j] + " ");
                 }
                 Console.WriteLine();
             }
 
         }
 
-        static double[,] mm(double[,] _, double[,] __)
+        static double[,] MultTwoMatrix(double[,] firstArr, double[,] secondArr)
         {
-            if (_.GetLength(1) != __.GetLength(0))
+            if (firstArr.GetLength(1) != secondArr.GetLength(0))
             {
                 throw new Exception("Error!");
             }
 
-            var _______ = _.GetLength(1);
-            var ___ = new double[_.GetLength(0), __.GetLength(1)];
-            for (int ____ = 0; ____ < ___.GetLength(0); ____++)
-                for (int _____ = 0; _____ < ___.GetLength(1); _____++)
-                    for (int ______ = 0; ______ < _______; ______++)
-                        ___[____, _____] += _[____, ______] * __[______, _____];
-            return ___;
+            var lengthOfFirstArr = firstArr.GetLength(1);
+            var newArr = new double[firstArr.GetLength(0), secondArr.GetLength(1)];
+            for (int i = 0; i < newArr.GetLength(0); i++)
+                for (int j = 0; j < newArr.GetLength(1); j++)
+                    for (int k = 0; k < lengthOfFirstArr; k++)
+                        newArr[i, j] += firstArr[i, k] * secondArr[k, j];
+            return newArr;
         }
     }
 }
