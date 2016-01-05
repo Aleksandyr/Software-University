@@ -10,6 +10,7 @@ namespace Orders
         private const string CategoriesFileName = "../../Data/categories.txt";
         private const string ProductsFileName = "../../Data/products.txt";
         private const string OrdersFileName = "../../Data/orders.txt";
+
         private string categoriesFileName;
         private string productsFileName;
         private string ordersFileName;
