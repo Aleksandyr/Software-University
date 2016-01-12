@@ -4,66 +4,60 @@ using System.Text;
 
 namespace InheritanceAndPolymorphism
 {
-    public class OffsiteCourse
+    public class OffsiteCourse : Course
     {
-        public string Name { get; set; }
-        public string TeacherName { get; set; }
-        public IList<string> Students { get; set; }
-        public string Town { get; set; }
+        private string town;
 
-        public OffsiteCourse(string name)
+        public OffsiteCourse(string courseName)
+            : base(courseName)
         {
-            this.Name = name;
-            this.TeacherName = null;
-            this.Students = new List<string>();
-            this.Town = null;
         }
 
         public OffsiteCourse(string courseName, string teacherName)
+            : base(courseName, teacherName)
         {
-            this.Name = courseName;
-            this.TeacherName = teacherName;
-            this.Students = new List<string>();
-            this.Town = null;
         }
 
         public OffsiteCourse(string courseName, string teacherName, IList<string> students)
+             : base(courseName, teacherName, students)
         {
-            this.Name = courseName;
-            this.TeacherName = teacherName;
-            this.Students = students;
-            this.Town = null;
+        }
+        public OffsiteCourse(string courseName, string teacherName, IList<string> students, string town)
+             : base(courseName, teacherName, students)
+        {
+            this.Town = town;
         }
 
-        private string GetStudentsAsString()
+        public string Town
         {
-            if (this.Students == null || this.Students.Count == 0)
+            get
             {
-                return "{ }";
+                return this.town;
             }
-            else
+            set
             {
-                return "{ " + string.Join(", ", this.Students) + " }";
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentNullException("Town cannot be null or empty!", "Town");
+                }
+
+                this.town = value;
             }
         }
 
         public override string ToString()
         {
             StringBuilder result = new StringBuilder();
-            result.Append("OffsiteCourse { Name = ");
-            result.Append(this.Name);
-            if (this.TeacherName != null)
-            {
-                result.Append("; Teacher = ");
-                result.Append(this.TeacherName);
-            }
-            result.Append("; Students = ");
-            result.Append(this.GetStudentsAsString());
+
+            result.Append("OffsiteCourse");
+            result.Append(base.ToString());
+            
             if (this.Town != null)
             {
                 result.Append("; Town = ");
                 result.Append(this.Town);
             }
+
             result.Append(" }");
             return result.ToString();
         }
