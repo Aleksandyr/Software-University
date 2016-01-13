@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CompareSimpleMathOperations", "..\01.CompareSimpleMathOperations\01.CompareSimpleMathOperations.csproj", "{7456DFB0-0516-4807-A3CC-6B80C9601D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CompareAdvancedMathOper", "02.CompareAdvancedMathOper\02.CompareAdvancedMathOper.csproj", "{276AA58A-B077-4B11-A0B7-110793772DC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7456DFB0-0516-4807-A3CC-6B80C9601D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7456DFB0-0516-4807-A3CC-6B80C9601D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7456DFB0-0516-4807-A3CC-6B80C9601D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276AA58A-B077-4B11-A0B7-110793772DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276AA58A-B077-4B11-A0B7-110793772DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276AA58A-B077-4B11-A0B7-110793772DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276AA58A-B077-4B11-A0B7-110793772DC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
