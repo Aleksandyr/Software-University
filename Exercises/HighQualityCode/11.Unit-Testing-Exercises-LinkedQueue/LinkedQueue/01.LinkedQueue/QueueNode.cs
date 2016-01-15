@@ -1,4 +1,4 @@
-﻿namespace _01.LinkedQueue
+﻿namespace LinkedQueue
 {
     public class QueueNode<T>
     {

@@ -1,4 +1,4 @@
-﻿namespace _01.LinkedQueue
+﻿namespace LinkedQueue
 {
     using System;
 
