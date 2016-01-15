@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC0B5AA4-600A-4703-84CF-EF60CCAE5201}</ProjectGuid>
+    <ProjectGuid>{E4EDA159-9564-4BAF-9CF1-064D587F16E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01.LinkedQueue.Tests</RootNamespace>
-    <AssemblyName>01.LinkedQueue.Tests</AssemblyName>
+    <RootNamespace>DynamicList.Tests</RootNamespace>
+    <AssemblyName>DynamicList.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="LinkedQueueTests.cs" />
+    <Compile Include="DynamicListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\01.LinkedQueue\01.LinkedQueue.csproj">
-      <Project>{2bf905ed-2d02-4be6-a640-1b9ff599f7bb}</Project>
-      <Name>01.LinkedQueue</Name>
+    <ProjectReference Include="..\CustomLinkedList\CustomLinkedList.csproj">
+      <Project>{d76a4dae-a496-4bde-acb7-f2e628cb6605}</Project>
+      <Name>CustomLinkedList</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

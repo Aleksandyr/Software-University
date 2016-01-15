@@ -7,7 +7,7 @@ namespace LinkedQueue.Tests
 
 
     [TestClass]
-    public class DynamicQueueTests
+    public class LinkedQueueTests
     {
         private LinkedQueue<int> queue;
 
