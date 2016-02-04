@@ -16,6 +16,15 @@ namespace BangaloreUniversityLearningSystem.Controllers
             this.Data = data;
             this.User = user;
         }
+
+        /// <summary>
+        /// This action check if we have valid user and than we can put him into database.
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="password"></param>
+        /// <param name="confirmPassword"></param>
+        /// <param name="role"></param>
+        /// <returns>return View type</returns>
         public IView Register(string username, string password, string confirmPassword, string role)
         {
             if (password != confirmPassword)
