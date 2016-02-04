@@ -75,10 +75,11 @@
                 throw new ArgumentException("There is no currently logged in user.");
             }
 
-            if (!this.User.IsInRole(Role.Lecturer) && !this.User.IsInRole(Role.Student))
-            {
-                throw new AuthorizationFailedException("The current user is not authorized to perform this operation.");
-            }
+            // Useless
+            // if (!this.User.IsInRole(Role.Lecturer) && !this.User.IsInRole(Role.Student))
+            // {
+            //     throw new AuthorizationFailedException("The current user is not authorized to perform this operation.");
+            // }
 
             var user = this.User;
             this.User = null;

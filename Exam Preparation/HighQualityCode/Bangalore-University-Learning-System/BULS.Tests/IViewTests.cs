@@ -30,13 +30,5 @@ namespace BULS.Tests
 
             Assert.AreEqual(expectedString, actualString);
         }
-
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
-        public void InvalidPasswordUserShouldReturnErrorString()
-        {
-            var user = new User("Pesho", "123", Role.Student);
-            //var view = new Logout(user);
-        }
     }
 }
