@@ -106,13 +106,7 @@
                 throw new AuthorizationFailedException("The current user is not authorized to perform this operation.");
             }
 
-            Course course = this.CourseGetter(courseId);
-
-            if (course == null)
-            {
-                throw new ArgumentException(string.Format("There is no course with ID {0}.", courseId));
-            }
-
+            Course course = this.GetCourseById(courseId);
             // BUG FIXED: add correct name to the lecture
             var lecture = new Lecture(lectureName);
             course.AddLecture(lecture);
@@ -120,7 +114,7 @@
             return this.View(course);
         }
 
-        private Course CourseGetter(int courseId)
+        private Course GetCourseById(int courseId)
         {
             var course = this.Data.Courses.Get(courseId);
             if (course == null)
