@@ -1,15 +1,15 @@
-﻿using BangaloreUniversityLearningSystem.Exceptions;
-namespace BangaloreUniversityLearningSystem.Controllers
+﻿namespace BangaloreUniversityLearningSystem.Controllers
 {
     using System;
 
-    using BangaloreUniversityLearningSystem.Infrastructure;
     using BangaloreUniversityLearningSystem.Enums;
+    using BangaloreUniversityLearningSystem.Exceptions;
+    using BangaloreUniversityLearningSystem.Infrastructure;
     using BangaloreUniversityLearningSystem.Interfaces;
     using BangaloreUniversityLearningSystem.Models;
     using BangaloreUniversityLearningSystem.Utilities;
 
-    class UsersController : Controller
+    public class UsersController : Controller
     {
         public UsersController(IBangaloreUniversityData data, User user)
         {
@@ -44,7 +44,7 @@ namespace BangaloreUniversityLearningSystem.Controllers
             var user = new User(username, password, userRole);
             this.Data.Users.Add(user);
 
-            return View(user);
+            return this.View(user);
         }
 
         public IView Login(string username, string password)
@@ -62,9 +62,10 @@ namespace BangaloreUniversityLearningSystem.Controllers
             {
                 throw new ArgumentException("The provided password is wrong.");
             }
+
             this.User = existingUser;
 
-            return View(existingUser);
+            return this.View(existingUser);
         }
 
         public IView Logout()
@@ -82,7 +83,7 @@ namespace BangaloreUniversityLearningSystem.Controllers
             var user = this.User;
             this.User = null;
 
-            return View(user);
+            return this.View(user);
         }
 
         private void EnsureNoLoggedInUser()

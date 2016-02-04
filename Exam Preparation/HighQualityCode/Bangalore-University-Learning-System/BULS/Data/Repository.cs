@@ -7,7 +7,7 @@
 
     public class Repository<T> : IRepository<T>
     {
-        protected List<T> items;
+        private List<T> items;
 
         public Repository()
         {

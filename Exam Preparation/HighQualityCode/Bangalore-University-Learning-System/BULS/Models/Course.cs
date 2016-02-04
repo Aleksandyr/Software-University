@@ -21,14 +21,13 @@
             get
             {
                 return this.name;
-                
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value) || value.Length < ValidationConstants.MinCourseNameLength)
                 {
-                    string message = string.Format("The course name must be at least {0} symbols long.", 
-                        ValidationConstants.MinCourseNameLength);
+                    string message = string.Format("The course name must be at least {0} symbols long.", ValidationConstants.MinCourseNameLength);
 
                     throw new ArgumentException(message);
                 }

@@ -10,8 +10,10 @@
             byte[] bytes = Encoding.UTF8.GetBytes(s);
             var sha1 = SHA1.Create();
             byte[] hashBytes = sha1.ComputeHash(bytes);
+
             return HexStringFromBytes(hashBytes);
         }
+
         private static string HexStringFromBytes(byte[] bytes)
         {
             var result = new StringBuilder();

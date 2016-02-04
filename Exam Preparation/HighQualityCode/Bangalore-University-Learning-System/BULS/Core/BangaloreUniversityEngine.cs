@@ -4,11 +4,10 @@
     using System.Linq;
     using System.Reflection;
 
+    using BangaloreUniversityLearningSystem.Data;
     using BangaloreUniversityLearningSystem.Infrastructure;
     using BangaloreUniversityLearningSystem.Interfaces;
     using BangaloreUniversityLearningSystem.Models;
-    using BangaloreUniversityLearningSystem.Utilities;
-    using BangaloreUniversityLearningSystem.Data;
 
     public class BangaloreUniversityEngine : IBangaloreUniversityEngine
     {
@@ -23,6 +22,7 @@
                 {
                     break;
                 }
+
                 var route = new Route(readLine);
 
                 var controllerType = Assembly.GetExecutingAssembly()
@@ -51,11 +51,12 @@
         private static object[] MapParameters(Route route, MethodInfo action)
         {
             var parametars = action.GetParameters()
-                .Select<ParameterInfo, object>(p =>
+                .Select<ParameterInfo, object>(
+                p =>
                 {
-                    if (p.ParameterType == typeof (int))
+                    if (p.ParameterType == typeof(int))
                     {
-                        //BUG FIXED: parse value not name
+                        // BUG FIXED: parse value not name
                         return int.Parse(route.Parameters[p.Name]);
                     }
                     else

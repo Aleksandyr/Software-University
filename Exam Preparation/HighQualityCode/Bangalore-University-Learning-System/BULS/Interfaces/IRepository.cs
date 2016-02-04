@@ -2,6 +2,10 @@
 {
     using System.Collections.Generic;
 
+    /// <summary>
+    /// Database methods that we canuse.
+    /// </summary>
+    /// <typeparam name="Generic parametar"></typeparam>
     public interface IRepository<T>
     {
         IEnumerable<T> GetAll();

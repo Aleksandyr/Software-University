@@ -2,8 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
-    using Enums;
 
+    using BangaloreUniversityLearningSystem.Enums;
     using BangaloreUniversityLearningSystem.Utilities;
 
     public class User
@@ -25,12 +25,12 @@
             {
                 return this.username;
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value) || value.Length < ValidationConstants.MinUsernameLength)
                 {
-                    string message = string.Format("The username must be at least {0} symbols long.", 
-                        ValidationConstants.MinUsernameLength);
+                    string message = string.Format("The username must be at least {0} symbols long.", ValidationConstants.MinUsernameLength);
 
                     throw new ArgumentException(message);
                 }
@@ -44,8 +44,8 @@
             get
             {
                 return this.password;
-                
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value) || value.Length < ValidationConstants.MinPasswordLength)
