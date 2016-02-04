@@ -56,7 +56,6 @@
                 {
                     if (p.ParameterType == typeof(int))
                     {
-                        // BUG FIXED: parse value not name
                         return int.Parse(route.Parameters[p.Name]);
                     }
                     else

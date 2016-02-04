@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using BangaloreUniversityLearningSystem.Data;
-using BangaloreUniversityLearningSystem.Enums;
-using BangaloreUniversityLearningSystem.Interfaces;
-using BangaloreUniversityLearningSystem.Models;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace BULS.Tests
+﻿namespace BULS.Tests
 {
+    using System.Collections.Generic;
+
+    using BangaloreUniversityLearningSystem.Data;
+    using BangaloreUniversityLearningSystem.Enums;
+    using BangaloreUniversityLearningSystem.Interfaces;
+    using BangaloreUniversityLearningSystem.Models;
+        
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class RepositoryTests
     {
