@@ -1,37 +1,48 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using Interfaces;
-using Data;
-using buls.Infrastructure;
-
-namespace buls.Core
+﻿namespace BangaloreUniversityLearningSystem.Core
 {
-    public class बंगलौर_विश्वविद्यालय_इंजन : Iइंजन
+    using System;
+    using System.Linq;
+    using System.Reflection;
+
+    using BangaloreUniversityLearningSystem.Infrastructure;
+    using BangaloreUniversityLearningSystem.Interfaces;
+    using BangaloreUniversityLearningSystem.Models;
+    using BangaloreUniversityLearningSystem.Utilities;
+    using BangaloreUniversityLearningSystem.Data;
+
+    public class BangaloreUniversityEngine : IBangaloreUniversityEngine
     {
-        public void रन()
+        public void Run()
         {
-            var db = new BangaloreUniversityDate();
-            User u = null;
+            var data = new BangaloreUniversityData();
+            User user = null;
             while (true)
             {
-                string str = Console.ReadLine();
-                if (str == null)
+                string readLine = Console.ReadLine();
+                if (readLine == null)
                 {
                     break;
                 }
-                var route = new Route(str);
-                var controllerType = Assembly.GetExecutingAssembly().GetTypes()
-                    .FirstOrDefault(type => type.Name == route._controllerName)
-                    ;
-                var ctrl = Activator.CreateInstance(controllerType, db, u) as Controller;
-                var act = controllerType.GetMethod(route._actionName);
-                object[] @params = MapParameters(route, act);
-                try {
-                    var view = act.Invoke(ctrl, @params) as IView;
+                var route = new Route(readLine);
+
+                var controllerType = Assembly.GetExecutingAssembly()
+                    .GetTypes()
+                    .FirstOrDefault(type => type.Name == route.ControllerName);
+
+                var controller = Activator.CreateInstance(controllerType, data, user) as Controller;
+                var method = controllerType.GetMethod(route.ActionName);
+
+                object[] @params = MapParameters(route, method);
+
+                try
+                {
+                    var view = method.Invoke(controller, @params) as IView;
                     Console.WriteLine(view.Display());
-                    u = ctrl.usr;
-                } catch (Exception ex) {
+
+                    user = controller.User;
+                }
+                catch (Exception ex)
+                {
                     Console.WriteLine(ex.InnerException.Message);
                 }
             }
@@ -39,7 +50,21 @@ namespace buls.Core
 
         private static object[] MapParameters(Route route, MethodInfo action)
         {
-            return action.GetParameters().Select<ParameterInfo, object>(p => { if (p.ParameterType == typeof(int)) return int.Parse(route._parameters[p.Name]); else return route._parameters[p.Name]; }).ToArray();
+            var parametars = action.GetParameters()
+                .Select<ParameterInfo, object>(p =>
+                {
+                    if (p.ParameterType == typeof (int))
+                    {
+                        //BUG FIXED: parse value not name
+                        return int.Parse(route.Parameters[p.Name]);
+                    }
+                    else
+                    {
+                        return route.Parameters[p.Name];
+                    }
+                }).ToArray();
+
+            return parametars;
         }
     }
 }

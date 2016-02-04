@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using Interfaces;
+﻿namespace BangaloreUniversityLearningSystem.Data
+{
+    using System;
+    using System.Collections.Generic;
 
-namespace buls.data
-{    
+    using BangaloreUniversityLearningSystem.Interfaces;
+
     public class Repository<T> : IRepository<T>
     {
         protected List<T> items;
@@ -21,6 +22,7 @@ namespace buls.data
         public virtual T Get(int id)
         {
             T item;
+
             try
             {
                 item = this.items[id - 1];
