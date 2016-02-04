@@ -10,7 +10,7 @@
             this.Children = new List<TreeNode<T>>();
         }
 
-        public T Value { get; set; }
+        public T Value { get; private set; }
 
         public IList<TreeNode<T>> Children { get; set; }
 
