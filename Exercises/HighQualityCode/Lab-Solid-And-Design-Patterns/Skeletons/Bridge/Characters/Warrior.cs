@@ -8,10 +8,5 @@ namespace RPG.Characters
             : base(weapon)
         {
         }
-
-        public override string ToString()
-        {
-            return string.Format("Character: Warrior, Weapon: {0}", this.Weapon.Name);
-        }
     }
 }
