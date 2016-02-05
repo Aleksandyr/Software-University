@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmericanTankFactory.cs" />
+    <Compile Include="TankFactory.cs" />
+    <Compile Include="GermanTankFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RussianTankFactory.cs" />
     <Compile Include="Units\Tank.cs" />
   </ItemGroup>
   <ItemGroup>
