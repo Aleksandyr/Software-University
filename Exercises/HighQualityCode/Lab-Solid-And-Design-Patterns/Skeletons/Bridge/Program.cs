@@ -1,4 +1,6 @@
-﻿namespace RPG
+﻿using RPG.Weapons;
+
+namespace RPG
 {
     using System;
 
@@ -8,12 +10,17 @@
     {
         static void Main()
         {
-            Warrior axeWarrior = new WarriorWithAxe();
-            Warrior swordWarrior = new WarriorWithSword();
-            Mage axeMage = new MageWithAxe();
-            Mage swordMage = new MageWithSword();
+            Axe axe = new Axe();
+            Sword sword = new Sword();
+
+            Warrior axeWarrior = new Warrior(axe);
+            Warrior swordWarrior = new Warrior(sword);
+            Mage axeMage = new Mage(axe);
+            Mage swordMage = new Mage(sword);
 
             Console.WriteLine(axeWarrior);
+            Console.WriteLine(swordWarrior);
+            Console.WriteLine(axeMage);
             Console.WriteLine(swordMage);
         }
     }

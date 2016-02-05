@@ -1,6 +1,15 @@
-﻿namespace RPG.Weapons
+﻿using Bridge;
+
+namespace RPG.Weapons
 {
-    public class Sword
+    public class Sword : Weapon
     {
+        const string typeName = "Sword";
+
+        public Sword()
+            : base(typeName)
+        {
+
+        }
     }
 }

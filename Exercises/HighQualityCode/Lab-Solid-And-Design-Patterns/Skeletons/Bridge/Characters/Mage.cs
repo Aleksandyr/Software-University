@@ -1,9 +1,17 @@
-﻿namespace RPG.Characters
+﻿using Bridge;
+
+namespace RPG.Characters
 {
-    public class Mage
+    public class Mage : Character
     {
-        public Mage()
+        public Mage(Weapon weapon)
+            : base(weapon)
         {
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Character: Mage, Weapon: {0}", this.Weapon.Name);
         }
     }
 }

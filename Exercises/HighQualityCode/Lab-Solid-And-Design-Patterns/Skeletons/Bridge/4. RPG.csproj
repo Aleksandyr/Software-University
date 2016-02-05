@@ -41,12 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character.cs" />
     <Compile Include="Characters\Mage.cs" />
-    <Compile Include="Characters\MageWithAxe.cs" />
-    <Compile Include="Characters\MageWithSword.cs" />
     <Compile Include="Characters\Warrior.cs" />
-    <Compile Include="Characters\WarriorWithAxe.cs" />
-    <Compile Include="Characters\WarriorWithSword.cs" />
+    <Compile Include="Weapon.cs" />
     <Compile Include="Weapons\Axe.cs" />
     <Compile Include="Weapons\Sword.cs" />
     <Compile Include="Program.cs" />
