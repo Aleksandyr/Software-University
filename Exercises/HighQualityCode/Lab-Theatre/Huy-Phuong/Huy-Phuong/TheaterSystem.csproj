@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
-    <Compile Include="NhaHat.cs" />
+    <Compile Include="Commands\CommandExecutor.cs" />
+    <Compile Include="Core\TheatreEngine.cs" />
+    <Compile Include="Exceptions\DuplicateTheatreException.cs" />
+    <Compile Include="Interfaces\IPerformanceDatabase.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Data\TheatreDatabase.cs" />
+    <Compile Include="Exceptions\TimeDurationOverlapException.cs" />
+    <Compile Include="Models\Performance.cs" />
+    <Compile Include="Exceptions\TheatreNotFoundException.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
