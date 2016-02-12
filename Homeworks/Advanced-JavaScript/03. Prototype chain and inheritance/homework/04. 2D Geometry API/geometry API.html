@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Geometry API</title>
+        <script type="text/javascript" src="../03. 2D Geometry Canvas/geometry-api.js" defer></script>
+        <script type="text/javascript" src="app.js" defer></script>
+    </head>
+    <body>
+        <form method="POST" id="geometry-api" name="geometry-api">
+            <div>
+                <label for="shapeType">Shape:</label>
+                <select id="shapeType">
+                    <option value="circle">circle</option>
+                    <option value="rectangle">rectangle</option>
+                    <option value="triangle">triangle</option>
+                    <option value="line">line</option>
+                    <option value="segment">segment</option>
+                </select>
+            </div>
+            <div id="shape">
+                <label for="pointAX">X1:</label>
+                <input type="text" id="pointAX"/>
+
+                <label for="pointAY">Y1:</label>
+                <input type="text" id="pointAY"/>
+
+                <label for="color">Color:</label>
+                <input type="color" id="color"/>
+            </div>
+
+            <div id="radius-" style="display: block;">
+                <label for="radius">Radius:</label>
+                <input type="text" id="radius"/>
+            </div>
+            <div id="width-height" style="display: none;">
+                <label for="width">Width:</label>
+                <input type="text" id="width"/>
+
+                <label for="height">Height:</label>
+                <input type="text" id="height"/>
+            </div>
+            <div id="x2-y2" style="display: none;">
+                <label for="pointBX">X2:</label>
+                <input type="text" id="pointBX"/>
+
+                <label for="pointBY">Y2:</label>
+                <input type="text" id="pointBY"/>
+            </div>
+            <div id="x3-y3" style="display: none;">
+                <label for="pointCX">X3:</label>
+                <input type="text" id="pointCX"/>
+
+                <label for="pointCY">Y3:</label>
+                <input type="text" id="pointCY"/>
+            </div>
+
+            <input type="submit" value="Add shape"/>
+        </form>
+
+        <form method="POST" id="console-form">
+            <select id="console" size="20" style="width: 550px;">
+            </select>
+
+            <br/>
+
+            <button type="submit" id="remove">-</button>
+            <button type="submit" id="up" value="up">^</button>
+            <button type="submit" id="down" value="down">v</button>
+        </form>
+
+        <canvas id="canvas" style="border: 1px solid #000; margin: -400px auto; display: block;"></canvas>
+    </body>
+</html>

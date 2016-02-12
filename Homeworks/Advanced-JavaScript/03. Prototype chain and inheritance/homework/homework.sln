@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "01. 2D Geometry Structure", "01. 2D Geometry Structure\01. 2D Geometry Structure.njsproj", "{8E97846E-56B8-4FA3-9D89-E40C376F88A6}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "02. 2D Geometry Structure", "02. 2D Geometry Structure\02. 2D Geometry Structure.njsproj", "{F061A5EB-8C4E-4CBB-BB7B-E3F0607B069A}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "03. 2D Geometry Canvas", "03. 2D Geometry Canvas\03. 2D Geometry Canvas.njsproj", "{1D7CA922-A154-48E7-8F89-AC40F49FEB5A}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "04. 2D Geometry API", "04. 2D Geometry API\04. 2D Geometry API.njsproj", "{E13A9E27-CDD5-47F9-BB00-BFC988236BFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E97846E-56B8-4FA3-9D89-E40C376F88A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E97846E-56B8-4FA3-9D89-E40C376F88A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E97846E-56B8-4FA3-9D89-E40C376F88A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E97846E-56B8-4FA3-9D89-E40C376F88A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F061A5EB-8C4E-4CBB-BB7B-E3F0607B069A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F061A5EB-8C4E-4CBB-BB7B-E3F0607B069A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F061A5EB-8C4E-4CBB-BB7B-E3F0607B069A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F061A5EB-8C4E-4CBB-BB7B-E3F0607B069A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7CA922-A154-48E7-8F89-AC40F49FEB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7CA922-A154-48E7-8F89-AC40F49FEB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7CA922-A154-48E7-8F89-AC40F49FEB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7CA922-A154-48E7-8F89-AC40F49FEB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13A9E27-CDD5-47F9-BB00-BFC988236BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13A9E27-CDD5-47F9-BB00-BFC988236BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13A9E27-CDD5-47F9-BB00-BFC988236BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13A9E27-CDD5-47F9-BB00-BFC988236BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
