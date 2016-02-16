@@ -1,0 +1,83 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#titleId {
+	padding-top: 10px;
+	max-width: 500px;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px; 
+}
+#todoContainer {
+	border: 2px solid black;
+	width: 500px;
+	height: auto;
+	margin: 50px auto;
+	padding-bottom: 15px;
+}
+
+#sections {
+	border: 1px solid black;
+}
+
+.sectionWrap {
+	width: 470px;
+	min-height: 25px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid black;
+	padding-right: 5px;
+	margin-bottom: 5px;
+}
+.itemContainer {
+	width: 470px;
+	min-height: 25px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+.itemSubmitButton {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.itemInput {
+	margin-top: 10px;
+	margin-left: 265px;
+}
+.itemDiv {
+	width: 450px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#sectionLabel {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#inputId {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#sectionSubmitButton {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#sectionTitle {
+	float: right;
+	font-size: 25px;
+}
+#itemText {
+	float: right;
+	width: 430px;
+	border-bottom: 1px solid #000;
+}
