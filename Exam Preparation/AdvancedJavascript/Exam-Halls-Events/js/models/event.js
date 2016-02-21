@@ -4,6 +4,9 @@ var app = app || {};
 
 (function(scope){
     function Event(option){
+		if (this.constructor === Event) {
+			throw new Error("Can't instantiate abstract class!");
+		}
         this.setTitle(option.title);
         this.setType(option.type);
         this.setDuration(option.duration);
