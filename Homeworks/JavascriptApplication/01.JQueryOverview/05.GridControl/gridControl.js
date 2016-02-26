@@ -2,12 +2,12 @@
 
 (function(){
     function makeRow(values, columnHtmlType){
-        var newRow = $('<tr>'),
-            len = values.length;
+        var newRow = $('<tr>');
 
-        for (var i = 0; i < len; i++) {
-            $(columnHtmlType).text(values[i]).appendTo(newRow);
-        }
+        values.forEach(function(value){
+            $(columnHtmlType).text(value).appendTo(newRow);
+        });
+
 
         return newRow;
     }
