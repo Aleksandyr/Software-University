@@ -1,0 +1,15 @@
+table, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr:first-child {
+    background: #76923c;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    padding: 5px;
+}
