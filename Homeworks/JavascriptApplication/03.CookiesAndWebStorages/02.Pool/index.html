@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.js" defer></script>
+    <script type="text/javascript" src="app.js" defer></script>
+    <script type="text/javascript" src="timer.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="timer"></div>
+
+        <form>
+            <fieldset name="question1">
+                <legend>Question #1</legend>
+                <h2>What car you prefer?</h2>
+                <input type="radio" name="question1" id="question1-1" value="BMW">
+                <label for="question1-1">BMW</label>
+                <input type="radio" name="question1" id="question1-2" value="Audi">
+                <label for="question1-2">Audi</label>
+                <input type="radio" name="question1" id="question1-3" value="Mercedes">
+                <label for="question1-3">Mercedes</label>
+                <input type="radio" name="question1" id="question1-4" value="VW">
+                <label for="question1-4">VW</label>
+            </fieldset>
+
+            <fieldset name="question2">
+                <legend>Question #2</legend>
+                <h2>What animal you prefer?</h2>
+                <input type="radio" name="question2" id="question2-1" value="Dog">
+                <label for="question2-1">Dog</label>
+                <input type="radio" name="question2" id="question2-2" value="Cat">
+                <label for="question2-2">Cat</label>
+                <input type="radio" name="question2" id="question2-3" value="Mouse">
+                <label for="question2-3">Mouse</label>
+                <input type="radio" name="question2" id="question2-4" value="Horse">
+                <label for="question2-4">Horse</label>
+            </fieldset>
+
+            <input type="button" id="submitButton" value="Submit">
+        </form>
+
+        <div id="result"></div>
+    </div>
+</body>
+</html>
