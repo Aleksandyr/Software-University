@@ -49,6 +49,26 @@ var app = app || {};
         e.preventDefault();
     };
 
+    scope.editTown = function(e){
+        var townId = $('#edit-town-value').attr('data');
+        var town = $('#edit-town-value').val();
+        //var editData = {'name' : town};
+        var countryId = $('#new-town-value').attr('data');
+        var newTownData = {
+            'country': {
+                "__type": "KinveyRef",
+                "_collection": "countries",
+                "_id": countryId
+            },
+            'name': town
+        };
+
+
+        CRUD('PUT', BASE_URL + '/appdata/' + PARSE_APP_ID + '/towns/' + townId, newTownData, scope.reloadCountries, scope.showAJAXError, 'application/json');
+
+        e.preventDefault();
+    };
+
     scope.addNewCountry = function(e){
         var newCountryValue = $('#add-country').val();
         var newCountryData = {'name': newCountryValue};
@@ -60,11 +80,37 @@ var app = app || {};
         e.preventDefault();
     };
 
+    scope.addNewTown = function(e){
+        var newTownValue = $('#new-town-value').val();
+        var countryId = $('#new-town-value').attr('data');
+        var newTownData = {
+            'country': {
+                "__type": "KinveyRef",
+                "_collection": "countries",
+                "_id": countryId
+            },
+            'name': newTownValue
+        };
+
+        var allPath = BASE_URL + '/appdata/' + PARSE_APP_ID + '/towns';
+        CRUD('POST', allPath, newTownData, scope.reloadCountries, scope.showAJAXError, 'application/json');
+
+        e.preventDefault();
+    };
+
     scope.deleteCountry = function(e){
         var countryId = $(this).parent().attr('data-id');
 
         CRUD('DELETE', BASE_URL + '/appdata/' + PARSE_APP_ID + '/countries/' + countryId, null, scope.reloadCountries, scope.showAJAXError);
 
         e.preventDefault();
-    }
+    };
+
+    scope.deleteTown = function(e){
+        var townId = $(this).parent().attr('data-id');
+
+        CRUD('DELETE', BASE_URL + '/appdata/' + PARSE_APP_ID + '/towns/' + townId, null, scope.reloadCountries, scope.showAJAXError);
+
+        e.preventDefault();
+    };
 }(app));

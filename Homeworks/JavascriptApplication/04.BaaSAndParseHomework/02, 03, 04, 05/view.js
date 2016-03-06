@@ -65,6 +65,18 @@ var app = app || {};
         e.preventDefault();
     };
 
+    scope.showEditTownForm = function(e) {
+        var townId = $(this).parent().attr('data-id');
+        var town = $(this).attr('data');
+
+        $('#edit-town-form').fadeIn();
+        $('#edit-town-value').val(town);
+        $('#edit-town-value').attr('data', townId);
+
+        e.preventDefault();
+    };
+
+
     scope.showAJAXError = function() {
         alert('Error with the AJAX request!');
     }
