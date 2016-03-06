@@ -28,6 +28,17 @@ var app = app || {};
         CRUD('GET', allPath, null, scope.successfulCountriesLoad, scope.showAJAXError, 'application/json');
     };
 
+    scope.loadCountryTowns = function(e){
+        var countryId = $(this).parent().attr('data-id');
+        var query = '?query={"country._id":"' + countryId + '"}';
+        var getCountryTownsUrl = BASE_URL + '/appdata/' + PARSE_APP_ID + '/towns' + query;
+
+        scope.data.countryId = countryId;
+        CRUD('GET', getCountryTownsUrl, null, scope.successfulTownsLoad, scope.showAJAXError);
+
+        e.preventDefault();
+    };
+
     scope.editCountry = function(e){
         var countryId = $('#edit-country').attr('data');
         var country = $('#edit-country-value').val();

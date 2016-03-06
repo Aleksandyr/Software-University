@@ -29,6 +29,30 @@ var app = app || {};
         }
     };
 
+    scope.successfulTownsLoad = function(data) {
+        $('#selectedCountryTowns').text('');
+        $('#edit-town-form').fadeOut();
+        $('#edit-country-form').fadeOut();
+
+        var townCreate = $('<form method="POST">');
+        townCreate.append('<input type="text" id="new-town-value" data="' + scope.data.countryId + '" placeholder="New town name..." />');
+        townCreate.append($('<input type="submit" id="new-town-submit" value="Submit" />').bind('click', scope.addNewTown));
+        $('#selectedCountryTowns').append(townCreate);
+
+        for (var t in data) {
+            var town = data[t];
+            var townItemHolder = $('<li>').attr('class', 'town').attr('data-id', town._id);
+
+            var editButton = $('<input type="button" data="' + town.name + '" value="Edit" />').bind('click', scope.showEditTownForm);
+            var deleteButton = $('<input type="button" value="Delete" />').bind('click', scope.deleteTown);
+
+            townItemHolder.append(editButton);
+            townItemHolder.append(deleteButton);
+            townItemHolder.append($('<a>').text(town.name));
+            townItemHolder.appendTo($('#selectedCountryTowns'));
+        }
+    };
+
     scope.showEditCountryForm = function(e){
         var countryId = $(this).parent().attr('data-id');
         var country = $(this).attr('data');
