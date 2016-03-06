@@ -4,26 +4,56 @@ var app = app || {};
 
 (function(scope){
     scope.data = {};
-    var BASE_URL = 'baas.kinvey.com/appdata';
+    var BASE_URL = 'http://baas.kinvey.com';
     var PARSE_APP_ID = 'kid_ZJNYs_CZkZ';
     var PARSE_REST_API_KEY = '4760c22bf68040c18f49e3f60380672d';
 
-    var CRUD = function(crudMethod, crudUrl, crudData, crudSuccessCallbakc, crudErrorCallback){
-        var REST_API = 'cGVzaG86MTIzNDU2';
+    var CRUD = function(crudMethod, crudUrl, crudData, crudSuccessCallback, crudErrorCallback, contentType){
+        var USER_AUTH = 'cGVzaG86MTIzNDU2';
 
         $.ajax({
             method: crudMethod,
             headers: {
-                'Authorization' : 'Basic ' + REST_API,
+                'Authorization' : 'Basic ' + USER_AUTH,
                 'X-Kinvey-API-Version' : '3',
-                'Content-Type' : 'application/json'
+                'Content-Type' : contentType
             },
             url: crudUrl,
             data: JSON.stringify(crudData)
-        }).success(crudSuccessCallbakc).error(crudErrorCallback);
+        }).success(crudSuccessCallback).error(crudErrorCallback);
     };
 
     scope.loadCountries = function(){
-        CRUD('GET', 'http://baas.kinvey.com/appdata/' + PARSE_APP_ID + '/countries', null, scope.successfulCountriesLoad, scope.showAJAXError);
+        var allPath = BASE_URL + '/appdata/' + PARSE_APP_ID + '/countries';
+        CRUD('GET', allPath, null, scope.successfulCountriesLoad, scope.showAJAXError, 'application/json');
+    };
+
+    scope.editCountry = function(e){
+        var countryId = $('#edit-country').attr('data');
+        var country = $('#edit-country-value').val();
+        var editData = {'name': country};
+
+        CRUD('PUT', BASE_URL + '/appdata/' + PARSE_APP_ID + '/countries/' + countryId, editData, scope.reloadCountries, scope.showAJAXError, 'application/json');
+
+        e.preventDefault();
+    };
+
+    scope.addNewCountry = function(e){
+        var newCountryValue = $('#add-country').val();
+        var newCountryData = {'name': newCountryValue};
+
+        var allPath = BASE_URL + '/appdata/' + PARSE_APP_ID + '/countries';
+        CRUD('POST', allPath, newCountryData, scope.reloadCountries, scope.showAJAXError, 'application/json');
+
+        $('#add-country').val('');
+        e.preventDefault();
+    };
+
+    scope.deleteCountry = function(e){
+        var countryId = $(this).parent().attr('data-id');
+
+        CRUD('DELETE', BASE_URL + '/appdata/' + PARSE_APP_ID + '/countries/' + countryId, null, scope.reloadCountries, scope.showAJAXError);
+
+        e.preventDefault();
     }
 }(app));
