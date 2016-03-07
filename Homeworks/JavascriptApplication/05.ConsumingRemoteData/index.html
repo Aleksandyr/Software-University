@@ -7,6 +7,26 @@
     <script src="app.js"></script>
 </head>
 <body>
+    <table id="books" border="1"></table>
 
+    <form method="POST" id="book-form" style="display: none">
+        <ul>
+            <li><input type="text" id="book-title" /></li>
+            <li><input type="text" id="book-author" /></li>
+            <li><input type="text" id="book-isbn" /></li>
+            <li><input type="submit" id="book-edit" value="Edit book"/></li>
+            <input type="hidden" id="book-id" value="" />
+        </ul>
+    </form>
+
+    <h1>Create new book</h1>
+    <form method="POST">
+        <ul>
+            <li><input type="text" id="new-book-title" placeholder="Book tittle" /></li>
+            <li><input type="text" id="new-book-author" placeholder="Book author" /></li>
+            <li><input type="text" id="new-book-isbn" placeholder="Book isbn" /></li>
+            <li><input type="submit" id="book-create" value="Create book" /></li>
+        </ul>
+    </form>
 </body>
 </html>

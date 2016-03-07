@@ -1,3 +1,58 @@
-/**
- * Created by Aleksandar on 3/7/2016.
- */
+'use strict';
+
+var app = app || {};
+
+(function(scope){
+    var APP_ID, RESOURCE_URL, USER_AUTH;
+
+    var listAllBooks, addBook, editBook,
+        removeBook, errorMsg, successMsg,
+        showEditForm, deleteBook;
+
+    RESOURCE_URL = 'http://baas.kinvey.com';
+    APP_ID = 'kid_-ywUA-g7k-';
+    USER_AUTH = 'cGVzaG86MTIzNA==';
+
+    successMsg = $('.messages .success');
+    errorMsg = $('.messages .error');
+
+    $(function(){
+        listAllBooks();
+    });
+
+    listAllBooks = function(){
+        return $.ajax({
+            headers: {
+                'Authorization' : 'Basic ' + USER_AUTH
+            },
+            url: RESOURCE_URL + '/appdata/' + APP_ID + '/books',
+            type: 'GET',
+            contentType: 'application/json',
+            success: function(data){
+                successMsg
+                    .html('', data.name + 'successfully listed')
+                    .show()
+                    .fadeOut(2000);
+
+                $('#books').text('');
+
+                for(var b in data){
+                    var book = data[b];
+                    var bookRow = $('<tr>');
+                    bookRow.append($('<td id="title">').text(book.title));
+                    bookRow.append($('<td id="author">').text(book.author));
+                    bookRow.append($('<td id="isbn">').text(book.isbn));
+                    bookRow.append($('<td>').html($('<a href="#" data-id="' + book._id + '">').text('Edit').on('click', showEditForm)));
+                    bookRow.append($('<td>').html($('<a href="#" data-id="' + book._id + '">').text('Delete').on('click', deleteBook)));
+                    bookRow.appendTo($('#books'));
+                }
+            },
+            error: function(err){
+                errorMsg
+                    .html('Error happened: ' + err)
+                    .show()
+                    .fadeOut(2000);
+            }
+        });
+    };
+}(app));
