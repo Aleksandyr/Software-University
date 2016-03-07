@@ -80,5 +80,17 @@ var app = app || {};
         });
     };
 
+    showEditForm = function(){
+        var currentRow = $(this).parent().parent();
+        var bookTitle = currentRow.find('#title').text();
+        var bookAuthor = currentRow.find('#author').text();
+        var bookIsbn = currentRow.find('#isbn').text();
+        var bookId = $(this).attr('data-id');
 
+        $('#book-title').val(bookTitle);
+        $('#book-author').val(bookAuthor);
+        $('#book-isbn').val(bookIsbn);
+        $('#book-id').val(bookId);
+        $('#book-form').fadeIn();
+    }
 }(app));
