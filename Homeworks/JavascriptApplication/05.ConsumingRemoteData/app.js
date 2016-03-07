@@ -78,6 +78,8 @@ var app = app || {};
                     .fadeOut(2000);
             }
         });
+
+        e.preventDefault();
     };
 
     showEditForm = function(){
@@ -92,5 +94,93 @@ var app = app || {};
         $('#book-isbn').val(bookIsbn);
         $('#book-id').val(bookId);
         $('#book-form').fadeIn();
-    }
+    };
+
+    $(function(){
+        $('#book-edit').on('click', function(e){
+            var bookId = $('#book-id').val();
+            var bookTitle = $('#book-title').val();
+            var bookAuthor = $('#book-author').val();
+            var bookIsbn = $('#book-isbn').val();
+
+            var bookData = {
+                'title' : bookTitle,
+                'author' : bookAuthor,
+                'isbn' : bookIsbn
+            };
+
+            $.ajax({
+                method: 'PUT',
+                headers: {
+                    'Authorization' : 'Basic ' + USER_AUTH,
+                    'Content-Type' : 'application/json'
+                },
+
+                url: RESOURCE_URL + '/appdata/' + APP_ID + '/books/' + bookId,
+                data: JSON.stringify(bookData),
+                success: function(data){
+                    successMsg.html('' + data.name + ' successfully deleted')
+                        .show()
+                        .fadeOut(2000);
+                    $('#book-form').fadeOut();
+                    $('#books').text('');
+                    listAllBooks();
+                },
+                error: function(err){
+                    errorMsg
+                        .html('Error happened: ' + err)
+                        .show()
+                        .fadeOut(2000);
+                }
+            });
+
+            e.preventDefault();
+        });
+    });
+
+
+    $(function(){
+        $('#book-create').on('click', function(e){
+            var bookTitle = $('#new-book-title').val();
+            var bookAuthor = $('#new-book-author').val();
+            var bookIsbn = $('#new-book-isbn').val();
+
+            var bookData = {
+                'title' : bookTitle,
+                'author' : bookAuthor,
+                'isbn' : bookIsbn
+            };
+
+            $.ajax({
+                method: 'POST',
+                headers: {
+                    'Authorization' : 'Basic ' + USER_AUTH,
+                    'Content-Type' : 'application/json'
+                },
+
+                url: RESOURCE_URL + '/appdata/' + APP_ID + '/books',
+                data: JSON.stringify(bookData),
+                success: function(data){
+                    successMsg.html('' + data.name + ' successfully deleted')
+                        .show()
+                        .fadeOut(2000);
+
+                    $('#new-book-title').val('');
+                    $('#new-book-author').val('');
+                    $('#new-book-isbn').val('');
+                    listAllBooks();
+                },
+                error: function(err){
+                    errorMsg
+                        .html('Error happened: ' + err)
+                        .show()
+                        .fadeOut(2000);
+                }
+            });
+
+            e.preventDefault();
+        });
+    });
+
+
 }(app));
