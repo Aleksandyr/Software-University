@@ -6,7 +6,7 @@ var app = app || {};
     var APP_ID, RESOURCE_URL, USER_AUTH;
 
     var listAllBooks, addBook, editBook,
-        removeBook, errorMsg, successMsg,
+        errorMsg, successMsg,
         showEditForm, deleteBook;
 
     RESOURCE_URL = 'http://baas.kinvey.com';
@@ -55,4 +55,30 @@ var app = app || {};
             }
         });
     };
+
+    deleteBook = function(e){
+        var bookId = $(this).attr('data-id');
+
+        $.ajax({
+            headers: {
+                'Authorization' : 'Basic ' + USER_AUTH
+            },
+            url: RESOURCE_URL + '/appdata/' + APP_ID + '/books/' + bookId,
+            type: 'DELETE',
+            success: function(data){
+                successMsg.html('' + data.name + ' successfully deleted')
+                    .show()
+                    .fadeOut(2000);
+                listAllBooks();
+            },
+            error: function(err){
+                errorMsg
+                    .html('Error happened: ' + err)
+                    .show()
+                    .fadeOut(2000);
+            }
+        });
+    };
+
+
 }(app));

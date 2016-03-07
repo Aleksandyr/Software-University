@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <title>Consuming Remote Data</title>
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="app.js"></script>
 </head>
 <body>
     <table id="books" border="1"></table>
+
+    <div class="messages">
+        <strong class="message success">
+        </strong>
+        <strong class="message error">
+        </strong>
+    </div>
 
     <form method="POST" id="book-form" style="display: none">
         <ul>
