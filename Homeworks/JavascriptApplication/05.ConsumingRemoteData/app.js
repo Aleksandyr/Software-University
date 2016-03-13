@@ -5,7 +5,7 @@ var app = app || {};
 (function(scope){
     var APP_ID, RESOURCE_URL, USER_AUTH;
 
-    var listAllBooks, addBook, editBook,
+    var listAllBooks,
         errorMsg, successMsg,
         showEditForm, deleteBook;
 
@@ -30,7 +30,7 @@ var app = app || {};
             contentType: 'application/json',
             success: function(data){
                 successMsg
-                    .html('', data.name + 'successfully listed')
+                    .html('', data.name + ' successfully listed')
                     .show()
                     .fadeOut(2000);
 
@@ -119,7 +119,7 @@ var app = app || {};
                 url: RESOURCE_URL + '/appdata/' + APP_ID + '/books/' + bookId,
                 data: JSON.stringify(bookData),
                 success: function(data){
-                    successMsg.html('' + data.name + ' successfully deleted')
+                    successMsg.html('' + data.name + ' successfully edited')
                         .show()
                         .fadeOut(2000);
                     $('#book-form').fadeOut();
@@ -161,7 +161,7 @@ var app = app || {};
                 url: RESOURCE_URL + '/appdata/' + APP_ID + '/books',
                 data: JSON.stringify(bookData),
                 success: function(data){
-                    successMsg.html('' + data.name + ' successfully deleted')
+                    successMsg.html('' + data.name + ' successfully created')
                         .show()
                         .fadeOut(2000);
 
@@ -181,6 +181,4 @@ var app = app || {};
             e.preventDefault();
         });
     });
-
-
 }(app));
